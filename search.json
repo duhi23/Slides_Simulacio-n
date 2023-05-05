@@ -46,14 +46,14 @@
     "href": "index.html#funcionamiento",
     "title": "Análisis y visualización de datos con R",
     "section": "Funcionamiento",
-    "text": "Funcionamiento\n\n\nR es un lenguaje orientado a objetos diseñado en un entorno auténtico bajo el cual esconde su simplicidad y flexibilidad, lo cual permite a sus usuarios añadir funcionalidad mediante la definición de nuevas funciones y operadores.\nR almacena sus variables, datos, funciones y resultados en la memoria activa del computador en forma de objetos con un nombre específico y pueden ser modificados o manipulados por el usuario."
+    "text": "Funcionamiento\n\n\nR es un lenguaje orientado a objetos diseñado en un entorno auténtico bajo el cual esconde su simplicidad y flexibilidad, lo cual permite a sus usuarios añadir funcionalidad mediante la definición de nuevas funciones y operadores.\nR almacena sus variables, datos, funciones y resultados en la memoria activa (RAM) del computador en forma de objetos con un nombre específico y pueden ser modificados o manipulados por el usuario."
   },
   {
     "objectID": "index.html#primera-operación",
     "href": "index.html#primera-operación",
     "title": "Análisis y visualización de datos con R",
     "section": "Primera operación",
-    "text": "Primera operación\n\n\nPara comprobar que se ha instalado correctamente, tras abrir R, deberías ver una pantalla blanca similar a esta.\nEsa «pantalla blanca» se llama consola y podemos hacer un primer uso de ella como si se tratase de una calculadora.\n\n\n\n\n\nIdea: a una variable llamada a le asignaremos el valor de 3 (escribiremos el código de abajo en la consola y daremos «enter»)\n\na <- 3"
+    "text": "Primera operación\n\n\nPara comprobar que se ha instalado correctamente, tras abrir R, deberías ver una pantalla blanca similar a esta.\nEsa «pantalla blanca» se llama consola y podemos hacer un primer uso de ella como si se tratase de una simple calculadora.\n\n\n\n\n\nIdea: a una variable llamada a le asignaremos el valor de 3 (escribiremos el código de abajo en la consola y daremos «enter»)\n\na <- 3"
   },
   {
     "objectID": "index.html#primera-operación-1",
@@ -242,7 +242,7 @@
     "href": "index.html#variables-de-fecha-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Variables de fecha",
-    "text": "Variables de fecha\nEn dicho paquete tenemos funciones muy útiles para manejar fechas:\n\nCon today() podemos obtener directamente la fecha actual.\n\n\ntoday()\n\n[1] \"2023-05-04\"\n\n\n\n\nCon now() podemos obtener la fecha y hora actual\n\n\nnow()\n\n[1] \"2023-05-04 22:45:18 -05\"\n\n\n\n\n\nCon year(), month() o day() podemos extraer el año, mes y día\n\n\nfecha <- today()\nyear(fecha)\n\n[1] 2023\n\nmonth(fecha)\n\n[1] 5"
+    "text": "Variables de fecha\nEn dicho paquete tenemos funciones muy útiles para manejar fechas:\n\nCon today() podemos obtener directamente la fecha actual.\n\n\ntoday()\n\n[1] \"2023-05-05\"\n\n\n\n\nCon now() podemos obtener la fecha y hora actual\n\n\nnow()\n\n[1] \"2023-05-05 00:06:14 -05\"\n\n\n\n\n\nCon year(), month() o day() podemos extraer el año, mes y día\n\n\nfecha <- today()\nyear(fecha)\n\n[1] 2023\n\nmonth(fecha)\n\n[1] 5"
   },
   {
     "objectID": "index.html#resúmenes-de-paquetes",
