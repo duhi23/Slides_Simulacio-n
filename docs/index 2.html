@@ -531,7 +531,7 @@ Escuela Politécnica Nacional
 <div>
 <ul>
 <li class="fragment"><p>R es un lenguaje <span class="hl-purple"><strong>orientado a objetos</strong></span> diseñado en un entorno auténtico bajo el cual esconde su simplicidad y flexibilidad, lo cual permite a sus usuarios añadir funcionalidad mediante la definición de nuevas funciones y operadores.</p></li>
-<li class="fragment"><p>R almacena sus variables, datos, funciones y resultados en la <span class="hl-purple"><strong>memoria activa (RAM)</strong></span> del computador en forma de objetos con un nombre específico y pueden ser <span class="hl-purple"><strong>modificados o manipulados</strong></span> por el usuario.</p></li>
+<li class="fragment"><p>R almacena sus variables, datos, funciones y resultados en la <span class="hl-purple"><strong>memoria activa</strong></span> del computador en forma de objetos con un nombre específico y pueden ser <span class="hl-purple"><strong>modificados o manipulados</strong></span> por el usuario.</p></li>
 </ul>
 </div>
 <div class="column" style="width:90%;">
@@ -543,7 +543,7 @@ Escuela Politécnica Nacional
 <div class="columns">
 <div class="column" style="width:65%;">
 <p>Para comprobar que se ha instalado correctamente, tras abrir <code>R</code>, deberías ver una <strong>pantalla blanca</strong> similar a esta.</p>
-<p>Esa «pantalla blanca» se llama <span class="hl-yellow"><strong>consola</strong></span> y podemos hacer un primer uso de ella como si se tratase de una simple <strong>calculadora</strong>.</p>
+<p>Esa «pantalla blanca» se llama <span class="hl-yellow"><strong>consola</strong></span> y podemos hacer un primer uso de ella como si se tratase de una <strong>calculadora</strong>.</p>
 </div><div class="column" style="width:35%;">
 <p><img data-src="img/consola.jpg" width="240"></p>
 </div>
@@ -1222,7 +1222,7 @@ Escuela Politécnica Nacional
 <div class="cell">
 <div class="sourceCode cell-code" id="cb66"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb66-1"><a href="#cb66-1"></a><span class="fu">today</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] "2023-05-05"</code></pre>
+<pre><code>[1] "2023-05-04"</code></pre>
 </div>
 </div>
 <div class="fragment">
@@ -1232,7 +1232,7 @@ Escuela Politécnica Nacional
 <div class="cell">
 <div class="sourceCode cell-code" id="cb68"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb68-1"><a href="#cb68-1"></a><span class="fu">now</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] "2023-05-05 00:06:14 -05"</code></pre>
+<pre><code>[1] "2023-05-04 22:25:13 -05"</code></pre>
 </div>
 </div>
 </div>
@@ -5386,7 +5386,7 @@ Escuela Politécnica Nacional
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true,"width":"normal"},
 'chalkboard': {"buttons":true},
-'multiplex': {"secret":"16795694050945559108","id":"dc4deab00fad47b4","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"dc4deab00fad47b4","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -5560,7 +5560,7 @@ Escuela Politécnica Nacional
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
-          RevealNotes,
+          
           RevealSearch,
           RevealZoom
         ]

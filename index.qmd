@@ -174,7 +174,7 @@ Siempre que tengas que descargar algo del repositorio CRAN (ya sea el propio R o
 ::: incremental
 - R es un lenguaje [**orientado a objetos**]{.hl-purple} diseñado en un entorno auténtico bajo el cual esconde su simplicidad y flexibilidad, lo cual permite a sus usuarios añadir funcionalidad mediante la definición de nuevas funciones y operadores.
 
-- R almacena sus variables, datos, funciones y resultados en la [**memoria activa**]{.hl-purple} del computador en forma de objetos con un nombre específico y pueden ser [**modificados o manipulados**]{.hl-purple} por el usuario.
+- R almacena sus variables, datos, funciones y resultados en la [**memoria activa (RAM)**]{.hl-purple} del computador en forma de objetos con un nombre específico y pueden ser [**modificados o manipulados**]{.hl-purple} por el usuario.
 :::
 
 ::: {.column width="90%"}
@@ -190,7 +190,7 @@ Siempre que tengas que descargar algo del repositorio CRAN (ya sea el propio R o
 ::: {.column width="65%"}
 Para comprobar que se ha instalado correctamente, tras abrir `R`, deberías ver una **pantalla blanca** similar a esta.
 
-Esa «pantalla blanca» se llama [**consola**]{.hl-yellow} y podemos hacer un primer uso de ella como si se tratase de una **calculadora**.
+Esa «pantalla blanca» se llama [**consola**]{.hl-yellow} y podemos hacer un primer uso de ella como si se tratase de una simple **calculadora**.
 :::
 
 ::: {.column width="35%"}
