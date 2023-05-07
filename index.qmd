@@ -39,7 +39,7 @@ execute:
 
 ::: {.column width="70%"}
 ::: incremental
--   [**Diego Paúl Huaraca Shagñay**]{.hl-yellow}, nacido en 1989 en Riobamba.
+-   [**Diego Paúl Huaraca Shagñay**]{.hl-purple}
 
 -   Ingeniero Matemático. [**Escuela Politécnica Nacional**]{.hl-yellow} (2013).
 
@@ -67,6 +67,8 @@ execute:
 ::: incremental
 -   [**Introducción al Lenguaje R**]{.hl-red} → `{a programar se aprende programando}`.
 
+-   [**Análisis de datos**]{.hl-red} → `{tibble, dplyr}`.
+
 -   [**Visualización de datos**]{.hl-red} → `{gráficos estáticos y dinámicos}`.
 
 -   [**Desarrollo de aplicativos web**]{.hl-red} → `{shiny, shinydashboard}`.
@@ -75,7 +77,6 @@ execute:
 
 -   [**Simuladores de números aleatorios**]{.hl-yellow}  → `{base}`.
 
--   [**Simulación de variables aleatorias**]{.hl-yellow} → `{discretas y continuas}`.
 :::
 :::
 :::
@@ -90,6 +91,8 @@ execute:
 
 ::: {.column width="80%"}
 ::: incremental
+-   [**Simulación de variables aleatorias**]{.hl-yellow} → `{discretas y continuas}`.
+
 -   [**Simulación de vectores aleatorias**]{.hl-yellow}.
 
 -   [**Simulación de procesos estocásticos**]{.hl-yellow} → `{Markov, Weiner, etc.}`.
@@ -124,11 +127,11 @@ Para el desarrollo del curso se requiere:
 
 ::: columns
 ::: {.column width="50%"}
-![](img/cranR.jpg){width="440"}
+![](img/cranR.jpg){width="440" fig-align="center"}
 :::
 
 ::: {.column width="50%"}
-![](img/rstudio.jpg){width="440"}
+![](img/rstudio.jpg){width="440" fig-align="center"}
 :::
 :::
 
@@ -136,13 +139,11 @@ Para el desarrollo del curso se requiere:
 
 ## Instalación de R
 
-::: incremental
 -   [**Paso 1**]{.hl-yellow}: Ingrese al repositorio CRAN en [**https://cran.r-project.org/**](https://cran.r-project.org/){.uri} y seleccione su sistema operativo.
 
 -   [**Paso 2**]{.hl-yellow}: Para el sistema MacOs basta con hacer click en **R-4.X.Y.pkg**, y abrirlo una vez descargado. Para el sistema Windows, basta con hacer click en **install R for the first time** y después en **Download R-X.Y.Z for Windows**, una vez descargado, abrirlo como cualquier archivo de instalación.
 
 -   [**Paso 3**]{.hl-yellow}: Abrir el ejecutable e instalar el programa con todas las opciones por defecto.
-:::
 
 . . .
 
@@ -154,31 +155,25 @@ Siempre que tengas que descargar algo del repositorio CRAN (ya sea el propio R o
 
 ## CRAN
 
-::: incremental
 - El lenguaje R se distribuye gratuitamente a través del repositorio [**Comprehensive R Archive Network (CRAN)**]{.hl-purple}  propiedad de la R Foundation for Statistical Computing.
 
 - El mantenimiento se encuentra a cargo del [**grupo R Core Team**]{.hl-purple} asistido por una gran cantidad de colaboradores internacionales.
 
 - Con la finalidad de evitar el colapso del mundo estadístico, el repositorio CRAN se refleja en [**diferentes lugares**]{.hl-purple} de todo el mundo
-:::
 
 
-::: {.column width="60%"}
-![](img/CRAN.png){width="380"}
-:::
+![](img/CRAN.png){width="380" fig-align="center"}
 
 ---
 
 ## Funcionamiento
 
-::: incremental
 - R es un lenguaje [**orientado a objetos**]{.hl-purple} diseñado en un entorno auténtico bajo el cual esconde su simplicidad y flexibilidad, lo cual permite a sus usuarios añadir funcionalidad mediante la definición de nuevas funciones y operadores.
 
 - R almacena sus variables, datos, funciones y resultados en la [**memoria activa (RAM)**]{.hl-purple} del computador en forma de objetos con un nombre específico y pueden ser [**modificados o manipulados**]{.hl-purple} por el usuario.
-:::
 
-::: {.column width="90%"}
-![](img/FunR.png){width="630"}
+::: {.column width="100%"}
+![](img/FunR.png){width="630" fig-align="center"}
 :::
 
 
@@ -194,7 +189,7 @@ Esa «pantalla blanca» se llama [**consola**]{.hl-yellow} y podemos hacer un pr
 :::
 
 ::: {.column width="35%"}
-![](img/consola.jpg){width="240"}
+![](img/consola.jpg){width="240" fig-align="center"}
 :::
 :::
 
@@ -219,7 +214,7 @@ Esa «pantalla blanca» se llama [**consola**]{.hl-yellow} y podemos hacer un pr
 :::
 
 ::: {.column width="35%"}
-![](img/consola.jpg){width="240"}
+![](img/consola.jpg){width="240" fig-align="center"}
 :::
 :::
 
@@ -270,13 +265,11 @@ a + b
 
 `RStudio` será el [**Bloc de Notas**]{.hl-purple} que usaremos para escribir los códigos (lo que se conoce como un [**IDE: entorno integrado de desarrollo**]{.hl-yellow}).
 
-::: incremental
 -   [**Paso 1**]{.hl-yellow}: Ingrese a la página de Posit en [**https://posit.co/download/rstudio-desktop/**](https://posit.co/download/rstudio-desktop/){.uri} y seleccione la descarga gratuita.
 
 -   [**Paso 2**]{.hl-yellow}: Selecciona el ejecutable en función al sistema operativo que use.
 
 -   [**Paso 3**]{.hl-yellow}: Luego de la descarga, se apertura el ejecutable como cualquier otro programa y se instala todo por defecto.
-:::
 
 ---
 
@@ -286,7 +279,7 @@ Al abrir `RStudio` seguramente tengas tres ventanas:
 
 -   [**Consola**]{.hl-yellow}: es el nombre para llamar a la ventana grande que te ocupa buena parte de tu pantalla. Prueba a escribir el mismo código que antes (la suma de las variables) en ella. La consola será donde [**ejecutaremos órdenes y mostraremos resultados**]{.hl-purple}.
 
-![](img/consola_rstudio.jpg){width="420"}
+![](img/consola_rstudio.jpg){width="420" fig-align="center"}
 
 ---
 
@@ -296,7 +289,7 @@ Al abrir `RStudio` seguramente tengas tres ventanas:
 
 -   [**Environment**]{.hl-yellow}: la pantalla pequeña (puedes ajustar los márgenes con el ratón a tu gusto) que tenemos en la parte superior derecha. Nos mostrará las [**variables que tenemos definidas**]{.hl-purple}.
 
-![](img/environment.jpg){width="420"}
+![](img/environment.jpg){width="380" fig-align="center"}
 
 ---
 
@@ -306,7 +299,7 @@ Al abrir `RStudio` seguramente tengas tres ventanas:
 
 -   [**Panel multiusos**]{.hl-yellow}: la ventana que tenemos en la parte inferior derecha servirá para buscar [**ayuda de funciones**]{.hl-purple}, para [**visualizar gráficos**]{.hl-purple}, así como para la [**carga de librerías**]{.hl-purple} y [**navegación**]{.hl-purple} por las carpetas del CPU.
 
-![](img/multiusos.jpg){width="420"}
+![](img/multiusos.jpg){width="420" fig-align="center"}
 
 # ¿Qué es R? Primeros usos
 
@@ -316,7 +309,7 @@ Al abrir `RStudio` seguramente tengas tres ventanas:
 
 ## ¿Qué es R? ¿Por qué R?
 
-![](img/meme_barco.jpg)
+![](img/meme_barco.jpg){fig-align="center"}
 
 ---
 
@@ -348,7 +341,7 @@ Al abrir `RStudio` seguramente tengas tres ventanas:
 
 -   [**Transparencia**]{.hl-yellow} → ser auditado por la comunidad.
 
-![](img/the_general_problem.png)
+![](img/the_general_problem.png){fig-align="center"}
 
 ---
 
@@ -367,7 +360,7 @@ Una de las ideas claves de `R` es el [**uso de paquetes**]{.hl-yellow}: códigos
 
 ```{r}
 #| eval: false
-install.packages("ggplot2")
+install.packages("dplyr")
 ```
 :::
 
@@ -376,7 +369,7 @@ install.packages("ggplot2")
 
 ```{r}
 #| eval: false
-library(ggplot2)
+library(dplyr)
 ```
 :::
 :::
@@ -399,7 +392,7 @@ Una vez instalado, hay dos manera de usar un paquete (traerlo de la estantería)
 
 ```{r}
 #| eval: false
-library(ggplot2)
+library(dplyr)
 ```
 :::
 
@@ -408,7 +401,7 @@ library(ggplot2)
 
 ```{r}
 #| eval: false
-ggplot2::geom_point()
+dplyr::rename_if()
 ```
 :::
 :::
@@ -416,7 +409,82 @@ ggplot2::geom_point()
 
 ---
 
-## Te vas equivocar
+## Paquetes: Acceso a funciones
+
+::: columns
+::: {.column width="22%"}
+![](img/stringr.png)
+:::
+
+::: {.column width="78%"}
+Una vez instalado y cargado el paquete, es posible indagar sobre las funciones que contiene a partir del comando `ls("package:_____")`.
+
+```{r}
+library(stringr)
+ls("package:stringr")
+```
+:::
+
+:::
+
+---
+
+## Carga de múltiples paquetes
+
+En el caso que se requieran cargar varias librerías se puede evitar la ejecución de varias líneas de código a partir de la siguiente opción:
+```{r}
+#| eval: false
+# Listado de paquetes a cargar
+paquetes <- c("pckg_1","pckg_2", ... , "pckg_n")
+
+# Sentencia de carga
+lapply(paquetes, FUN=library, character.only=TRUE)
+```
+
+ 
+
+. . .
+
+Con el fin de evitar cargar las librerías más utilizadas al arranque de cada sesión, se puede automatizar esta tarea a partir del archivo `.RProfile`
+```{r}
+#| eval: false
+# Crea el archivo .RProfile en el caso que no exista
+if(!file.exists("~/.Rprofile")){
+  file.create("~/.Rprofile")
+} 
+
+# edita el archivo .RProfile y coloca las instrucciones a ejecutar automáticamente
+file.edit("~/.Rprofile") 
+```
+
+---
+
+## Respaldando información
+
+Una tarea importante dentro del análisis de datos es el respaldo de información que se pueda dar sobre ciertos resultados obtenidos, en este punto R consta de dos comandos muy útiles: `save` y `load`.
+
+ 
+
+. . .
+
+El primero de ellos permite almacenar en disco los objetos que desee el usuario (almacenamiento parcial), dicho comando también puede ser configurado de tal manera que almacenen todos los objetos que se encuentra válidos en el área de trabajo.
+
+```{r}
+#| eval: false
+vector <- c(1,2,3,4,5)
+matriz <- matrix(c(1,2,3,4,5,6), ncol = 2)
+
+# Si deseas guardar el objeto "vector" con el nombre "Respaldos"
+save(vector, file = "Respaldos.RData")
+
+# para el caso que se desee almacenar todos los objetos con el nombre "TotalRespaldos" 
+save(list = ls(all = TRUE), file = "TotalRespaldos.RData")
+```
+
+---
+
+
+## Mensajes de error o advertencia
 
 Durante tu aprendizaje va a ser muy habitual que las cosas no salgan a la primera → [**te vas equivocar**]{.hl-yellow}. No solo será importante asumirlo sino que es [**importante leer los mensajes de error**]{.hl-yellow} para aprender de ellos.
 
@@ -449,7 +517,7 @@ sqrt(-1)
 :::
 
 ::: {.column width="65%"}
-Un [**script**]{.hl-yellow} será el documento en el que programamos, nuestro archivo `.doc` (aquí con extensión `.R`) donde escribiremos las órdenes. Para **abrir nuestro primero script**, haz click en el menú en `File < New File < R Script`.
+Un [**script**]{.hl-yellow} será el documento en el que programamos, nuestro `blog de notas` (aquí con extensión `.R`) donde escribiremos las órdenes. Para **abrir nuestro primero script**, haz click en el menú en `File < New File < R Script`.
 :::
 :::
 
@@ -566,6 +634,7 @@ z
 Comandos como `sqrt()`, `abs()` o `max()` son lo que llamamos [**funciones**]{.hl-purple}: líneas de código que hemos «encapsulado» bajo un nombre, y dado unos argumentos de entrada, ejecuta las órdenes (una especie de atajo).
 :::
 
+
 # Primeros datos: variables
 
 [**¿Qué tipos de datos existen?**]{style="color:#444442;"}
@@ -608,7 +677,7 @@ edad <- 33
 -   Su nombre será una cadena de [**texto (string o char)**]{.hl-yellow}.
 
 ```{r}
-nombre <- "javi"
+nombre <- "Diego"
 ```
 :::
 
@@ -616,7 +685,7 @@ nombre <- "javi"
 -   A la pregunta «¿está usted soltero/a?» la respuesta será lo que llamamos una [**variable lógica**]{.hl-yellow} (`TRUE` si está soltero/a o `FALSE` en otro caso).
 
 ```{r}
-soltero <- TRUE
+soltero <- FALSE
 ```
 :::
 
@@ -626,7 +695,7 @@ soltero <- TRUE
 
 ---
 
-## Variables numéricos
+## Variables numéricas
 
 El dato más sencillo (ya lo hemos usado) serán las [**variables numéricas**]{.hl-yellow}
 
@@ -672,7 +741,7 @@ a^2
 Imagina que además de la edad de una persona queremos guardar su nombre
 
 ```{r}
-nombre <- "Javier"
+nombre <- "Diego"
 class(nombre)
 ```
 
@@ -704,7 +773,7 @@ Las variables de tipo texto (character o stringr) van siempre [**entre comillas*
 Como hemos comentado, una [**función**]{.hl-yellow} es un trozo de **código encapsulado** bajo un nombre que depende de unos argumentos de entrada. Nuestra primera función será `paste()`: dadas dos cadenas de texto nos permite pegarlas.
 
 ```{r}
-paste("Javier", "Álvarez")
+paste("Diego", "Huaraca")
 ```
 
  
@@ -714,7 +783,15 @@ paste("Javier", "Álvarez")
 Fíjate que [**por defecto**]{.hl-yellow} nos pega las cadenas con un espacio, pero podemos añadir un [**argumento opcional**]{.hl-yellow} para indicarle el separador
 
 ```{r}
-paste("Javier", "Álvarez", sep = "*")
+paste("Diego", "Huaraca", sep = "*")
+```
+
+ 
+
+. . .
+
+```{r}
+paste("Diego", "Huaraca", sep = " - ")
 ```
 
 ---
@@ -727,7 +804,7 @@ paste("Javier", "Álvarez", sep = "*")
 :::
 
 ::: {.column width="50%"}
-¿Cómo saber que argumentos tiene una función? Escribiendo en consola `? paste` te aparecerá una [**ayuda**]{.hl-yellow} en el panel multiusos.
+¿Cómo saber que argumentos tiene una función? Escribiendo en consola `? paste` o alternativamente `help("paste")` te aparecerá una [**ayuda**]{.hl-yellow} en el panel multiusos.
 
 En dicha ayuda podrás ver en su cabecera que argumentos ya tiene asignados por defecto la función
 :::
@@ -738,7 +815,7 @@ En dicha ayuda podrás ver en su cabecera que argumentos ya tiene asignados por 
 Existe una función similar llamada `paste0()` que pega por defecto con `sep = ""` (sin nada).
 
 ```{r}
-paste0("Javier", "Álvarez")
+paste0("Diego", "Huaraca")
 ```
 
 ---
@@ -749,7 +826,7 @@ Una forma más intuitiva de trabajar con textos es usar el paquete `{glue}`: lo 
 
 ```{r}
 #| eval: false
-install.packages("glue") # solo la primra vez
+install.packages("glue") # solo la primera vez
 library(glue)
 ```
 
@@ -809,7 +886,7 @@ TRUE + 1
 
 ## Condiciones lógicas
 
-Los valores lógicos suelen ser resultado de [**evaluar condiciones lógicas**]{.hl-yellow}. Por ejemplo, imaginemos que queremos comprobar si una persona se llama Javi.
+Los valores lógicos suelen ser resultado de [**evaluar condiciones lógicas**]{.hl-yellow}. Por ejemplo, imaginemos que queremos comprobar si una persona se llama Julia.
 
 ```{r}
 nombre <- "María"
@@ -822,7 +899,7 @@ nombre <- "María"
 Con el [**operador lógico**]{.hl-yellow} `==` preguntamos sí a la izquierda es igual a la derecha
 
 ```{r}
-nombre == "Javi"
+nombre == "Julia"
 ```
 
 . . .
@@ -830,7 +907,7 @@ nombre == "Javi"
 Con su opuesto `!=` preguntamos si es distinto.
 
 ```{r}
-nombre != "Javi"
+nombre != "Julia"
 ```
 
 . . .
@@ -987,6 +1064,7 @@ today() - fecha_nacimiento
 ```
 :::
 
+
 # Primeros datos: vectores
 
 [**¿Cómo concatenamos valores? ¿Cómo creamos una columna?**]{style="color:#444442;"}
@@ -1110,7 +1188,7 @@ rep(0, 7) # vector de 7 ceros
 Un vector es una **concatenación** de elementos del [**mismo tipo**]{.hl-yellow}, pero no tienen porque ser necesariamente números. Vamos a crear una frase de ejemplo.
 
 ```{r}
-frase <- "Me llamo Javi"
+frase <- "Me llamo Diego"
 frase
 length(frase)
 ```
@@ -1122,7 +1200,7 @@ length(frase)
 En el caso anterior no era un vector, era un solo elemento de texto. Para crear un vector debemos usar de nuevo `c()` y separar elementos entre comas
 
 ```{r}
-vector <- c("Me", "llamo", "Javi")
+vector <- c("Me", "llamo", "Diego")
 vector
 length(vector)
 ```
@@ -1138,7 +1216,7 @@ length(vector)
 . . .
 
 ```{r}
-c(1, 2, "javi", "3", TRUE)
+c(1, 2, "Diego", "3", TRUE)
 ```
 
 Fíjate que como todos tienen que ser del mismo tipo, lo que hace `R` es [**convertir**]{.hl-yellow} todo a texto, violando la [**integridad del dato**]{.hl-red}
@@ -1170,6 +1248,8 @@ Con los vectores numéricos podemos hacer las mismas [**operaciones aritméticas
 x <- c(1, 3, 5, 7)
 x + 1
 x * 2
+3 * x - 5
+x/2
 ```
 
 ::: callout-warning
@@ -1268,7 +1348,7 @@ all(x < 30)
 También podemos hacer uso de [**operaciones estadísticas**]{.hl-yellow} como por ejemplo `sum()` que, dado un vector, nos devuelve la suma de todos sus elementos.
 
 ```{r}
-x <- c(1, -2, 3, -1)
+x <- c(4, -2, 3, -7)
 sum(x)
 ```
 
@@ -1279,7 +1359,7 @@ sum(x)
 . . .
 
 ```{r}
-x <- c(1, -2, 3, NA, -1)
+x <- c(4, -2, 3, NA, -7)
 sum(x)
 ```
 
@@ -1297,11 +1377,16 @@ Como hemos comentado que los valores lógicos son guardados internamente como 0 
 
  
 
-Por ejemplo, si queremos [**averiguar el número de elementos que cumplen una condición**]{.hl-yellow} (por ejemplo, menores que 3), los que lo hagan tendrán asignado un 1 (`TRUE`) y los que no un 0 (`FALSE`) , por lo que basta con sumar dicho vector lógico para obtener el número de elementos que cumplen
+Por ejemplo, si queremos [**averiguar el número o el promedio de elementos que cumplen una condición**]{.hl-yellow} (por ejemplo, menores que 3), los que lo hagan tendrán asignado un 1 (`TRUE`) y los que no un 0 (`FALSE`) , por lo que basta con sumar o promediar dicho vector lógico para obtener el número de elementos que cumplen
 
 ```{r}
-x <- c(2, 4, 6)
+x <- c(-5, 7, 2, 4, 6, 9, -1)
+
+# Número de elementos que cumplen la condición
 sum(x < 3)
+
+# Promedio de elementos que cumplen la condición
+mean(x<3)
 ```
 
 ---
@@ -1340,14 +1425,14 @@ median(x)
 
 ```{r}
 quantile(x) # por defecto percentiles 0-25-50-75-100
-quantile(x, probs = c(0.1, 0.4, 0.9))
+quantile(x, probs = seq(0.1, 0.9, by = 0.1)) # deciles
 ```
 
 ---
 
 ## Operaciones con vectores
 
-Otra operación muy habitual es la de [**acceder a elementos**]{.hl-yellow} del mismo. La forma más sencilla es usar el operador `[i]` (acceder al elemento i-ésimo)
+Otra operación muy habitual es la de [**acceder a elementos**]{.hl-yellow} de un vector. La forma más sencilla es usar el operador `[i]` (acceder al elemento i-ésimo)
 
 ```{r}
 edades <- c(20, 30, 33, NA, 61) 
@@ -1366,14 +1451,14 @@ y[c(1:2, 4)] # primer, segundo y cuarto elemento
 ```
 
 ::: callout-tip
-Para acceder al último, sin preocuparnos de cuál, podemos pasarle como índice la longitud `x[length(x)]`
+Para acceder al último sin preocuparnos, podemos pasarle como índice la longitud `x[length(x)]`
 :::
 
 ---
 
 ## Operaciones con vectores
 
-Otras veces no querremos seleccionar sino [**eliminar algunos elementos**]{.hl-yellow}. Deberemos repetir la misma operación pero con el signo - delante: el operador `[-i]` no selecciona el elemento i-ésimo del vector sino que lo «des-selecciona»
+Otras veces queremos [**eliminar algunos elementos**]{.hl-yellow}, para ello, se repite la misma operación pero con el signo - delante: el operador `[-i]` no selecciona el elemento i-ésimo del vector sino que lo «des-selecciona»
 
 ```{r}
 y
@@ -1388,7 +1473,7 @@ En muchas ocasiones los queremos [**seleccionar o eliminar en base a condiciones
 
 ```{r}
 edades <- c(15, 21, 30, 17, 45)
-nombres <- c("javi", "maría", "laura", "carla", "luis")
+nombres <- c("Javier", "María", "Laura", "Julia", "Luis")
 nombres[edades < 18] # nombres de los menores de edad
 ```
 
@@ -1540,7 +1625,7 @@ cbind(edades, soltero, nombres)
 
 . . .
 
-Para poder trabajar con [**variables de distinto tipo**]{.hl-yellow} haremos uso de lo que se conoce como [**data.frame**]{.hl-yellow}: una variables de igual longitud pero [**tipo distinto**]{.hl-purple}.
+Para poder trabajar con [**variables de distinto tipo**]{.hl-yellow} haremos uso de lo que se conoce como [**data.frame**]{.hl-yellow}: unimos variables de igual longitud pero [**tipo distinto**]{.hl-purple}.
 
 ```{r}
 #| code-line-numbers: "1"
@@ -1574,9 +1659,14 @@ tabla
 
 ## Segundo intento: data.frame
 
-[**¡TENEMOS NUESTRO PRIMER CONJUNTO DE DATOS!**]{.hl-yellow} Puedes visualizarlo escribiendo su nombre en consola o con `View(tabla)`
+[**¡TENEMOS NUESTRO PRIMER CONJUNTO DE DATOS!**]{.hl-yellow} 
 
-![](img/view_tabla.jpg)
+
+Puedes visualizarlo escribiendo su nombre en consola o con `View(tabla)`
+
+![](img/view_tabla.jpg){width="70%" fig-align="center"}
+
+No se recomienda abusar del uso de la función `View()` dado que se consume demasiada memoria RAM.
 
 ---
 
@@ -1598,7 +1688,7 @@ tabla[2, 1]  # primera característica de la segunda persona
 :::
 
 ::: {.column width="65%"}
-También tiene ventajas de una [**«base» de datos**]{.hl-yellow} : podemos [**aceder a las variables por su nombre**]{.hl-purple} (recomendable ya que las variables pueden cambiar de posición), poniendo el nombre de la tabla seguido del símbolo `$` (con el **tabulador**, nos aparecerá un menú de columnas a elegir)
+También tiene ventajas de una [**«base» de datos**]{.hl-yellow} : podemos [**acceder a las variables por su nombre**]{.hl-purple} (recomendable ya que las variables pueden cambiar de posición), poniendo el nombre de la tabla seguido del símbolo `$` (con el **tabulador**, nos aparecerá un menú de columnas a elegir)
 :::
 :::
 
@@ -1646,9 +1736,6 @@ data.frame("estatura" = c(1.7, 1.8, 1.6), "peso" = c(80, 75, 70),
            "IMC" = peso / (estatura^2))
 ```
 
-. . .
-
- 
 
 De ahora en adelante usaremos el formato `tibble` (un [**data.frame mejorado**]{.hl-yellow})
 
@@ -1657,6 +1744,8 @@ library(tibble)
 tibble("estatura" = c(1.7, 1.8, 1.6), "peso" = c(80, 75, 70),
        "IMC" = peso / (estatura^2))
 ```
+
+Un data.frame puede ser tranformado en un tibble por medio del comando `as_tibble()`.
 
 ---
 
@@ -1798,7 +1887,7 @@ Si conoces algún otro lenguaje de programación (o tienes gente cercana que pro
 
 . . .
 
-Y aunque conocer dichas estructuras puede sernos en algún momento interesante, en la [**mayoría de ocasiones vamos a poder evitarlas**]{.hl-red} (en especial los bucles) [→ en lugar de trabajar con lo que se conoce como R Base vamos a vertebrar el curso en torno a [**Tidyverse**]{.hl-yellow}]{.fragment .fade-in}
+Y aunque conocer dichas estructuras puede ser en algún momento interesante, en la [**mayoría de ocasiones vamos a poder evitarlas**]{.hl-red} (en especial los bucles) [→ en lugar de trabajar con lo que se conoce como R Base vamos a vertebrar el curso en torno a [**Tidyverse**]{.hl-yellow}]{.fragment .fade-in}
 
 ---
 
@@ -1814,7 +1903,7 @@ Y aunque conocer dichas estructuras puede sernos en algún momento interesante, 
 :::
 :::
 
-`{tidyverse}` es un [**«universo» de paquetes**]{.hl-yellow} para garanatizar un flujo de trabajo (de inicio a fin) eficiente, coherente y lexicográficamente sencillo de entender, basado en la idea de que [**nuestros datos están limpios y ordenados (tidy)**]{.hl-purple}
+`{tidyverse}` es un [**«universo» de paquetes**]{.hl-yellow} para garantizar un flujo de trabajo (de inicio a fin) eficiente, coherente y lexicográficamente sencillo de entender, basado en la idea de que [**nuestros datos están limpios y ordenados (tidy)**]{.hl-purple}
 
 ---
 
@@ -1828,7 +1917,7 @@ Y aunque conocer dichas estructuras puede sernos en algún momento interesante, 
 ::: {.column width="55%"}
 -   `{tibble}`: optimizando data.frame
 -   `{tidyr}`: limpieza de datos
--   `{readr}`: carga datos rectangulares (.csv)
+-   `{readr}`: carga datos rectangulares (.txt, .csv)
 -   `{dplyr}`: gramática para depurar
 -   `{stringr}`: manejo de textos
 -   `{ggplot2}`: visualización de datos
@@ -1836,7 +1925,7 @@ Y aunque conocer dichas estructuras puede sernos en algún momento interesante, 
 :::
 :::
 
-También tenemos los paquetes `{purrr}` para el manejo de listas, `{forcast}` para cualitativas, `{lubridate}` para fechas, `{readxl}` para importar archivos .xls y .xlsx, `{rvest}` para web scraping y `{rmarkdown}` para comunicar resultados.
+También tenemos los paquetes `{purrr}` para el manejo de listas, `{forcast}` para variables cualitativas, `{lubridate}` para fechas, `{readxl}` para importar archivos .xls y .xlsx, `{rvest}` para web scraping y `{rmarkdown}` para comunicar resultados.
 
 ---
 
@@ -1851,15 +1940,15 @@ También tenemos los paquetes `{purrr}` para el manejo de listas, `{forcast}` pa
 ::: {.column width="55%"}
 -   `{tibble}`: [**optimizando data.frame**]{.hl-yellow}
 -   `{tidyr}`: [**limpieza de datos**]{.hl-yellow}
--   `{readr}`: [**carga datos**]{.hl-yellow} rectangulares (.csv)
+-   `{readr}`: [**carga datos**]{.hl-yellow} rectangulares (.txt, .csv)
 -   `{dplyr}`: [**gramática para depurar**]{.hl-yellow}
--   `{stringr}`: manejo de textos
--   `{ggplot2}`: visualización de datos
--   `{tidymodels}`: modelización/predicción
+-   `{stringr}`: [**manejo de textos**]{.hl-purple}
+-   `{ggplot2}`: [**visualización de datos**]{.hl-purple}
+-   `{tidymodels}`: [**modelización/predicción**]{.hl-green}
 :::
 :::
 
-También tenemos los paquetes `{purrr}` para el manejo de listas, `{forcast}` para cualitativas, `{lubridate}` para fechas, `{readxl}` para importar archivos .xls y .xlsx, `{rvest}` para web scraping y `{rmarkdown}` para comunicar resultados.
+También tenemos los paquetes `{purrr}` para el manejo de listas, `{forcast}` para variables cualitativas, `{lubridate}` para fechas, `{readxl}` para importar archivos .xls y .xlsx, `{rvest}` para web scraping y `{rmarkdown}` para comunicar resultados.
 
 ---
 
@@ -1869,7 +1958,7 @@ También tenemos los paquetes `{purrr}` para el manejo de listas, `{forcast}` pa
 
 <div style="font-size:120px; text-align: center; color:#F8DF58;"><b>TIDY</b><span style="color:#CAB0EE;"><b>VERSE</b></span></div>
 
-El [**universo**]{.hl-purple} de paquetes `{tidyverse}` se basa en la idea introducido por **Hadley Wickham** (el Dios al que rezo) de [**estandarizar**]{.hl-yellow} el formato los datos para
+El [**universo**]{.hl-purple} de paquetes `{tidyverse}` se basa en la idea introducida por **Hadley Wickham** (el Dios al que rezo) de [**estandarizar**]{.hl-yellow} el formato de los datos para:
 
 ::: incremental
 
@@ -1906,7 +1995,7 @@ Lo primero por tanto será entender qué son los [**conjuntos tidydata**]{.hl-ye
 :::
 
 ::: {.fragment .fade-in}
-5. Si queremos cruzar [**múltiples tablas**]{.hl-yellow} debemos tener una [**columna común**]{.hl-purple}
+5. Si queremos cruzar [**múltiples tablas**]{.hl-yellow} debemos tener una [**columna en común**]{.hl-purple} (llave de cruce).
 :::
 :::
 ::: {.column width="50%"}
@@ -1991,17 +2080,22 @@ datos |>
 
 ## Datos SUCIOS: messy data
 
-¿Pero qué aspecto tienen los [**datos no tidy**]{.hl-yellow}? Vamos a cargar la tabla `table4a` del paquete `{tidyr}` (ya lo tenemos cargado del entorno tidyverse).
+¿Pero qué aspecto tienen los [**datos no tidy**]{.hl-yellow}? 
 
-&nbsp;
+Vamos a cargar la tabla `table4a` del paquete `{tidyr}` (ya lo tenemos cargado del entorno tidyverse).
+
+ 
+
+. . .
 
 ```{r}
 library(tidyr)
 table4a
 ```
 
+ 
 
-&nbsp;
+. . .
 
 [**¿Qué puede estar fallando?**]{.hl-red}
 
@@ -2059,7 +2153,7 @@ table4a |>
 &nbsp;
 
 * `cols`: [**nombre de las variables a pivotar**]{.hl-yellow}
-* `names_to`: nombre de la nueva variable a la quemandamos la [**cabecera**]{.hl-yellow} de la tabla (los nombres).
+* `names_to`: nombre de la nueva variable a la que mandamos la [**cabecera**]{.hl-yellow} de la tabla (los nombres).
 * `values_to`: nombre de la nueva variable a la que vamos a mandar los [**datos**]{.hl-yellow}.
 
 ---
@@ -2146,7 +2240,7 @@ table3
 
 . . .
 
-Lo que haremos será hacer uso de la función `separate()` para mandar [**separar cada valor**]{.hl-yellow} a una columna diferente.
+Lo que haremos será hacer uso de la función `separate()` para mandar a [**separar cada valor**]{.hl-yellow} a una columna diferente.
 
 ```{r}
 table3 |> separate(rate, into = c("cases", "pop"))
@@ -2265,7 +2359,7 @@ billboard |>
 
 # Introducción a Tidyverse
 
-[**Con los datos limpicos, vamos a trabajarlos**]{style="color:#444442;"}
+[**Con los datos limpios, podemos trabajarlos**]{style="color:#444442;"}
 
 ---
 
@@ -2360,101 +2454,32 @@ starwars |>
 #| echo: false
 #| include: false
 library(tidyverse)
+data("starwars")
 ```
 
-# ```{r}
-# starwars |> filter(eye_color == "brown")
-# ```
-
----
-
-## Filtrar filas: filter()
-
-:::: columns
-::: {.column width="50%"}
 ```{r}
 #| eval: false
-datos |>
-  filtro(condicion)
+starwars |>  dplyr::filter(eye_color == "brown")
 ```
-:::
-
-::: {.column width="50%"}
-```{r}
-#| eval: false
-starwars |>
-  filter(condicion)
-```
-:::
-::::
 
 ¿Cómo harías... [**filtrar**]{.hl-yellow} los personajes que [**no tienen ojos marrones**]{.hl-purple}?
 
 . . .
 
-# ```{r}
-# starwars |> filter(eye_color != "brown")
-# ```
-
----
-
-## Filtrar filas: filter()
-
-:::: columns
-::: {.column width="50%"}
 ```{r}
 #| eval: false
-datos |>
-  filtro(condicion)
+starwars |> filter(eye_color != "brown")
 ```
-:::
-
-::: {.column width="50%"}
-```{r}
-#| eval: false
-starwars |>
-  filter(condicion)
-```
-:::
-::::
 
 ¿Cómo harías... [**filtrar**]{.hl-yellow} los personajes que [**tengan los ojos marrones o azules**]{.hl-purple}?
 
 . . .
 
-# ```{r}
-# starwars |> filter(eye_color %in% c("blue", "brown"))
-# ```
-
----
-
-## Filtrar filas: filter()
-
-:::: columns
-::: {.column width="50%"}
 ```{r}
 #| eval: false
-datos |>
-  filtro(condicion)
+starwars |> filter(eye_color %in% c("blue", "brown"))
 ```
-:::
 
-::: {.column width="50%"}
-```{r}
-#| eval: false
-starwars |>
-  filter(condicion)
-```
-:::
-::::
-
-¿Cómo harías... [**filtrar**]{.hl-yellow} los personajes que [**midan entre 120 y 160 cm**]{.hl-purple}?
-
-. . .
-
-# ```{r}
-# starwars |> filter(between(height, 120, 160))
-# ```
 
 ::: callout-tip
 
@@ -2486,45 +2511,35 @@ starwars |>
 :::
 ::::
 
+¿Cómo harías... [**filtrar**]{.hl-yellow} los personajes que [**midan entre 120 y 160 cm**]{.hl-purple}?
+
+. . .
+
+```{r}
+#| eval: false
+starwars |> filter(between(height, 120, 160))
+```
+
 ¿Cómo harías... [**filtrar**]{.hl-yellow} los personajes que [**tengan ojos y no sean humanos**]{.hl-purple}?
 
 . . .
 
-# ```{r}
-# starwars |>
-#   filter(eye_color == "brown" & species != "Human")
-# ```
-
----
-
-## Filtrar filas: filter()
-
-:::: columns
-::: {.column width="50%"}
-```{r}
-#| eval: false
-datos |>
-  filtro(condicion)
-```
-:::
-
-::: {.column width="50%"}
 ```{r}
 #| eval: false
 starwars |>
-  filter(condicion)
+   filter(eye_color == "brown" & species != "Human")
 ```
-:::
-::::
+
 
 ¿Cómo harías... [**filtrar**]{.hl-yellow} los personajes que [**tengan ojos y no sean humanos, o que tengan más de 60 años**]{.hl-purple}?
 
 . . .
 
-# ```{r}
-# starwars |>
-#   filter((eye_color == "brown" & species != "Human") | birth_year > 60)
-# ```
+```{r}
+#| eval: false
+starwars |>
+  filter((eye_color == "brown" & species != "Human") | birth_year > 60)
+```
 
   
 ---
@@ -2676,7 +2691,7 @@ starwars |> slice(posiciones)
 :::
 ::::
 
-Normalmente filtraremos condición pero a veces nos puede interesar [**filtrar por posición**]{.hl-yellow}: con `slice(posiciones)` podremos seleccionar filas concreetas pasando como argumento un [**vector de índices**]{.hl-yellow}
+Normalmente filtraremos condición pero a veces nos puede interesar [**filtrar por posición**]{.hl-yellow}: con `slice(posiciones)` podremos seleccionar filas concretas pasando como argumento un [**vector de índices**]{.hl-yellow}
 
 . . .
 
@@ -3311,7 +3326,7 @@ starwars |> mutate(nueva = funcion())
 :::
 ::::
 
-En muchas ocasiones querremos [**modificar o crear variables**]{.hl-yellow} con `mutate()`. Vamos a crear por ejemplo una nueva variable `height_m` con la altura en metros.
+En muchas ocasiones queremos [**modificar o crear variables**]{.hl-yellow} con `mutate()`. Vamos a crear por ejemplo una nueva variable `height_m` con la altura en metros.
 
 ```{r}
 starwars |> mutate(height_m = height / 100)
@@ -3752,15 +3767,19 @@ Recuerda siempre [**hacer ungroup**]{.hl-red} para eliminar la variable de grupo
 
 En la nueva versión de `{dplyr}` ahora se [**permite incluir la variable de grupo**]{.hl-yellow} en la llamada a muchas funciones con el argumento `by = ...` o `.by = ...`
 
-# ```{r}
-# #| eval: false
-# starwars |> slice_max(height, by = sex)
-# ```
-# 
-# ```{r}
-# #| echo: false
-# starwars |> slice_max(height, by = sex) |> select(name:eye_color)
-# ```
+```{r}
+#| eval: false
+starwars |> slice_max(height, by = sex)
+```
+
+.
+
+. . .
+
+```{r}
+#| eval: false
+starwars |> slice_max(height, by = sex) |> select(name:eye_color)
+```
 
 ---
 
@@ -3839,7 +3858,7 @@ starwars |> summarise()
 :::
 ::::
 
-Si además esto lo [**combinamos con la agrupación**]{.hl-yellow} de `group_by()` o `.by = ...`, en pocas líneas de código puedes obtener [**estadísticas desagreagadas**]{.hl-purple}
+Si además esto lo [**combinamos con la agrupación**]{.hl-yellow} de `group_by()` o `.by = ...`, en pocas líneas de código puedes obtener [**estadísticas desagregadas**]{.hl-purple}
 
 ```{r}
 starwars |> 
@@ -3874,18 +3893,19 @@ En el nuevo `{dplyr}` han incluido `reframe()` para evitar problemas de `summari
 :::: columns
 ::: {.column width="50%"}
 ```{r}
-#| warning: true
+#| eval: true
 starwars |>
   drop_na(mass) |>
   summarise(quantile(mass))
 ```
 :::
 ::: {.column width="50%"}
-# ```{r}
-# starwars |>
-#   drop_na(mass) |>
-#   reframe(quantile(mass))
-# ```
+```{r}
+#| eval: true
+starwars |>
+  drop_na(mass) |>
+  reframe(quantile(mass))
+```
 :::
 ::::
 
@@ -3893,7 +3913,7 @@ starwars |>
 
 ## Selectores: across()
 
-Un truco es [**hacer uso de selectores**]{.hl-yellow} `across()` y `where()`. El primero nos permite [**actuar sobre varias columnas por  nombre**]{.hl-purple} (con `mutate()` o `summarise()`)
+Un truco es [**hacer uso de selectores**]{.hl-yellow} `across` y `where`. El primero nos permite [**actuar sobre varias columnas por  nombre**]{.hl-purple} (con `mutate` o `summarise`)
 
 ```{r}
 starwars |> summarise(medias = across(height:mass, mean, na.rm = TRUE), .by = sex)
@@ -4069,17 +4089,16 @@ encuestas <-
 
 * [**Cuarta tarea**]{.hl-purple}: quédate solo con las encuestas cuyo tamaño muestral conozcamos y que no sean encuestas a pie de urna. Elimina esta última variable.
 
-# ```{r}
-# #| code-fold: true
-# encuestas <-
-#   encuestas |> 
-#   # eliminar ausentes
-#   drop_na(size) |> 
-#   # Filtramos encuestas (registros) a pie de urna (aquellas que exit_poll == FALSE)
-#   filter(!exit_poll) |> 
-#   # Quitamos la variable pie de urna
-#   select(-exit_poll)
-# ```
+```{r}
+#| code-fold: true
+encuestas <- encuestas |> 
+  # eliminar ausentes
+  drop_na(size) |> 
+  # Filtramos encuestas (registros) a pie de urna (aquellas que exit_poll == FALSE)
+  dplyr::filter(!exit_poll) |> 
+  # Quitamos la variable pie de urna
+  select(-exit_poll)
+```
 
 
 ---
@@ -4087,12 +4106,11 @@ encuestas <-
 ## Caso real: datos de encuestas
 
 
-* [**Quinta tarea**]{.hl-purple}: convierte el dataset en tidydata. ¿Qué falla? ¿Cómo arreglarlo? Reminder: no quremos ausentes.
+* [**Quinta tarea**]{.hl-purple}: convierte el dataset en tidydata. ¿Qué falla? ¿Cómo arreglarlo? Reminder: no queremos ausentes.
 
 ```{r}
 #| code-fold: true
-encuestas <-
-  encuestas |> 
+encuestas <- encuestas |> 
   # Convertimos a tidydata
   pivot_longer(cols = -(id_survey:turnout),
                names_to = "partido",
@@ -4107,17 +4125,16 @@ encuestas <-
 
 * [**Sexta tarea**]{.hl-purple}: calcula el número de días que la encuesta ha hecho trabajo de campo, y coloca dicha columna tras el nombre de la encuestadora. Tras ello elimina aquellas encuestas que tengan 0 días de trabajo de campo.
 
-# ```{r}
-# #| code-fold: true
-# encuestas <-
-#   encuestas |> 
-#   # Calculamos los días de campo como la diferencia de fechas 
-#   # con as.numeric() convertimos la dif. de fechas a un número
-#   mutate(n_dias_campo = as.numeric(field_date_to - field_date_from),
-#          .after = pollster) |> 
-#   # Solo aquellas cuyo trabajo de campo haya durado 1 día o más
-#   filter(n_dias_campo > 0)
-# ```
+```{r}
+#| code-fold: true
+encuestas <- encuestas |> 
+  # Calculamos los días de campo como la diferencia de fechas 
+  # con as.numeric() convertimos la dif. de fechas a un número
+  mutate(n_dias_campo = as.numeric(field_date_to - field_date_from),
+         .after = pollster) |> 
+  # Solo aquellas cuyo trabajo de campo haya durado 1 día o más
+  dplyr::filter(n_dias_campo > 0)
+```
 
 ---
 
@@ -4126,17 +4143,16 @@ encuestas <-
 
 * [**Séptima tarea**]{.hl-purple}: calcula el número de días que faltan hasta las elecciones desde que la encuesta cerro el trabajo de campo y coloca dicha variable tras `n_dias_campo`. Tras ello elimina las fechas de inicio y fin de trabajo de campo de la manera más eficiente posible
 
-# ```{r}
-# #| code-fold: true
-# encuestas <-
-#   encuestas |> 
-#   # Calculamos los días que faltan a las elecciones
-#   # con as.numeric() convertimos la dif. de fechas a un número
-#   mutate(n_dias_elec = as.numeric(date_elec - field_date_to),
-#          .after = n_dias_campo) |> 
-#   # Eliminamos ya las fechas de campo que no necesitamos
-#   select(-contains("field"))
-# ```
+```{r}
+#| code-fold: true
+encuestas <- encuestas |> 
+  # Calculamos los días que faltan a las elecciones
+  # con as.numeric() convertimos la dif. de fechas a un número
+  mutate(n_dias_elec = as.numeric(date_elec - field_date_to),
+         .after = n_dias_campo) |> 
+  # Eliminamos ya las fechas de campo que no necesitamos
+  select(-contains("field"))
+```
 
 ---
 
@@ -4145,13 +4161,12 @@ encuestas <-
 
 * [**Octava tarea**]{.hl-purple}: elimina encuestas que se hayan cerrado dentro de la ventana temporal en la que está prohibido la publicación de encuestas (no se deberían usar para predecir ya que «no se conocen»)
 
-# ```{r}
-# #| code-fold: true
-# encuestas <-
-#   encuestas |>
-#   # Solo con encuestas antes del baneo electoral
-#   filter(n_dias_elec > 15)
-# ```
+```{r}
+#| code-fold: true
+encuestas <- encuestas |>
+  # Solo con encuestas antes del baneo electoral
+  dplyr::filter(n_dias_elec > 15)
+```
 
 ---
 
@@ -4160,13 +4175,13 @@ encuestas <-
 
 * [**Novena tarea**]{.hl-purple}: obtén, por cada elección, la media de las encuestas de cada partido
 
-# ```{r}
-# #| code-fold: true
-# encuestas |>
-#   # Resumen: media de voto por fecha y partido
-#   summarise(media_voto = mean(est_voto),
-#             .by = c("date_elec", "partido"))
-# ```
+```{r}
+#| code-fold: true
+encuestas |>
+  # Resumen: media de voto por fecha y partido
+  summarise(media_voto = mean(est_voto),
+            .by = c("date_elec", "partido"))
+```
 
 ---
 
@@ -4175,17 +4190,17 @@ encuestas <-
 
 * [**Décima tarea**]{.hl-purple}: realiza lo mismo que la tarea anterior pero solo para las encuestas de los 60 días previos a las elecciones. Ordena la salida de reciente a antiguo
 
-# ```{r}
-# #| code-fold: true
-# encuestas |>
-#   # Filtramos ventana de 60 días
-#   filter(n_dias_elec <= 60) |>
-#   # Media de est_voto por fecha y partido
-#   summarise(media_voto = mean(est_voto),
-#             .by = c("date_elec", "partido")) |>
-#   # Ordenar de mayor a menor
-#   arrange(desc(date_elec))
-# ```
+```{r}
+#| code-fold: true
+encuestas |>
+  # Filtramos ventana de 60 días
+  dplyr::filter(n_dias_elec <= 60) |>
+  # Media de est_voto por fecha y partido
+  summarise(media_voto = mean(est_voto),
+            .by = c("date_elec", "partido")) |>
+  # Ordenar de mayor a menor
+  arrange(desc(date_elec))
+```
 
 ---
 
@@ -4194,19 +4209,19 @@ encuestas <-
 
 * [**Undécima tarea**]{.hl-purple}: del dataset generado en el anterior ejercicio, obtén el primer y el segundo con mayor estimación de voto (en promedio)
 
-# ```{r}
-# #| code-fold: true
-# encuestas |> 
-#   # Filtramos ventana de 60 días
-#   filter(n_dias_elec <= 60) |> 
-#   # Media de est_voto por fecha y partido
-#   summarise(media_voto = mean(est_voto),
-#             .by = c("date_elec", "partido")) |>
-#   # Ordenar de mayor a menor por fecha
-#   arrange(desc(date_elec)) |>
-#   # extraemos los dos con más est de voto (por cada fecha)
-#   slice_max(media_voto, n = 2, by = date_elec)
-# ```
+```{r}
+#| code-fold: true
+encuestas |> 
+  # Filtramos ventana de 60 días
+  dplyr::filter(n_dias_elec <= 60) |> 
+  # Media de est_voto por fecha y partido
+  summarise(media_voto = mean(est_voto),
+            .by = c("date_elec", "partido")) |>
+  # Ordenar de mayor a menor por fecha
+  arrange(desc(date_elec)) |>
+  # extraemos los dos con más est de voto (por cada fecha)
+  slice_max(media_voto, n = 2, by = date_elec)
+```
 
 # El mundo Github
 
@@ -4244,7 +4259,7 @@ Tras hacernos una cuenta en Github, [**arriba a la derecha**]{.hl-purple} tendre
 :::: columns
 ::: {.column width="55%"}
 
-![](img/github_1.png)
+![](img/github_1.png){fig-align="center"}
 
 :::
 
@@ -4284,13 +4299,13 @@ Por ejemplo, vamos a instalar un paquete llamado [`{peRReo}`](https://github.com
 :::: columns
 ::: {.column width="50%"}
 
-![](img/perrreo.png)
+![](img/perrreo.png){fig-align="center"}
 
 :::
 
 ::: {.column width="50%"}
 
-![](img/rosalia.png){width="360"}
+![](img/rosalia.png){width="360" fig-align="center"}
 :::
 ::::
 
@@ -4312,13 +4327,13 @@ Las [**instrucciones de instalación**]{.hl-yellow} suelen venir detalladas en l
 :::: columns
 ::: {.column width="50%"}
 
-![](img/install_perreo.png)
+![](img/install_perreo.png){fig-align="center"}
 
 :::
 
 ::: {.column width="50%"}
 
-![](img/rosalia.png){width="310"}
+![](img/rosalia.png){width="310" fig-align="center"}
 :::
 ::::
 
@@ -4341,360 +4356,83 @@ Ya puedes perrear con ggplot ;)
 
 La mayoría de veces lo que subamos no será un paquete de R como tal sino que [**subiremos un código más o menos organizado**]{.hl-yellow} y comentado. En ese caso podremos [**descargar el repo entero**]{.hl-yellow} haciendo click [**Code**]{.hl-green} y luego Download ZIP.
 
-Por ejemplo, vamos a descargarnos los scripts de dataviz que han subido desde el [Centre d'Estudis d'Opinió](https://github.com/ceopinio/bop-grafics)
+Por ejemplo, vamos a descargarnos los scripts de `tidytable` que ha subido Hadley Wickham [TIDY:TABLE](https://github.com/hadley/tidytable)
 
-![](img/ceo_github.png)
+![](img/ceo_github.png){fig-align="center"}
 
 ---
 
+## Nuestro primer repositorio
 
-## Ideal
+Para [**crear nuestro primero repositorio**]{.hl-yellow} que servirá además como [**carta de presentación**]{.hl-yellow} de nuestro perfil en Github, deberás tener una cuenta ya creada en [Github](https://github.com) y tener [Git](https://git-scm.com) instalado.
 
-![](img/abogados_simpson.jpeg){width="600"}
 
-[**¿Lo ideal en caso de RTVE?**]{.hl-purple} Tener dos tipos de repositorios
+1. Teniendo lo anterior ya realizado, podemos usar la librería [**usethis**]{.hl-purple} para simplificar el proceso.
 
-* Una [**colección de repositorios públicos (producción)**]{.hl-yellow} donde hacer transparente el código y los datos ([**ya validados**]{.hl-purple}), coordinado por un nº reducido de personas.
+```{r}
+#| eval: false
+install.packages("usethis")
+```
 
-* Una [**colección de repositorios privados (desarrollo)**]{.hl-yellow} donde esté todo el equipo colaborando y donde se haga el [**trabajo del día**]{.hl-purple}, con trazabilidad interna.
+2. Luego configuramos nuestras credenciales (los datos que usamos para la cuenta de GitHub):
+```{r}
+usethis::use_git_config(
+   user.name = "Mi nombre",
+   user.email = "micorreo@gmail.com"
+ )
+```
 
 
 ---
 
 ## Nuestro primer repositorio
 
-Vamos a [**crear nuestro primero repositorio**]{.hl-yellow} que servirá además como [**carta de presentación**]{.hl-yellow} de nuestro perfil en Github.
+3. Creamos nuestro GitHub PAT Token (es como una contraseña, pero más segura). 
 
-1. [**Repositories**]{.hl-purple}: hacemos click en las pestaña de Repositories.
+```{r}
+#| eval: false
+usethis::create_github_token()
+```
 
-2. [**New**]{.hl-purple}: hacemos click en el [**botón verde New**]{.hl-green} para crear un nuevo repositorio
+Cuando ejecutas este comando, se te abrirá una pestaña de tu navegador. Tendrás que verificar algunos permisos a GitHub. Luego, en la configuración del token, cambia el nombre, ajusta el tiempo de expiración y el resto déjalo como está. Crea el token.
+
+4. Para guardar tu nuevo token, usa:
+
+```{r}
+#| eval: false
+gitcreds::gitcreds_set()
+```
+
+En la consola se te mostrará un menú. Selecciona la opción 2: **Replace these credentials**. Luego copia el token de GitHub, actualiza y guarda tus credenciales.
 
 
-![](img/new_repo.png)
+---
+
+
+## Nuestro primer repositorio
+
+5. Reinicia la sesión de RStudio para que [**se hagan efectivos los cambios**]{.hl-yellow}. Usualmente puedes usar **CTRL + SHIFT + F10** o del menú de arriba selecciona la pestaña de **Session** y luego **Restart R**.
+
+6. Usa `usethis::git_sitrep()` para verificar si tus credenciales como nombre, email y PAT están correctamente configuradas.
+
+Fíjate que salga este texto: 
+
+**Personal access token for https://github.com ... **
+
+Con eso ya deberíamos estar listos con la configuración de GIT y GitHub.
 
 
 ---
 
 ## Nuestro primer repositorio
 
-* [**Repository name**]{.hl-purple}: el [**nombre del repositorio**]{.hl-yellow}. En este caso vamos a crear un repositorio muy concreto: el nombre debe [**coincidir exactamente con tu nombre de usuario**]{.hl-yellow}
+7. Usaremos `use_git()` para iniciar el control de versiones de GIT en nuestro proyecto.
 
-* [**Description**]{.hl-purple}: descripción de tu repositorio. En este caso será un repo de presentación.
+![](img/use_git.png){width="380" fig-align="center"}
 
-![](img/repo_init_1.png)
+8. Ahora, usaremos `usethis::use_github()` para crear un repositorio en GitHub y subir el proyecto.
 
----
-
-
-## Nuestro primer repositorio
-
-* [**Public vs private**]{.hl-purple}: con cada repositorio tendremos la opción de hacer el repositorio
-
-
-  - [**público**]{.hl-purple}: todos los usuarios podrán ver el código así cómo la trazabilidad de su desarrollo (qué se añade y cuándo). Es para mí la opción más recomendable cuando quieres darle [**visibilidad y transparencia**]{.hl-yellow} a tu trabajo
-  - [**privado**]{.hl-purple}: solo tendrán acceso al repositorio aquellos usuarios a los que se lo permitas. No se podrá visualizar ni instalar nada de él fuera de Github.
-
-![](img/repo_init_2.png)
-
-
-En este caso concreto, dado que será un repositorio de presentación, lo [**haremos público**]{.hl-yellow}.
-
----
-
-## Nuestro primer repositorio
-
-* [**Add a README file**]{.hl-purple}: un README file será el archivo donde incluiremos las [**instrucciones y detalles de uso**]{.hl-yellow} a los demás (en el caso de `{peRReo}` era el archivo que contenía los detalles de instalación)
-
-![](img/repo_init_3.png)
-
-De momento [**ignoraremos los demás campos**]{.hl-red} para este primer repositorio.
-
----
-
-## Nuestro primer repositorio
-
-![](img/repo_init_1.png)
-
-Por defecto Github asume que este repositorio, con el [**mismo nombre que nuestro usuario**]{.hl-yellow} será el repositorio que querremos que se presente de inicio cuando alguien entra en nuestro perfil, y será el repositorio donde [**incluir en el README.md**] una presentación de nosotros y un índice de tu trabajo (si quieres).
-
----
-
-## Nuestro primer repositorio
-
-![](img/profile_github_md.png)
-
-Fíjate que ahora en nuestra [**portada tenemos dicho README.md**]{.hl-yellow} que podemos personalizar a nuestro gusto haciendo uso de [**html y markdown**]{.hl-yellow}.
-
-Aquí puedes ver [**algunos ejemplos de README.MD**](https://github.com/matiassingers/awesome-readme)
-
----
-
-## Repo de código
-
-Una vez que tenemos nuestro README de presentación (recuerda que puedes [**personalizar a tu gusto con html y markdown**]{.hl-yellow}) vamos a crear un [**repositorio de código**]{.hl-yellow}.
-
-. . .
-
-Si ya era importante [**trabajar con proyectos**]{.hl-yellow} en `RStudio`, cuando lo combinamos con Github es aún más crucial que creemos un proyecto antes de subir el código, así que vamos a crear uno de prueba que se llame `repo-github-1`.
-
-. . .
-
-En dicho proyecto vamos a [**crear un script**]{.hl-yellow} (en mi caso llamado **codigo.R**) en el que deberás hacer los siguientes pasos:
-
----
-
-## Repo de código
-
-1. [**Carga**]{.hl-yellow} directamente desde la página del [ISCIII](https://cnecovid.isciii.es/covid19/resources) el archivo llamado `casos_hosp_uci_def_sexo_edad_provres.csv`
-
-```{r}
-#| eval: false
-#| code-fold: true
-# Carga de datos desde ISCIII
-datos_covid <- read_csv(file = "https://cnecovid.isciii.es/covid19/resources/casos_hosp_uci_def_sexo_edad_provres.csv")
-```
-
-. . .
-
-
-2. [**Filtra**]{.hl-yellow} datos de Madrid (`"M"`), de 2020 y con sexo conocido (hombre/mujer). Tras ello quédate con las columnas `fecha`, `sexo`, `grupo_edad`, `num_casos` (ese orden). Por último obtén la suma de casos diarios por fecha y sexo. 
-
-```{r}
-#| eval: false
-#| code-fold: true
-# Depuración
-datos_madrid <-
-  datos_covid |>
-  # Filtrado por Madrid y fecha
-  filter(provincia_iso == "M" & fecha <= "2020-12-31" & sexo != "NC") |> 
-  # Selección de columnas
-  select(provincia_iso:fecha, num_casos) |> 
-  # Resumen de casos diarios por fecha y sexo
-  summarise(num_casos = sum(num_casos), .by = c(fecha, sexo))
-  
-```
-
----
-
-## Repo de código
-
-
-3. [**Exporta el dataset a un csv**]{.hl-yellow} en una carpeta que se llame `exportado`
-
-```{r}
-#| eval: false
-#| code-fold: true
-# Exportamos datos
-write_csv(datos_madrid, file = "./exportado/datos_madrid.csv")
-```
-
-. . .
-
-:::: columns
-::: {.column width="40%"}
-
-4. Crea una [**gráfica de líneas**]{.hl-yellow} que tenga en el eje x fecha, en el eje y casos, con una curva por sexo (gráficas separadas). 
-
-```{r}
-#| eval: false
-#| code-fold: true
-# Gráfica
-ggplot(datos_madrid) +
-  geom_line(aes(x = fecha, y = num_casos, color = sexo),
-            alpha = 0.6, linewidth = 0.7) +
-  scale_color_manual(values = c("#85519D", "#278862")) +
-  facet_wrap(~sexo) +
-  theme_minimal() +
-  theme(legend.position = "bottom")
-```
-:::
-
-::: {.column width="60%"}
-![](./img/ggplot.png){width=380}
-:::
-::::
-
-. . .
-
-5. Tras ello [**exportamos la gráfica**]{.hl-yellow}
-
-```{r}
-#| eval: false
-ggsave(filename = "./exportado/ggplot.png", plot = last_plot(),
-       bg = "white", width = 12, height = 8)
-```
-
----
-
-## Repo de código
-
-¿Cómo [**subimos el proyecto**]{.hl-yellow}? Vamos de nuevo a [**crear un proyecto de cero**]{.hl-yellow}. Antes no hemos hablado de dos campos importantes:
-
-
-:::: columns
-::: {.column width="50%"}
-
-![](./img/repo-1.png){width=460}
-:::
-
-::: {.column width="50%"}
-
-* `Add .gitignore` nos permitirá [**seleccionar el lenguaje**]{.hl-yellow} en el que estará nuestro proyecto para que Github lo entienda al sincronizar (y no actualice cosas que no deba).
-
-* `Choose a license` nos permitirá [**seleccionar la licencia**]{.hl-yellow} que determinará las condiciones en las que otros podrán reusar tu código.
-
-:::
-::::
-
----
-
-## Repo de código
-
-
-:::: columns
-::: {.column width="50%"}
-
-![](./img/repo-1-1.png)
-:::
-
-::: {.column width="50%"}
-
-Si te fijas traer crearlo tenemos solo 3 archivos: el de licencia, el .gitignore y el readme.md (donde deberíamos escribir una guía de uso de lo que hayamos subido)
-:::
-::::
-
-Para subir los archivos vamos a clickar en [**Add file < Upload File**]{.hl-purple} y [**arrastraremos TODOS los archivos**]{.hl-yellow} de la carpeta de nuestro proyecto.
-
----
-
-## Repo de código
-
-Tras la subida de archivos tendremos un cuadro llamado [**Commit changes**]{.hl-purple}
-
-
-![](./img/commit-1.png)
-
-
-Un [**commit**]{.hl-purple} es una [**modificación del repositorio**]{.hl-yellow} con algo que se añade/elimine/modifique, y dicho cuadro es recomendable usarlo para [**resumir en qué consiste la modificación**]{.hl-yellow}, de manera que quede trazado el cambio.
-
----
-
-
-## Repo de código
-
-Haciendo click en el reloj donde indica el [**número de commits**]{.hl-yellow} accedemos al [**histórico de commits (cambios)**]{.hl-yellow} con hora, día, autor, comentarios, etc.
-
-![](./img/commit-reloj.png)
-
----
-
-## Repo de código
-
-Vamos a realizar un [**cambio en nuestro código**]{.hl-yellow}: en tu código local (local --> tu ordenador), en lugar de filtrar por Madrid haz el [**filtro por Barcelona**]{.hl-yellow}, guarda el código y sube en el repositorio el nuevo archivo (con el mismo nombre, Github hará la sobrescritura)
-
-```{r}
-#| eval: false
-#| code-line-numbers: "3"
-datos_bcn <-
-  datos_covid |>
-  filter(provincia_iso == "B" & fecha <= "2020-12-31" & sexo != "NC") |> 
-  select(fecha, sexo, grupo_edad, num_casos) |> 
-  summarise(num_casos = sum(num_casos), .by = c(fecha, sexo))
-```
-
----
-
-## Consulta de commits
-
-![](./img/barcelona_covid.png){width=550}
-
-:::: columns
-::: {.column width="40%"}
-Si ahora [**consultamos el commit**]{.hl-yellow}, al lado hay un número que lo identifica, y clickando en él nos resume los cambios: no solo [**almacena todas las versiones pasadas**]{.hl-yellow} sino que además nos [**muestra las diferencias entre los archivos cambiados**]{.hl-yellow}
-:::
-
-::: {.column width="60%"}
-![](./img/commit_cambio.png)
-:::
-::::
-
----
-
-## Trazabilidad de cambios
-
-
-::: columns
-::: {.column width="72%"}
-![](./img/commit_split.png)
-![](./img/commit_unified.png)
-:::
-
-::: {.column width="28%"}
-Tenemos [**dos modos de visualización**]{.hl-yellow} de los cambios: el modo split nos muestra el antiguo y el nuevo, con las inclusiones en verde y lo que ya no está en rojo; y el modo unified nos muestra todo en un mismo documento.
-:::
-::::
-
----
-
-## Recuperación de commits
-
-![](./img/browse-repo.png)
-
-Github nos permite incluso [**recuperar una versión del pasado**]{.hl-yellow} de nuestro repositorio, haciendo click en el tercer icono del commit.
-
----
-
-## Recuperación de commits
-
-![](./img/branch-commit.png)
-
-Si te fijas ahora al lado de `1 branch` tenemos un [**menú desplegable**]{.hl-yellow} en el que antes ponía `main` y ahora un número identificador del commit. Ya hablaremos de la idea de [**rama (branch)**]{.hl-yellow}
-
----
-
-## Repo con rmd/qmd
-
-
-:::: columns
-::: {.column width="60%"}
-
-Vamos a poner en práctica lo aprendido:
-
-1. Crea un nuevo repositorio en Github (llamado `repo-github-2`) donde habrá alojado con proyecto de R.
-
-2. Crea un proyecto en `RStudio` que se llame (por ejemplo) `proyecto-qmd`
-
-3. Una vez dentro del proyecto en `RStudio` haz click en `File < New File < Quarto Document`
-
-:::
-::: {.column width="40%"}
-![](./img/primer-qmd.png)
-:::
-::::
-
-Deberás tener un documento similar a este: un [**quarto markdown (.qmd)**]{.hl-yellow}, un documento que nos permitirá incluir [**markdown + código**]{.hl-yellow} (puede ser `R` o puede ser `Observable`, `D3`, etc).
-
----
-
-## Repo con rmd/qmd
-
-Este formato es ideal para:
-
-* [**Trabajar en equipo**]{.hl-yellow} construyendo el borrador de una pieza.
-* Tomar [**apuntes o informes**]{.hl-yellow} para uno mismo.
-* [**Presentar**]{.hl-yellow} tu trabajo a tus compañeros.
-
-:::: columns
-::: {.column width="50%"}
-![](./img/prueba-qmd-html.png)
-
-:::
-::: {.column width="50%"}
-Si te fijas ahora nuestro repositorio tiene un archivo con formato `.html`...es decir...
-
-[**¡Es una web!**]{.hl-yellow}
-:::
-::::
+Si todo ha salido bien, se debería abrir tu navegador con el nuevo repositorio de GitHub.
 
 ---
 
@@ -4702,7 +4440,7 @@ Si te fijas ahora nuestro repositorio tiene un archivo con formato `.html`...es 
 
 ¿Cómo [**convertir nuestro repositorio en una web**]{.hl-yellow}?
 
-![](./img/github-pages.png)
+![](./img/github-pages.png){fig-align="center"}
 
 1. Haz click en `Settings`
 2. Ve al apartado `Pages`
@@ -4716,7 +4454,7 @@ Si te fijas ahora nuestro repositorio tiene un archivo con formato `.html`...es 
 
 Si te fijas en la [**parte superior del repositorio**]{.hl-yellow} ahora tenemos un icono naranja, que nos indica que la [**web está en proceso de ser desplegada (deploy)**]{.hl-orange}
 
-![](./img/github-naranja.png)
+![](./img/github-naranja.png){fig-align="center"}
 
 ---
 
@@ -4724,7 +4462,7 @@ Si te fijas en la [**parte superior del repositorio**]{.hl-yellow} ahora tenemos
 
 Pasados unos segundos (dependiendo del tamaño de la web y tu conexión a internet) ese [**icono pasará a ser un check verde**]{.hl-green}: habemus web
 
-![](./img/github-verde.png)
+![](./img/github-verde.png){fig-align="center"}
 
 
 El [**link de la web por defecto**]{.hl-yellow} será `{nombre_usuario}.github.io/{nombre_repo}`
@@ -4734,7 +4472,7 @@ El [**link de la web por defecto**]{.hl-yellow} será `{nombre_usuario}.github.i
 ## Github pages
 
 
-![](./img/github-pages-deploy.png)
+![](./img/github-pages-deploy.png){fig-align="center"}
 
 ¡Un momento! Ahora mismo nuestra web [**no nos está mostrando nuestro .qmd**]{.hl-red}, sino por defecto el [**README.md**]{.hl-yellow}.
 
@@ -4749,7 +4487,7 @@ Para que Github entienda que queremos visualizar ese `.html` que hemos generado 
 Vamos a [**subir a Github ese nuevo proyecto**]{.hl-yellow} con el cambio de nombre (llamado `repo-github-3`) para ver luego las diferencias entre uno y otro
 
 
-![](./img/repo-index-html.png)
+![](./img/repo-index-html.png){fig-align="center"}
 
 ---
 
@@ -4759,7 +4497,7 @@ Si [**repetimos el proceso para hacer una Page**]{.hl-yellow} y esperamos al tic
 
 :::: columns
 ::: {.column width="50%"}
-![](./img/index-html-qmd.png)
+![](./img/index-html-qmd.png){fig-align="center"}
 :::
 ::: {.column width="50%"}
 
@@ -4790,222 +4528,14 @@ Llama al archivo directamente `index.qmd`, súbelo a Github y con un click en Pa
 ::::
 
 
-
 ---
 
-## Uso de Gitkraken
-
-La forma más [**sencilla para trabajar de manera colaborativa**]{.hl-yellow} en Github, y tenerlo sincronizado con nuestro local, es hacer uso de [Gitkraken](https://www.gitkraken.com/download)
-
-
-:::: columns
-::: {.column width="50%"}
-![](img/gitkraken-repo.png)
-:::
-
-::: {.column width="50%"}
-
-Una vez dentro clickamos en el icono de la carpeta (`Repo Management`) y si ya tenemos el repositorio en Github seleccionamos `Clone`, indicando donde queremos clonar (en nuestro local) y que [**repositorio de Github queremos clonar**]{.hl-yellow}.
-
-:::
-::::
-
----
-
-## Uso de Gitkraken
-
-
-:::: columns
-::: {.column width="50%"}
-![](img/view-change.png)
-:::
-
-
-::: {.column width="50%"}
-Una vez clonado, la idea es que cada [**cambio que hagamos en local nos aparecerá en Gitkraken**]{.hl-yellow} como `View changes`.
-
-:::
-::::
-
----
-
-## Uso de Gitkraken
-
-Cuando tengas suficientes cambios como para [**actualizar el repositorio**]{.hl-yellow} (tampoco tiene sentido actualizar con cada edición), verás algo similar a esto con todos los [**commits realizados**]{.hl-yellow}
-
-
-
-:::: columns
-::: {.column width="50%"}
-![](img/stage-all-changes.png)
-:::
-
-
-::: {.column width="50%"}
-Podrás decidir cuáles de los [**commits locales quieres incluir en remoto**]{.hl-yellow}, bien uno a uno o en `Stage all changes` (para todos)
-
-:::
-::::
-
-
----
-
-## Uso de Gitkraken
-
-
-Tras incluir los commits deberás incluir un [**título y descripción del commit**]{.hl-yellow}
-
-![](img/titulo-commit.png)
-
----
-
-## Uso de Gitkraken
-
-
-Tras hacerlo verás que ahora tenemos [**dos iconos separados en una especie de árbol**]{.hl-yellow} (¿te acuerdas de la `branch` o rama?):
-
-* [**Ordenador**]{.hl-purple}: la versión del repositorio que tienes en tu [**ordenador**]{.hl-yellow}.
-
-* [**Logo**]{.hl-purple}: la versión del repositorio que tienes [**subida en remoto**]{.hl-yellow} 
-
-![](img/split-gitkraken.png)
-
----
-
-## Uso de Gitkraken
-
-Mientras eso suceda solo tendrás sincronizado tu ordenador con Gitkraken, pero no con Github. Para ello haremos [**click en Push**]{.hl-yellow} (con `Pull` podrás forzar a tener en local lo mismo que en remoto).
-
-![](img/push-gitkraken.png)
-
----
-
-## Branchs
-
-Como hemos mencionado ya en varias ocasiones, hay un elefante en la habitación que aún no hemos mentado: las [**ramas o branchs**]{.hl-yellow} de un repositorio.
-
-. . .
-
-Imagina que estáis trabajando varios en un proyecto y teneís una versión que funciona pero que queréis [**modificar en paralelo a partir del estado actual**]{.hl-yellow} del repositorio.
-
-. . .
-
-Las [**ramas**]{.hl-yellow} nos permiten partir de una versión común del repositorio y hacer cambios que [**no afecten a los demás**]{.hl-yellow}
-
----
-
-## Branchs
-
-Para [**crear una rama**]{.hl-yellow} a partir del estado actual de repositorio haremos click en `Branch` y le pondremos un nombre
-
-
-![](img/branch-button.png)
-
-Una vez creada verás [**dos iconos**]{.hl-yellow} y un [**menú desplegable**]{.hl-yellow} con las distintas ramas en las que quieres hacer el commit. Imagina que realizas un cambio pero [**no quieres añadirlo a la rama principal**]{.hl-yellow}: puedes hacer el [**commit en tu rama propia en LOCAL**]{.hl-yellow} (lo harás en la rama activa de tu menú de branchs).
-
-
-
-
----
-
-## Branchs
-
-La primera vez te pedirá que escribas la [**rama en REMOTO**]{.hl-yellow} con la quieres sincronizar tu rama en local. [**Consejo**]{.hl-green}: ponle el mismo nombre en remoto que en local.
-
-![](img/name-branch.png)
-
----
-
-## Branchs
-
-Fíjate que ahora tenemos el ordenador y el logo en el mismo sitio. Esto no significa que tengas ambas ramas en tu local, solo que [**Gitkraken tiene ambas sincronizadas**]{.hl-yellow}: clickando en cualquiera de ellas, tus archivos en tu ordenador cambiarán.
-
-![](img/both-branchs.png)
-
----
-
-## Pull request
-
-Lo más recomendable es que [**solo se incorpore de una rama secundaria**]{.hl-yellow} a la rama principal aquello que está [**validado por un/a coordinador/a**]{.hl-yellow} del repositorio, asegurándose que todo funciona correctamente. 
-
-Cuando queramos incluirlo haremos [**click con botón derecho**]{.hl-yellow} en el icono de la rama secundaria y seleccionamos `Start a pull request to origin from...`
-
-![](img/pull-request-menu.png)
-
-
-. . .
-
-Una [**pull request**]{.hl-yellow} será una [**petición al responsable de la rama principal**]{.hl-yellow} para incluir los cambios
-
----
-
-## Pull request
-
-:::: columns
-::: {.column width="60%"}
-![](img/create-pull-request.png)
-:::
-
-::: {.column width="40%"}
-En el cuadro que no se abre deberemos escribir:
-
-* La [**rama**]{.hl-yellow} a la que hacer el `merge` (normalmente la `main`)
-* Título y resumen de los cambios
-* Puedes incluso asignar un [**revisor**]{.hl-yellow} entre los colaboradores del repo.
-* Puedes asignar [**etiquetas**]{.hl-yellow}
-:::
-::::
-
----
-
-## Pull request
-
-Mientras no se acepte aparecerá un [**icono de rama**]{.hl-yellow} y un +1 en Pull Requests
-
-![](img/pending-branch.png){width=500}
-
-. . .
-
-Si somos al mantenedor del repositorio, haciendo click en el menú nos saldrán las ramas que nos quieren hacer hacer `merge`
-
-![](img/menu-pr.png){width=500}
-
----
-
-## Pull request
-
-Al hacer click se abrirá un [**cuadro de Pull Request**]{.hl-yellow} para decidir si
-
-* [**Revisar**]{.hl-yellow} los cambios
-* [**Aprobar**]{.hl-yellow} el `merge`
-* [**Añadir comentarios**]{.hl-yellow} al que ha solicitado el `merge` por si queremos solicitar algún cambio [**antes de ser aprobado**]{.hl-yellow}
-
-![](img/menu-pr-2.png)
----
-
-## Pull request
-
-Tras revisar todo y aprobarlo clickaremos en `Confirm merge`, y tras ello podremos decidir si esa rama que era paralela a la principal la queremos [**eliminar**]{.hl-yellow} o dejar visible a todos (consejo: dejar visible para tene [**trazabilidad**]{.hl-yellow} del proyecto de trabajo)
-
-:::: columns
-::: {.column width="50%"}
-![](img/merge-branch.png)
-:::
-
-::: {.column width="50%"}
-![](img/delete-branch.png)
-:::
-::::
-
-
-# FRIKADAS
+# ENLACES
 
 [**Algunos paquetes o recursos curiosos**]{style="color:#444442;"}
 
 
 ---
-
-## Cosicas curiosas
 
 ### Paletas de colores
 
@@ -5015,15 +4545,11 @@ Tras revisar todo y aprobarlo clickaremos en `Confirm merge`, y tras ello podrem
 
 * [**Paletas inspiradas en el Metropolitan Museum**]{.hl-purple}: de Blake Robert Mills <https://github.com/BlakeRMills/MetBrewer/tree/main>
 
-* [**Paletas inspiradas Taylor Swift**]{.hl-purple}:  <https://github.com/asteves/tayloRswift>
-
 * [**Paletas inspiradas en Harry Potter**]{.hl-purple}: de Alejandro Jiménez <https://github.com/aljrico/harrypotter>
 
 * [**{colorblindcheck}**]{.hl-purple}: detectar paletas de colores aptas [**daltónicos/as**]{.hl-yellow}. De Jakub Nowosad <https://github.com/Nowosad/colorblindcheck>
 
 ---
-
-## Cosicas curiosas
 
 ### Dataviz
 
@@ -5039,8 +4565,6 @@ Tras convertirlo a plotly se puede [**guardar automáticamente en html**]{.hl-ye
 
 
 ---
-
-## Cosicas curiosas
 
 ### Dataviz
 
@@ -5058,9 +4582,6 @@ Tras convertirlo a plotly se puede [**guardar automáticamente en html**]{.hl-ye
 
 ---
 
-
-## Cosicas curiosas
-
 ### Mapas
 
 * [**{mapSpain}**]{.hl-purple}: visualización de [**datos en mapas de España**]{.hl-yellow} en R. De Diego Hernangómez <https://dieghernan.github.io/rpubs/mapSpain_RMadrid/#1>
@@ -5070,7 +4591,6 @@ Tras convertirlo a plotly se puede [**guardar automáticamente en html**]{.hl-ye
 
 ---
 
-## Cosicas curiosas
 
 ### Text mining
 
@@ -5087,7 +4607,6 @@ Tras convertirlo a plotly se puede [**guardar automáticamente en html**]{.hl-ye
 
 ---
 
-## Cosicas curiosas
 
 ### Datos curiosos
 
@@ -5099,14 +4618,11 @@ Tras convertirlo a plotly se puede [**guardar automáticamente en html**]{.hl-ye
 
 * [**{wordle}**]{.hl-purple}: API para acceder a [**datos de WORDLE**]{.hl-yellow}. De coolbutuseless <https://coolbutuseless.github.io/2022/01/04/wordle-v0.1.5-a-package-for-playing-and-helping-solve-wordle-puzzles/>
 
-* [**Canciones de Taylor Swift**]{.hl-purple}: de W. Jake Thompson <https://taylor.wjakethompson.com/>
-
 * [**{chessR}**]{.hl-purple}: API para acceder a datos de [**partidas de ajedrez**]{.hl-yellow}. De Jason Zivkovic <https://github.com/JaseZiv/chessR>
 
 
 ---
 
-## Cosicas curiosas
 
 ### Informes, libros, diapositivas y webs
 
@@ -5125,5 +4641,4 @@ Tras convertirlo a plotly se puede [**guardar automáticamente en html**]{.hl-ye
 
 # ¡GRACIAS!
 
-[**Mi mail javalv09@ucm.es, Twitter [@dadosdelaplace](https://twitter.com/DadosdeLaplace) e Instagram [@javieralvarezliebana](https://www.instagram.com/javieralvarezliebana/) para lo que queráis (dudas, cervezas, ...)**]{style="color:#444442;"}
 

@@ -4,21 +4,21 @@
     "href": "index.html#hola-a-todos",
     "title": "Análisis y visualización de datos con R",
     "section": "¡Hola a todos!",
-    "text": "¡Hola a todos!\n\n\n\n\n\n\nDiego Paúl Huaraca Shagñay, nacido en 1989 en Riobamba.\nIngeniero Matemático. Escuela Politécnica Nacional (2013).\nMáster en Ciencias Actuariales y Financieras. Universidad de Alcalá (2018).\nConsultor Analítico de Riesgo Financiero. BI-SCIENCES (desde 2018).\nDocente del Departamento de Matemática. Escuela Politécnica Nacional (desde 2018).\nConsultor Actuarial. Superintendencia de Bancos (desde 2022)."
+    "text": "¡Hola a todos!\n\n\n\n\n\n\nDiego Paúl Huaraca Shagñay\nIngeniero Matemático. Escuela Politécnica Nacional (2013).\nMáster en Ciencias Actuariales y Financieras. Universidad de Alcalá (2018).\nConsultor Analítico de Riesgo Financiero. BI-SCIENCES (desde 2018).\nDocente del Departamento de Matemática. Escuela Politécnica Nacional (desde 2018).\nConsultor Actuarial. Superintendencia de Bancos (desde 2022)."
   },
   {
     "objectID": "index.html#contenido-del-curso",
     "href": "index.html#contenido-del-curso",
     "title": "Análisis y visualización de datos con R",
     "section": "Contenido del curso",
-    "text": "Contenido del curso\n\n\n\n\n\n\n\nIntroducción al Lenguaje R → {a programar se aprende programando}.\nVisualización de datos → {gráficos estáticos y dinámicos}.\nDesarrollo de aplicativos web → {shiny, shinydashboard}.\nReportería dinámica → {LaTeX, rmarkdown, Quarto}.\nSimuladores de números aleatorios → {base}.\nSimulación de variables aleatorias → {discretas y continuas}."
+    "text": "Contenido del curso\n\n\n\n\n\n\n\nIntroducción al Lenguaje R → {a programar se aprende programando}.\nAnálisis de datos → {tibble, dplyr}.\nVisualización de datos → {gráficos estáticos y dinámicos}.\nDesarrollo de aplicativos web → {shiny, shinydashboard}.\nReportería dinámica → {LaTeX, rmarkdown, Quarto}.\nSimuladores de números aleatorios → {base}."
   },
   {
     "objectID": "index.html#contenido-del-curso-1",
     "href": "index.html#contenido-del-curso-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Contenido del curso",
-    "text": "Contenido del curso\n\n\n\n\n\n\n\nSimulación de vectores aleatorias.\nSimulación de procesos estocásticos → {Markov, Weiner, etc.}.\nMétodos de MonteCarlo → {secuenciales, inferencia estadística}.\nTécnicas de Remuestreo.\nMétodos de MoteCarlo en Cadenas de Markov\nAplicaciones avanzadas → {simulación por eventos}."
+    "text": "Contenido del curso\n\n\n\n\n\n\n\nSimulación de variables aleatorias → {discretas y continuas}.\nSimulación de vectores aleatorias.\nSimulación de procesos estocásticos → {Markov, Weiner, etc.}.\nMétodos de MonteCarlo → {secuenciales, inferencia estadística}.\nTécnicas de Remuestreo.\nMétodos de MoteCarlo en Cadenas de Markov\nAplicaciones avanzadas → {simulación por eventos}."
   },
   {
     "objectID": "index.html#requisitos",
@@ -32,35 +32,35 @@
     "href": "index.html#instalación-de-r",
     "title": "Análisis y visualización de datos con R",
     "section": "Instalación de R",
-    "text": "Instalación de R\n\n\nPaso 1: Ingrese al repositorio CRAN en https://cran.r-project.org/ y seleccione su sistema operativo.\nPaso 2: Para el sistema MacOs basta con hacer click en R-4.X.Y.pkg, y abrirlo una vez descargado. Para el sistema Windows, basta con hacer click en install R for the first time y después en Download R-X.Y.Z for Windows, una vez descargado, abrirlo como cualquier archivo de instalación.\nPaso 3: Abrir el ejecutable e instalar el programa con todas las opciones por defecto.\n\n\n\n\n\n\n\n\n\nImportante\n\n\nSiempre que tengas que descargar algo del repositorio CRAN (ya sea el propio R o un paquete), asegúrate de tener conexión a internet."
+    "text": "Instalación de R\n\nPaso 1: Ingrese al repositorio CRAN en https://cran.r-project.org/ y seleccione su sistema operativo.\nPaso 2: Para el sistema MacOs basta con hacer click en R-4.X.Y.pkg, y abrirlo una vez descargado. Para el sistema Windows, basta con hacer click en install R for the first time y después en Download R-X.Y.Z for Windows, una vez descargado, abrirlo como cualquier archivo de instalación.\nPaso 3: Abrir el ejecutable e instalar el programa con todas las opciones por defecto.\n\n\n\n\n\n\n\n\nImportante\n\n\nSiempre que tengas que descargar algo del repositorio CRAN (ya sea el propio R o un paquete), asegúrate de tener conexión a internet."
   },
   {
     "objectID": "index.html#cran",
     "href": "index.html#cran",
     "title": "Análisis y visualización de datos con R",
     "section": "CRAN",
-    "text": "CRAN\n\n\nEl lenguaje R se distribuye gratuitamente a través del repositorio Comprehensive R Archive Network (CRAN) propiedad de la R Foundation for Statistical Computing.\nEl mantenimiento se encuentra a cargo del grupo R Core Team asistido por una gran cantidad de colaboradores internacionales.\nCon la finalidad de evitar el colapso del mundo estadístico, el repositorio CRAN se refleja en diferentes lugares de todo el mundo"
+    "text": "CRAN\n\nEl lenguaje R se distribuye gratuitamente a través del repositorio Comprehensive R Archive Network (CRAN) propiedad de la R Foundation for Statistical Computing.\nEl mantenimiento se encuentra a cargo del grupo R Core Team asistido por una gran cantidad de colaboradores internacionales.\nCon la finalidad de evitar el colapso del mundo estadístico, el repositorio CRAN se refleja en diferentes lugares de todo el mundo"
   },
   {
     "objectID": "index.html#funcionamiento",
     "href": "index.html#funcionamiento",
     "title": "Análisis y visualización de datos con R",
     "section": "Funcionamiento",
-    "text": "Funcionamiento\n\n\nR es un lenguaje orientado a objetos diseñado en un entorno auténtico bajo el cual esconde su simplicidad y flexibilidad, lo cual permite a sus usuarios añadir funcionalidad mediante la definición de nuevas funciones y operadores.\nR almacena sus variables, datos, funciones y resultados en la memoria activa (RAM) del computador en forma de objetos con un nombre específico y pueden ser modificados o manipulados por el usuario."
+    "text": "Funcionamiento\n\nR es un lenguaje orientado a objetos diseñado en un entorno auténtico bajo el cual esconde su simplicidad y flexibilidad, lo cual permite a sus usuarios añadir funcionalidad mediante la definición de nuevas funciones y operadores.\nR almacena sus variables, datos, funciones y resultados en la memoria activa (RAM) del computador en forma de objetos con un nombre específico y pueden ser modificados o manipulados por el usuario."
   },
   {
     "objectID": "index.html#primera-operación",
     "href": "index.html#primera-operación",
     "title": "Análisis y visualización de datos con R",
     "section": "Primera operación",
-    "text": "Primera operación\n\n\nPara comprobar que se ha instalado correctamente, tras abrir R, deberías ver una pantalla blanca similar a esta.\nEsa «pantalla blanca» se llama consola y podemos hacer un primer uso de ella como si se tratase de una simple calculadora.\n\n\n\n\n\nIdea: a una variable llamada a le asignaremos el valor de 3 (escribiremos el código de abajo en la consola y daremos «enter»)\n\na <- 3"
+    "text": "Primera operación\n\n\nPara comprobar que se ha instalado correctamente, tras abrir R, deberías ver una pantalla blanca similar a esta.\nEsa «pantalla blanca» se llama consola y podemos hacer un primer uso de ella como si se tratase de una simple calculadora.\n\n\n\n\n\n\n\n\n\nIdea: a una variable llamada a le asignaremos el valor de 3 (escribiremos el código de abajo en la consola y daremos «enter»)\n\na <- 3"
   },
   {
     "objectID": "index.html#primera-operación-1",
     "href": "index.html#primera-operación-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Primera operación",
-    "text": "Primera operación\n\n\nPara comprobar que se ha instalado correctamente, tras abrir R, deberías ver una pantalla blanca similar a esta.\nEsa «pantalla blanca» se llama consola y podemos hacer un primer uso de ella como si se tratase de una calculadora.\n\n\n\n\nIdea: definiremos otra variable llamada b y le asignaremos el valor 5\n\na <- 3\nb <- 5\n\n\n\n\n\n\n\n\nFíjate que…\n\n\nEn R usaremos <- como una flecha: la variable a la izquierda de dicha flecha recibe el valor que hay a la derecha (por ejemplo, a <- 3)"
+    "text": "Primera operación\n\n\nPara comprobar que se ha instalado correctamente, tras abrir R, deberías ver una pantalla blanca similar a esta.\nEsa «pantalla blanca» se llama consola y podemos hacer un primer uso de ella como si se tratase de una calculadora.\n\n\n\n\n\n\n\n\nIdea: definiremos otra variable llamada b y le asignaremos el valor 5\n\na <- 3\nb <- 5\n\n\n\n\n\n\n\n\nFíjate que…\n\n\nEn R usaremos <- como una flecha: la variable a la izquierda de dicha flecha recibe el valor que hay a la derecha (por ejemplo, a <- 3)"
   },
   {
     "objectID": "index.html#primera-operación-2",
@@ -74,7 +74,7 @@
     "href": "index.html#instalación-de-rstudio",
     "title": "Análisis y visualización de datos con R",
     "section": "Instalación de RStudio",
-    "text": "Instalación de RStudio\nRStudio será el Bloc de Notas que usaremos para escribir los códigos (lo que se conoce como un IDE: entorno integrado de desarrollo).\n\n\nPaso 1: Ingrese a la página de Posit en https://posit.co/download/rstudio-desktop/ y seleccione la descarga gratuita.\nPaso 2: Selecciona el ejecutable en función al sistema operativo que use.\nPaso 3: Luego de la descarga, se apertura el ejecutable como cualquier otro programa y se instala todo por defecto."
+    "text": "Instalación de RStudio\nRStudio será el Bloc de Notas que usaremos para escribir los códigos (lo que se conoce como un IDE: entorno integrado de desarrollo).\n\nPaso 1: Ingrese a la página de Posit en https://posit.co/download/rstudio-desktop/ y seleccione la descarga gratuita.\nPaso 2: Selecciona el ejecutable en función al sistema operativo que use.\nPaso 3: Luego de la descarga, se apertura el ejecutable como cualquier otro programa y se instala todo por defecto."
   },
   {
     "objectID": "index.html#organización-de-rstudio",
@@ -123,28 +123,49 @@
     "href": "index.html#idea-fundamental-paquetes",
     "title": "Análisis y visualización de datos con R",
     "section": "Idea fundamental: paquetes",
-    "text": "Idea fundamental: paquetes\nUna de las ideas claves de R es el uso de paquetes: códigos que otras personas han implementado para resolver un problema\n\n\n\n\n\n\nInstalación: descargamos los códigos de la web (necesitamos internet) → comprar un libro, solo una vez (por ordenador)\n\n\ninstall.packages(\"ggplot2\")\n\n\n\n\nCarga: indicamos qué paquetes queremos usar cada vez que iniciamos RStudio → traer el libro de la estantería\n\n\nlibrary(ggplot2)"
+    "text": "Idea fundamental: paquetes\nUna de las ideas claves de R es el uso de paquetes: códigos que otras personas han implementado para resolver un problema\n\n\n\n\n\n\nInstalación: descargamos los códigos de la web (necesitamos internet) → comprar un libro, solo una vez (por ordenador)\n\n\ninstall.packages(\"dplyr\")\n\n\n\n\nCarga: indicamos qué paquetes queremos usar cada vez que iniciamos RStudio → traer el libro de la estantería\n\n\nlibrary(dplyr)"
   },
   {
     "objectID": "index.html#idea-fundamental-paquetes-1",
     "href": "index.html#idea-fundamental-paquetes-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Idea fundamental: paquetes",
-    "text": "Idea fundamental: paquetes\n\n\n\n\nUna vez instalado, hay dos manera de usar un paquete (traerlo de la estantería)\n\n\nPaquete entero: con library(), usando el nombre del paquete sin comillas, cargamos en la sesión todo el libro\n\n\nlibrary(ggplot2)\n\n\n\n\nFunciones concretas usando paquete::funcion le índicamos que solo queremos una página concreta de ese libro\n\n\nggplot2::geom_point()"
+    "text": "Idea fundamental: paquetes\n\n\n\n\nUna vez instalado, hay dos manera de usar un paquete (traerlo de la estantería)\n\n\nPaquete entero: con library(), usando el nombre del paquete sin comillas, cargamos en la sesión todo el libro\n\n\nlibrary(dplyr)\n\n\n\n\nFunciones concretas usando paquete::funcion le índicamos que solo queremos una página concreta de ese libro\n\n\ndplyr::rename_if()"
   },
   {
-    "objectID": "index.html#te-vas-equivocar",
-    "href": "index.html#te-vas-equivocar",
+    "objectID": "index.html#paquetes-acceso-a-funciones",
+    "href": "index.html#paquetes-acceso-a-funciones",
     "title": "Análisis y visualización de datos con R",
-    "section": "Te vas equivocar",
-    "text": "Te vas equivocar\nDurante tu aprendizaje va a ser muy habitual que las cosas no salgan a la primera → te vas equivocar. No solo será importante asumirlo sino que es importante leer los mensajes de error para aprender de ellos.\n\n\nMensajes de error: precedidos de «Error in…» y serán aquellos fallos que impidan la ejecución\n\n\n\"a\" + 1 \n\nError in \"a\" + 1: non-numeric argument to binary operator\n\n\n\n\n\nMensajes de warning: precedidos de «Warning in…» son los (posibles) fallos más delicados ya que son incoherencias que no impiden la ejecución\n\n\n# Ejecuta la orden pero el resultado es NaN, **Not A Number**, un valor que no existe\nsqrt(-1)\n\nWarning in sqrt(-1): NaNs produced\n\n\n[1] NaN"
+    "section": "Paquetes: Acceso a funciones",
+    "text": "Paquetes: Acceso a funciones\n\n\n\n\nUna vez instalado y cargado el paquete, es posible indagar sobre las funciones que contiene a partir del comando ls(\"package:_____\").\n\nlibrary(stringr)\nls(\"package:stringr\")\n\n [1] \"%>%\"               \"boundary\"          \"coll\"             \n [4] \"fixed\"             \"fruit\"             \"invert_match\"     \n [7] \"regex\"             \"sentences\"         \"str_c\"            \n[10] \"str_conv\"          \"str_count\"         \"str_detect\"       \n[13] \"str_dup\"           \"str_ends\"          \"str_equal\"        \n[16] \"str_escape\"        \"str_extract\"       \"str_extract_all\"  \n[19] \"str_flatten\"       \"str_flatten_comma\" \"str_glue\"         \n[22] \"str_glue_data\"     \"str_interp\"        \"str_length\"       \n[25] \"str_like\"          \"str_locate\"        \"str_locate_all\"   \n[28] \"str_match\"         \"str_match_all\"     \"str_order\"        \n[31] \"str_pad\"           \"str_rank\"          \"str_remove\"       \n[34] \"str_remove_all\"    \"str_replace\"       \"str_replace_all\"  \n[37] \"str_replace_na\"    \"str_sort\"          \"str_split\"        \n[40] \"str_split_1\"       \"str_split_fixed\"   \"str_split_i\"      \n[43] \"str_squish\"        \"str_starts\"        \"str_sub\"          \n[46] \"str_sub_all\"       \"str_sub<-\"         \"str_subset\"       \n[49] \"str_to_lower\"      \"str_to_sentence\"   \"str_to_title\"     \n[52] \"str_to_upper\"      \"str_trim\"          \"str_trunc\"        \n[55] \"str_unique\"        \"str_view\"          \"str_view_all\"     \n[58] \"str_which\"         \"str_width\"         \"str_wrap\"         \n[61] \"word\"              \"words\""
+  },
+  {
+    "objectID": "index.html#carga-de-múltiples-paquetes",
+    "href": "index.html#carga-de-múltiples-paquetes",
+    "title": "Análisis y visualización de datos con R",
+    "section": "Carga de múltiples paquetes",
+    "text": "Carga de múltiples paquetes\nEn el caso que se requieran cargar varias librerías se puede evitar la ejecución de varias líneas de código a partir de la siguiente opción:\n\n# Listado de paquetes a cargar\npaquetes <- c(\"pckg_1\",\"pckg_2\", ... , \"pckg_n\")\n\n# Sentencia de carga\nlapply(paquetes, FUN=library, character.only=TRUE)\n\n \n\nCon el fin de evitar cargar las librerías más utilizadas al arranque de cada sesión, se puede automatizar esta tarea a partir del archivo .RProfile\n\n# Crea el archivo .RProfile en el caso que no exista\nif(!file.exists(\"~/.Rprofile\")){\n  file.create(\"~/.Rprofile\")\n} \n\n# edita el archivo .RProfile y coloca las instrucciones a ejecutar automáticamente\nfile.edit(\"~/.Rprofile\")"
+  },
+  {
+    "objectID": "index.html#respaldando-información",
+    "href": "index.html#respaldando-información",
+    "title": "Análisis y visualización de datos con R",
+    "section": "Respaldando información",
+    "text": "Respaldando información\nUna tarea importante dentro del análisis de datos es el respaldo de información que se pueda dar sobre ciertos resultados obtenidos, en este punto R consta de dos comandos muy útiles: save y load.\n \n\nEl primero de ellos permite almacenar en disco los objetos que desee el usuario (almacenamiento parcial), dicho comando también puede ser configurado de tal manera que almacenen todos los objetos que se encuentra válidos en el área de trabajo.\n\nvector <- c(1,2,3,4,5)\nmatriz <- matrix(c(1,2,3,4,5,6), ncol = 2)\n\n# Si deseas guardar el objeto \"vector\" con el nombre \"Respaldos\"\nsave(vector, file = \"Respaldos.RData\")\n\n# para el caso que se desee almacenar todos los objetos con el nombre \"TotalRespaldos\" \nsave(list = ls(all = TRUE), file = \"TotalRespaldos.RData\")"
+  },
+  {
+    "objectID": "index.html#mensajes-de-error-o-advertencia",
+    "href": "index.html#mensajes-de-error-o-advertencia",
+    "title": "Análisis y visualización de datos con R",
+    "section": "Mensajes de error o advertencia",
+    "text": "Mensajes de error o advertencia\nDurante tu aprendizaje va a ser muy habitual que las cosas no salgan a la primera → te vas equivocar. No solo será importante asumirlo sino que es importante leer los mensajes de error para aprender de ellos.\n\n\nMensajes de error: precedidos de «Error in…» y serán aquellos fallos que impidan la ejecución\n\n\n\"a\" + 1 \n\nError in \"a\" + 1: non-numeric argument to binary operator\n\n\n\n\n\nMensajes de warning: precedidos de «Warning in…» son los (posibles) fallos más delicados ya que son incoherencias que no impiden la ejecución\n\n\n# Ejecuta la orden pero el resultado es NaN, **Not A Number**, un valor que no existe\nsqrt(-1)\n\nWarning in sqrt(-1): NaNs produced\n\n\n[1] NaN"
   },
   {
     "objectID": "index.html#antes-de-arrancar-scripts",
     "href": "index.html#antes-de-arrancar-scripts",
     "title": "Análisis y visualización de datos con R",
     "section": "Antes de arrancar: scripts",
-    "text": "Antes de arrancar: scripts\n\n\n\n\nUn script será el documento en el que programamos, nuestro archivo .doc (aquí con extensión .R) donde escribiremos las órdenes. Para abrir nuestro primero script, haz click en el menú en File < New File < R Script.\n\n\n\n\n\n\n\n\nCuidado\n\n\nEs importante no abusar de la consola: todo lo que no escribas en un script, cuando cierres, lo habrás perdido."
+    "text": "Antes de arrancar: scripts\n\n\n\n\nUn script será el documento en el que programamos, nuestro blog de notas (aquí con extensión .R) donde escribiremos las órdenes. Para abrir nuestro primero script, haz click en el menú en File < New File < R Script.\n\n\n\n\n\n\n\n\nCuidado\n\n\nEs importante no abusar de la consola: todo lo que no escribas en un script, cuando cierres, lo habrás perdido."
   },
   {
     "objectID": "index.html#ejecutando-el-primer-script",
@@ -172,42 +193,42 @@
     "href": "index.html#celdas-tipos-de-datos",
     "title": "Análisis y visualización de datos con R",
     "section": "Celdas: tipos de datos",
-    "text": "Celdas: tipos de datos\n¿Existen variables más allá de los números?\n\nPiensa por ejemplo en los datos guardados de una persona:\n\n\nLa edad o el peso será un número.\n\n\nedad <- 33\n\n\n\n\nSu nombre será una cadena de texto (string o char).\n\n\nnombre <- \"javi\"\n\n\n\n\nA la pregunta «¿está usted soltero/a?» la respuesta será lo que llamamos una variable lógica (TRUE si está soltero/a o FALSE en otro caso).\n\n\nsoltero <- TRUE\n\n\n\n\nSu fecha de nacimiento será precisamente eso, una fecha."
+    "text": "Celdas: tipos de datos\n¿Existen variables más allá de los números?\n\nPiensa por ejemplo en los datos guardados de una persona:\n\n\nLa edad o el peso será un número.\n\n\nedad <- 33\n\n\n\n\nSu nombre será una cadena de texto (string o char).\n\n\nnombre <- \"Diego\"\n\n\n\n\nA la pregunta «¿está usted soltero/a?» la respuesta será lo que llamamos una variable lógica (TRUE si está soltero/a o FALSE en otro caso).\n\n\nsoltero <- FALSE\n\n\n\n\nSu fecha de nacimiento será precisamente eso, una fecha."
   },
   {
-    "objectID": "index.html#variables-numéricos",
-    "href": "index.html#variables-numéricos",
+    "objectID": "index.html#variables-numéricas",
+    "href": "index.html#variables-numéricas",
     "title": "Análisis y visualización de datos con R",
-    "section": "Variables numéricos",
-    "text": "Variables numéricos\nEl dato más sencillo (ya lo hemos usado) serán las variables numéricas\n\na <- 5\nb <- 2\na + b\n\n \n\nPara saber el tipo de una variable tenemos la función class()\n\nclass(a)\n\n[1] \"numeric\"\n\n\n \n\n\nCon las variables numéricas podemos realizar las operaciones aritméticas de una calculadora: sumar (+), raíz cuadrada (sqrt()), cuadrado (^2), etc.\n\na^2\n\n[1] 25"
+    "section": "Variables numéricas",
+    "text": "Variables numéricas\nEl dato más sencillo (ya lo hemos usado) serán las variables numéricas\n\na <- 5\nb <- 2\na + b\n\n \n\nPara saber el tipo de una variable tenemos la función class()\n\nclass(a)\n\n[1] \"numeric\"\n\n\n \n\n\nCon las variables numéricas podemos realizar las operaciones aritméticas de una calculadora: sumar (+), raíz cuadrada (sqrt()), cuadrado (^2), etc.\n\na^2\n\n[1] 25"
   },
   {
     "objectID": "index.html#variables-de-texto",
     "href": "index.html#variables-de-texto",
     "title": "Análisis y visualización de datos con R",
     "section": "Variables de texto",
-    "text": "Variables de texto\nImagina que además de la edad de una persona queremos guardar su nombre\n\nnombre <- \"Javier\"\nclass(nombre)\n\n[1] \"character\"\n\n\n \n\nLas cadenas de texto son un tipo con el que obviamente no podremos hacer operaciones aritméticas (sí otras operaciones como pegar o localizar patrones).\n\nnombre + 1 # error al sumar número a texto\n\nError in nombre + 1: non-numeric argument to binary operator\n\n\n \n\n\n\n\n\n\n\n\nRecuerda que…\n\n\nLas variables de tipo texto (character o stringr) van siempre entre comillas."
+    "text": "Variables de texto\nImagina que además de la edad de una persona queremos guardar su nombre\n\nnombre <- \"Diego\"\nclass(nombre)\n\n[1] \"character\"\n\n\n \n\nLas cadenas de texto son un tipo con el que obviamente no podremos hacer operaciones aritméticas (sí otras operaciones como pegar o localizar patrones).\n\nnombre + 1 # error al sumar número a texto\n\nError in nombre + 1: non-numeric argument to binary operator\n\n\n \n\n\n\n\n\n\n\n\nRecuerda que…\n\n\nLas variables de tipo texto (character o stringr) van siempre entre comillas."
   },
   {
     "objectID": "index.html#primera-función-paste",
     "href": "index.html#primera-función-paste",
     "title": "Análisis y visualización de datos con R",
     "section": "Primera función: paste",
-    "text": "Primera función: paste\nComo hemos comentado, una función es un trozo de código encapsulado bajo un nombre que depende de unos argumentos de entrada. Nuestra primera función será paste(): dadas dos cadenas de texto nos permite pegarlas.\n\npaste(\"Javier\", \"Álvarez\")\n\n[1] \"Javier Álvarez\"\n\n\n \n\nFíjate que por defecto nos pega las cadenas con un espacio, pero podemos añadir un argumento opcional para indicarle el separador\n\npaste(\"Javier\", \"Álvarez\", sep = \"*\")\n\n[1] \"Javier*Álvarez\""
+    "text": "Primera función: paste\nComo hemos comentado, una función es un trozo de código encapsulado bajo un nombre que depende de unos argumentos de entrada. Nuestra primera función será paste(): dadas dos cadenas de texto nos permite pegarlas.\n\npaste(\"Diego\", \"Huaraca\")\n\n[1] \"Diego Huaraca\"\n\n\n \n\nFíjate que por defecto nos pega las cadenas con un espacio, pero podemos añadir un argumento opcional para indicarle el separador\n\npaste(\"Diego\", \"Huaraca\", sep = \"*\")\n\n[1] \"Diego*Huaraca\"\n\n\n \n\n\n\npaste(\"Diego\", \"Huaraca\", sep = \" - \")\n\n[1] \"Diego - Huaraca\""
   },
   {
     "objectID": "index.html#primera-función-paste-1",
     "href": "index.html#primera-función-paste-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Primera función: paste",
-    "text": "Primera función: paste\n\n\n\n\n¿Cómo saber que argumentos tiene una función? Escribiendo en consola ? paste te aparecerá una ayuda en el panel multiusos.\nEn dicha ayuda podrás ver en su cabecera que argumentos ya tiene asignados por defecto la función\n\n\n\nExiste una función similar llamada paste0() que pega por defecto con sep = \"\" (sin nada).\n\npaste0(\"Javier\", \"Álvarez\")\n\n[1] \"JavierÁlvarez\""
+    "text": "Primera función: paste\n\n\n\n\n¿Cómo saber que argumentos tiene una función? Escribiendo en consola ? paste o alternativamente help(\"paste\") te aparecerá una ayuda en el panel multiusos.\nEn dicha ayuda podrás ver en su cabecera que argumentos ya tiene asignados por defecto la función\n\n\n\nExiste una función similar llamada paste0() que pega por defecto con sep = \"\" (sin nada).\n\npaste0(\"Diego\", \"Huaraca\")\n\n[1] \"DiegoHuaraca\""
   },
   {
     "objectID": "index.html#primer-paquete-glue",
     "href": "index.html#primer-paquete-glue",
     "title": "Análisis y visualización de datos con R",
     "section": "Primer paquete: glue",
-    "text": "Primer paquete: glue\nUna forma más intuitiva de trabajar con textos es usar el paquete {glue}: lo primero que haremos será «comprar el libro» (si nunca lo hemos hecho). Tras ello cargamos el paquete\n\ninstall.packages(\"glue\") # solo la primra vez\nlibrary(glue)\n\n\n\n\n\nCon dicho paquete podemos usar variables dentro de cadenas de texto. Por ejemplo, «la edad es de … años», donde la edad está guardada en una variable.\n\nedad <- 33\nglue(\"La edad es de {edad} años\")\n\nLa edad es de 33 años\n\n\n\n\nDentro de las llaves también podemos ejecutar operaciones\n\nunidades <- \"días\"\nglue(\"La edad es de {edad * 365} {unidades}\")\n\nLa edad es de 12045 días"
+    "text": "Primer paquete: glue\nUna forma más intuitiva de trabajar con textos es usar el paquete {glue}: lo primero que haremos será «comprar el libro» (si nunca lo hemos hecho). Tras ello cargamos el paquete\n\ninstall.packages(\"glue\") # solo la primera vez\nlibrary(glue)\n\n\n\n\n\nCon dicho paquete podemos usar variables dentro de cadenas de texto. Por ejemplo, «la edad es de … años», donde la edad está guardada en una variable.\n\nedad <- 33\nglue(\"La edad es de {edad} años\")\n\nLa edad es de 33 años\n\n\n\n\nDentro de las llaves también podemos ejecutar operaciones\n\nunidades <- \"días\"\nglue(\"La edad es de {edad * 365} {unidades}\")\n\nLa edad es de 12045 días"
   },
   {
     "objectID": "index.html#variables-lógicas",
@@ -221,7 +242,7 @@
     "href": "index.html#condiciones-lógicas",
     "title": "Análisis y visualización de datos con R",
     "section": "Condiciones lógicas",
-    "text": "Condiciones lógicas\nLos valores lógicos suelen ser resultado de evaluar condiciones lógicas. Por ejemplo, imaginemos que queremos comprobar si una persona se llama Javi.\n\nnombre <- \"María\"\n\n \n\nCon el operador lógico == preguntamos sí a la izquierda es igual a la derecha\n\nnombre == \"Javi\"\n\n[1] FALSE\n\n\n\n\nCon su opuesto != preguntamos si es distinto.\n\nnombre != \"Javi\"\n\n[1] TRUE\n\n\n\n\n\n\n\n\n\n\nFíjate que…\n\n\nNo es lo mismo <- (asignación) que una comparación lógica con == (estamos preguntando)."
+    "text": "Condiciones lógicas\nLos valores lógicos suelen ser resultado de evaluar condiciones lógicas. Por ejemplo, imaginemos que queremos comprobar si una persona se llama Julia.\n\nnombre <- \"María\"\n\n \n\nCon el operador lógico == preguntamos sí a la izquierda es igual a la derecha\n\nnombre == \"Julia\"\n\n[1] FALSE\n\n\n\n\nCon su opuesto != preguntamos si es distinto.\n\nnombre != \"Julia\"\n\n[1] TRUE\n\n\n\n\n\n\n\n\n\n\nFíjate que…\n\n\nNo es lo mismo <- (asignación) que una comparación lógica con == (estamos preguntando)."
   },
   {
     "objectID": "index.html#condiciones-lógicas-1",
@@ -242,7 +263,7 @@
     "href": "index.html#variables-de-fecha-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Variables de fecha",
-    "text": "Variables de fecha\nEn dicho paquete tenemos funciones muy útiles para manejar fechas:\n\nCon today() podemos obtener directamente la fecha actual.\n\n\ntoday()\n\n[1] \"2023-05-05\"\n\n\n\n\nCon now() podemos obtener la fecha y hora actual\n\n\nnow()\n\n[1] \"2023-05-05 00:06:14 -05\"\n\n\n\n\n\nCon year(), month() o day() podemos extraer el año, mes y día\n\n\nfecha <- today()\nyear(fecha)\n\n[1] 2023\n\nmonth(fecha)\n\n[1] 5"
+    "text": "Variables de fecha\nEn dicho paquete tenemos funciones muy útiles para manejar fechas:\n\nCon today() podemos obtener directamente la fecha actual.\n\n\ntoday()\n\n[1] \"2023-05-06\"\n\n\n\n\nCon now() podemos obtener la fecha y hora actual\n\n\nnow()\n\n[1] \"2023-05-06 23:51:16 -05\"\n\n\n\n\n\nCon year(), month() o day() podemos extraer el año, mes y día\n\n\nfecha <- today()\nyear(fecha)\n\n[1] 2023\n\nmonth(fecha)\n\n[1] 5"
   },
   {
     "objectID": "index.html#resúmenes-de-paquetes",
@@ -291,21 +312,21 @@
     "href": "index.html#vectores-de-caracteres",
     "title": "Análisis y visualización de datos con R",
     "section": "Vectores de caracteres",
-    "text": "Vectores de caracteres\nUn vector es una concatenación de elementos del mismo tipo, pero no tienen porque ser necesariamente números. Vamos a crear una frase de ejemplo.\n\nfrase <- \"Me llamo Javi\"\nfrase\n\n[1] \"Me llamo Javi\"\n\nlength(frase)\n\n[1] 1\n\n\n \n\nEn el caso anterior no era un vector, era un solo elemento de texto. Para crear un vector debemos usar de nuevo c() y separar elementos entre comas\n\nvector <- c(\"Me\", \"llamo\", \"Javi\")\nvector\n\n[1] \"Me\"    \"llamo\" \"Javi\" \n\nlength(vector)\n\n[1] 3"
+    "text": "Vectores de caracteres\nUn vector es una concatenación de elementos del mismo tipo, pero no tienen porque ser necesariamente números. Vamos a crear una frase de ejemplo.\n\nfrase <- \"Me llamo Diego\"\nfrase\n\n[1] \"Me llamo Diego\"\n\nlength(frase)\n\n[1] 1\n\n\n \n\nEn el caso anterior no era un vector, era un solo elemento de texto. Para crear un vector debemos usar de nuevo c() y separar elementos entre comas\n\nvector <- c(\"Me\", \"llamo\", \"Diego\")\nvector\n\n[1] \"Me\"    \"llamo\" \"Diego\"\n\nlength(vector)\n\n[1] 3"
   },
   {
     "objectID": "index.html#vectores-de-caracteres-1",
     "href": "index.html#vectores-de-caracteres-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Vectores de caracteres",
-    "text": "Vectores de caracteres\n¿Qué sucederá si concatenamos elementos de diferente tipo?\n \n\n\nc(1, 2, \"javi\", \"3\", TRUE)\n\n[1] \"1\"    \"2\"    \"javi\" \"3\"    \"TRUE\"\n\n\nFíjate que como todos tienen que ser del mismo tipo, lo que hace R es convertir todo a texto, violando la integridad del dato\n \n\n\n\nc(3, 4, TRUE, FALSE)\n\n[1] 3 4 1 0\n\n\nEs importante entender que los valores lógicos en realidad están almacenados internamente como 0/1"
+    "text": "Vectores de caracteres\n¿Qué sucederá si concatenamos elementos de diferente tipo?\n \n\n\nc(1, 2, \"Diego\", \"3\", TRUE)\n\n[1] \"1\"     \"2\"     \"Diego\" \"3\"     \"TRUE\" \n\n\nFíjate que como todos tienen que ser del mismo tipo, lo que hace R es convertir todo a texto, violando la integridad del dato\n \n\n\n\nc(3, 4, TRUE, FALSE)\n\n[1] 3 4 1 0\n\n\nEs importante entender que los valores lógicos en realidad están almacenados internamente como 0/1"
   },
   {
     "objectID": "index.html#operaciones-con-vectores",
     "href": "index.html#operaciones-con-vectores",
     "title": "Análisis y visualización de datos con R",
     "section": "Operaciones con vectores",
-    "text": "Operaciones con vectores\nCon los vectores numéricos podemos hacer las mismas operaciones aritméticas que con los números → un número es un vector (de longitud uno)\n\n¿Qué sucederá si sumamos o restamos un valor a un vector?\n\n\n\nx <- c(1, 3, 5, 7)\nx + 1\n\n[1] 2 4 6 8\n\nx * 2\n\n[1]  2  6 10 14\n\n\n\n\n\n\n\n\nCuidado\n\n\nSalvo que indiquemos lo contrario, en R las operaciones con vectores son siempre elemento a elemento"
+    "text": "Operaciones con vectores\nCon los vectores numéricos podemos hacer las mismas operaciones aritméticas que con los números → un número es un vector (de longitud uno)\n\n¿Qué sucederá si sumamos o restamos un valor a un vector?\n\n\n\nx <- c(1, 3, 5, 7)\nx + 1\n\n[1] 2 4 6 8\n\nx * 2\n\n[1]  2  6 10 14\n\n3 * x - 5\n\n[1] -2  4 10 16\n\nx/2\n\n[1] 0.5 1.5 2.5 3.5\n\n\n\n\n\n\n\n\nCuidado\n\n\nSalvo que indiquemos lo contrario, en R las operaciones con vectores son siempre elemento a elemento"
   },
   {
     "objectID": "index.html#operaciones-con-vectores-1",
@@ -333,14 +354,14 @@
     "href": "index.html#operaciones-con-vectores-4",
     "title": "Análisis y visualización de datos con R",
     "section": "Operaciones con vectores",
-    "text": "Operaciones con vectores\nTambién podemos hacer uso de operaciones estadísticas como por ejemplo sum() que, dado un vector, nos devuelve la suma de todos sus elementos.\n\nx <- c(1, -2, 3, -1)\nsum(x)\n\n[1] 1\n\n\n \n¿Qué sucede cuando falta un dato (ausente)?\n\n\nx <- c(1, -2, 3, NA, -1)\nsum(x)\n\n[1] NA\n\n\nPor defecto, si tenemos un dato ausente, la operación también será ausente. Para poder obviar ese dato, usamos un argumento opcional na.rm = TRUE\n\nsum(x, na.rm = TRUE)\n\n[1] 1"
+    "text": "Operaciones con vectores\nTambién podemos hacer uso de operaciones estadísticas como por ejemplo sum() que, dado un vector, nos devuelve la suma de todos sus elementos.\n\nx <- c(4, -2, 3, -7)\nsum(x)\n\n[1] -2\n\n\n \n¿Qué sucede cuando falta un dato (ausente)?\n\n\nx <- c(4, -2, 3, NA, -7)\nsum(x)\n\n[1] NA\n\n\nPor defecto, si tenemos un dato ausente, la operación también será ausente. Para poder obviar ese dato, usamos un argumento opcional na.rm = TRUE\n\nsum(x, na.rm = TRUE)\n\n[1] -2"
   },
   {
     "objectID": "index.html#operaciones-con-vectores-5",
     "href": "index.html#operaciones-con-vectores-5",
     "title": "Análisis y visualización de datos con R",
     "section": "Operaciones con vectores",
-    "text": "Operaciones con vectores\nComo hemos comentado que los valores lógicos son guardados internamente como 0 y 1, podremos usarlos en operaciones aritméticas.\n \nPor ejemplo, si queremos averiguar el número de elementos que cumplen una condición (por ejemplo, menores que 3), los que lo hagan tendrán asignado un 1 (TRUE) y los que no un 0 (FALSE) , por lo que basta con sumar dicho vector lógico para obtener el número de elementos que cumplen\n\nx <- c(2, 4, 6)\nsum(x < 3)\n\n[1] 1"
+    "text": "Operaciones con vectores\nComo hemos comentado que los valores lógicos son guardados internamente como 0 y 1, podremos usarlos en operaciones aritméticas.\n \nPor ejemplo, si queremos averiguar el número o el promedio de elementos que cumplen una condición (por ejemplo, menores que 3), los que lo hagan tendrán asignado un 1 (TRUE) y los que no un 0 (FALSE) , por lo que basta con sumar o promediar dicho vector lógico para obtener el número de elementos que cumplen\n\nx <- c(-5, 7, 2, 4, 6, 9, -1)\n\n# Número de elementos que cumplen la condición\nsum(x < 3)\n\n[1] 3\n\n# Promedio de elementos que cumplen la condición\nmean(x<3)\n\n[1] 0.4285714"
   },
   {
     "objectID": "index.html#operaciones-con-vectores-6",
@@ -354,21 +375,21 @@
     "href": "index.html#operaciones-con-vectores-7",
     "title": "Análisis y visualización de datos con R",
     "section": "Operaciones con vectores",
-    "text": "Operaciones con vectores\nOtras operaciones habituales son la media, mediana, percentiles, etc.\n \n\nMediana: medida de centralidad que consiste en ordenar los elementos y quedarse con el que ocupa la mitad.\n\n\nx <- c(165, 170, 181, 191, 150, 155, 167, 173, 177)\nmedian(x)\n\n[1] 170\n\n\n\n\nPercentiles: medidas de posición (nos dividen en partes iguales los datos).\n\n\nquantile(x) # por defecto percentiles 0-25-50-75-100\n\n  0%  25%  50%  75% 100% \n 150  165  170  177  191 \n\nquantile(x, probs = c(0.1, 0.4, 0.9))\n\n  10%   40%   90% \n154.0 167.6 183.0"
+    "text": "Operaciones con vectores\nOtras operaciones habituales son la media, mediana, percentiles, etc.\n \n\nMediana: medida de centralidad que consiste en ordenar los elementos y quedarse con el que ocupa la mitad.\n\n\nx <- c(165, 170, 181, 191, 150, 155, 167, 173, 177)\nmedian(x)\n\n[1] 170\n\n\n\n\nPercentiles: medidas de posición (nos dividen en partes iguales los datos).\n\n\nquantile(x) # por defecto percentiles 0-25-50-75-100\n\n  0%  25%  50%  75% 100% \n 150  165  170  177  191 \n\nquantile(x, probs = seq(0.1, 0.9, by = 0.1)) # deciles\n\n  10%   20%   30%   40%   50%   60%   70%   80%   90% \n154.0 161.0 165.8 167.6 170.0 172.4 175.4 178.6 183.0"
   },
   {
     "objectID": "index.html#operaciones-con-vectores-8",
     "href": "index.html#operaciones-con-vectores-8",
     "title": "Análisis y visualización de datos con R",
     "section": "Operaciones con vectores",
-    "text": "Operaciones con vectores\nOtra operación muy habitual es la de acceder a elementos del mismo. La forma más sencilla es usar el operador [i] (acceder al elemento i-ésimo)\n\nedades <- c(20, 30, 33, NA, 61) \nedades[3] # accedemos a la edad de la tercera persona \n\n[1] 33\n\n\n\n \nDado que un número no es más que un vector de longitud uno, esta operación también la podemos aplicar usando un vector de índices a seleccionar\n\ny <- c(\"hola\", \"qué\", \"tal\", \"estás\", \"?\")\ny[c(1:2, 4)] # primer, segundo y cuarto elemento\n\n[1] \"hola\"  \"qué\"   \"estás\"\n\n\n\n\n\n\n\n\nTip\n\n\nPara acceder al último, sin preocuparnos de cuál, podemos pasarle como índice la longitud x[length(x)]"
+    "text": "Operaciones con vectores\nOtra operación muy habitual es la de acceder a elementos de un vector. La forma más sencilla es usar el operador [i] (acceder al elemento i-ésimo)\n\nedades <- c(20, 30, 33, NA, 61) \nedades[3] # accedemos a la edad de la tercera persona \n\n[1] 33\n\n\n\n \nDado que un número no es más que un vector de longitud uno, esta operación también la podemos aplicar usando un vector de índices a seleccionar\n\ny <- c(\"hola\", \"qué\", \"tal\", \"estás\", \"?\")\ny[c(1:2, 4)] # primer, segundo y cuarto elemento\n\n[1] \"hola\"  \"qué\"   \"estás\"\n\n\n\n\n\n\n\n\nTip\n\n\nPara acceder al último sin preocuparnos, podemos pasarle como índice la longitud x[length(x)]"
   },
   {
     "objectID": "index.html#operaciones-con-vectores-9",
     "href": "index.html#operaciones-con-vectores-9",
     "title": "Análisis y visualización de datos con R",
     "section": "Operaciones con vectores",
-    "text": "Operaciones con vectores\nOtras veces no querremos seleccionar sino eliminar algunos elementos. Deberemos repetir la misma operación pero con el signo - delante: el operador [-i] no selecciona el elemento i-ésimo del vector sino que lo «des-selecciona»\n\ny\n\n[1] \"hola\"  \"qué\"   \"tal\"   \"estás\" \"?\"    \n\ny[-2]\n\n[1] \"hola\"  \"tal\"   \"estás\" \"?\"    \n\n\n \n\nEn muchas ocasiones los queremos seleccionar o eliminar en base a condiciones lógicas, en función de los valores, así que pasaremos como índice la propia condición (recuerda, x < 2 nos devuelve un vector lógico)\n\nedades <- c(15, 21, 30, 17, 45)\nnombres <- c(\"javi\", \"maría\", \"laura\", \"carla\", \"luis\")\nnombres[edades < 18] # nombres de los menores de edad\n\n[1] \"javi\"  \"carla\""
+    "text": "Operaciones con vectores\nOtras veces queremos eliminar algunos elementos, para ello, se repite la misma operación pero con el signo - delante: el operador [-i] no selecciona el elemento i-ésimo del vector sino que lo «des-selecciona»\n\ny\n\n[1] \"hola\"  \"qué\"   \"tal\"   \"estás\" \"?\"    \n\ny[-2]\n\n[1] \"hola\"  \"tal\"   \"estás\" \"?\"    \n\n\n \n\nEn muchas ocasiones los queremos seleccionar o eliminar en base a condiciones lógicas, en función de los valores, así que pasaremos como índice la propia condición (recuerda, x < 2 nos devuelve un vector lógico)\n\nedades <- c(15, 21, 30, 17, 45)\nnombres <- c(\"Javier\", \"María\", \"Laura\", \"Julia\", \"Luis\")\nnombres[edades < 18] # nombres de los menores de edad\n\n[1] \"Javier\" \"Julia\""
   },
   {
     "objectID": "index.html#operaciones-con-vectores-10",
@@ -396,7 +417,7 @@
     "href": "index.html#segundo-intento-data.frame",
     "title": "Análisis y visualización de datos con R",
     "section": "Segundo intento: data.frame",
-    "text": "Segundo intento: data.frame\nLas matrices tienen el mismo problema que los vectores: si juntamos datos de distinto tipo, se perturba la integridad del dato ya que los convierte\n\nedades <- c(14, 24, NA)\nsoltero <- c(TRUE, NA, FALSE)\nnombres <- c(\"javi\", \"laura\", \"lucía\")\ncbind(edades, soltero, nombres)\n\n     edades soltero nombres\n[1,] \"14\"   \"TRUE\"  \"javi\" \n[2,] \"24\"   NA      \"laura\"\n[3,] NA     \"FALSE\" \"lucía\"\n\n\n \n\nPara poder trabajar con variables de distinto tipo haremos uso de lo que se conoce como data.frame: una variables de igual longitud pero tipo distinto.\n\ntabla <- data.frame(edades, soltero, nombres)\ntabla\n\n  edades soltero nombres\n1     14    TRUE    javi\n2     24      NA   laura\n3     NA   FALSE   lucía"
+    "text": "Segundo intento: data.frame\nLas matrices tienen el mismo problema que los vectores: si juntamos datos de distinto tipo, se perturba la integridad del dato ya que los convierte\n\nedades <- c(14, 24, NA)\nsoltero <- c(TRUE, NA, FALSE)\nnombres <- c(\"javi\", \"laura\", \"lucía\")\ncbind(edades, soltero, nombres)\n\n     edades soltero nombres\n[1,] \"14\"   \"TRUE\"  \"javi\" \n[2,] \"24\"   NA      \"laura\"\n[3,] NA     \"FALSE\" \"lucía\"\n\n\n \n\nPara poder trabajar con variables de distinto tipo haremos uso de lo que se conoce como data.frame: unimos variables de igual longitud pero tipo distinto.\n\ntabla <- data.frame(edades, soltero, nombres)\ntabla\n\n  edades soltero nombres\n1     14    TRUE    javi\n2     24      NA   laura\n3     NA   FALSE   lucía"
   },
   {
     "objectID": "index.html#segundo-intento-data.frame-1",
@@ -410,14 +431,14 @@
     "href": "index.html#segundo-intento-data.frame-2",
     "title": "Análisis y visualización de datos con R",
     "section": "Segundo intento: data.frame",
-    "text": "Segundo intento: data.frame\n¡TENEMOS NUESTRO PRIMER CONJUNTO DE DATOS! Puedes visualizarlo escribiendo su nombre en consola o con View(tabla)"
+    "text": "Segundo intento: data.frame\n¡TENEMOS NUESTRO PRIMER CONJUNTO DE DATOS!\nPuedes visualizarlo escribiendo su nombre en consola o con View(tabla)\n\nNo se recomienda abusar del uso de la función View() dado que se consume demasiada memoria RAM."
   },
   {
     "objectID": "index.html#segundo-intento-data.frame-3",
     "href": "index.html#segundo-intento-data.frame-3",
     "title": "Análisis y visualización de datos con R",
     "section": "Segundo intento: data.frame",
-    "text": "Segundo intento: data.frame\nSi queremos acceder a sus elementos, el operador será similar al de los vectores: ahora tenemos dos índices (filas y columnas, dejando libre la que no usemos)\n\ntabla[2, ]  # segunda fila (todas sus variables)\n\n  edad estado nombre f_nacimiento\n2   24     NA  laura   1992-04-01\n\ntabla[, 3]  # tercera columna (de todos los individuos)\n\n[1] \"javi\"  \"laura\" \"lucía\"\n\ntabla[2, 1]  # primera característica de la segunda persona\n\n[1] 24\n\n\n\n\n\n\n\nTambién tiene ventajas de una «base» de datos : podemos aceder a las variables por su nombre (recomendable ya que las variables pueden cambiar de posición), poniendo el nombre de la tabla seguido del símbolo $ (con el tabulador, nos aparecerá un menú de columnas a elegir)"
+    "text": "Segundo intento: data.frame\nSi queremos acceder a sus elementos, el operador será similar al de los vectores: ahora tenemos dos índices (filas y columnas, dejando libre la que no usemos)\n\ntabla[2, ]  # segunda fila (todas sus variables)\n\n  edad estado nombre f_nacimiento\n2   24     NA  laura   1992-04-01\n\ntabla[, 3]  # tercera columna (de todos los individuos)\n\n[1] \"javi\"  \"laura\" \"lucía\"\n\ntabla[2, 1]  # primera característica de la segunda persona\n\n[1] 24\n\n\n\n\n\n\n\nTambién tiene ventajas de una «base» de datos : podemos acceder a las variables por su nombre (recomendable ya que las variables pueden cambiar de posición), poniendo el nombre de la tabla seguido del símbolo $ (con el tabulador, nos aparecerá un menú de columnas a elegir)"
   },
   {
     "objectID": "index.html#segundo-intento-data.frame-4",
@@ -431,7 +452,7 @@
     "href": "index.html#intento-final-tibble",
     "title": "Análisis y visualización de datos con R",
     "section": "Intento final: tibble",
-    "text": "Intento final: tibble\nLas tablas en formato data.frame tienen algunas limitaciones\nLa principal es que no permite la recursividad: imagina que definimos una base de datos con estaturas y pesos, y queremos una tercera variable con el IMC\n\ndata.frame(\"estatura\" = c(1.7, 1.8, 1.6), \"peso\" = c(80, 75, 70),\n           \"IMC\" = peso / (estatura^2))\n\nError in data.frame(estatura = c(1.7, 1.8, 1.6), peso = c(80, 75, 70), : object 'peso' not found\n\n\n\n \nDe ahora en adelante usaremos el formato tibble (un data.frame mejorado)\n\nlibrary(tibble)\ntibble(\"estatura\" = c(1.7, 1.8, 1.6), \"peso\" = c(80, 75, 70),\n       \"IMC\" = peso / (estatura^2))\n\n# A tibble: 3 × 3\n  estatura  peso   IMC\n     <dbl> <dbl> <dbl>\n1      1.7    80  27.7\n2      1.8    75  23.1\n3      1.6    70  27.3"
+    "text": "Intento final: tibble\nLas tablas en formato data.frame tienen algunas limitaciones\nLa principal es que no permite la recursividad: imagina que definimos una base de datos con estaturas y pesos, y queremos una tercera variable con el IMC\n\ndata.frame(\"estatura\" = c(1.7, 1.8, 1.6), \"peso\" = c(80, 75, 70),\n           \"IMC\" = peso / (estatura^2))\n\nError in eval(expr, envir, enclos): object 'peso' not found\n\n\nDe ahora en adelante usaremos el formato tibble (un data.frame mejorado)\n\nlibrary(tibble)\ntibble(\"estatura\" = c(1.7, 1.8, 1.6), \"peso\" = c(80, 75, 70),\n       \"IMC\" = peso / (estatura^2))\n\n# A tibble: 3 × 3\n  estatura  peso   IMC\n     <dbl> <dbl> <dbl>\n1      1.7    80  27.7\n2      1.8    75  23.1\n3      1.6    70  27.3\n\n\nUn data.frame puede ser tranformado en un tibble por medio del comando as_tibble()."
   },
   {
     "objectID": "index.html#intento-final-tibble-1",
@@ -459,42 +480,42 @@
     "href": "index.html#r-base-vs-tidyverse-1",
     "title": "Análisis y visualización de datos con R",
     "section": "R base vs Tidyverse",
-    "text": "R base vs Tidyverse\nSi conoces algún otro lenguaje de programación (o tienes gente cercana que programa) te extrañará que aún no hayamos hablado de conceptos habituales como\n\nBucles for: repetir un código un número fijo de iteraciones.\nBucles while: repetir un código hasta que se cumpla una condición\nEstructuras if-else: estructuras de control para decidir por donde camina el código en función del valor de las variables.\n\n \n\nY aunque conocer dichas estructuras puede sernos en algún momento interesante, en la mayoría de ocasiones vamos a poder evitarlas (en especial los bucles) → en lugar de trabajar con lo que se conoce como R Base vamos a vertebrar el curso en torno a Tidyverse"
+    "text": "R base vs Tidyverse\nSi conoces algún otro lenguaje de programación (o tienes gente cercana que programa) te extrañará que aún no hayamos hablado de conceptos habituales como\n\nBucles for: repetir un código un número fijo de iteraciones.\nBucles while: repetir un código hasta que se cumpla una condición\nEstructuras if-else: estructuras de control para decidir por donde camina el código en función del valor de las variables.\n\n \n\nY aunque conocer dichas estructuras puede ser en algún momento interesante, en la mayoría de ocasiones vamos a poder evitarlas (en especial los bucles) → en lugar de trabajar con lo que se conoce como R Base vamos a vertebrar el curso en torno a Tidyverse"
   },
   {
     "objectID": "index.html#qué-es-tidyverse",
     "href": "index.html#qué-es-tidyverse",
     "title": "Análisis y visualización de datos con R",
     "section": "¿Qué es tidyverse?",
-    "text": "¿Qué es tidyverse?\n\n\n\n\n\n\n\n{tidyverse} es un «universo» de paquetes para garanatizar un flujo de trabajo (de inicio a fin) eficiente, coherente y lexicográficamente sencillo de entender, basado en la idea de que nuestros datos están limpios y ordenados (tidy)"
+    "text": "¿Qué es tidyverse?\n\n\n\n\n\n\n\n{tidyverse} es un «universo» de paquetes para garantizar un flujo de trabajo (de inicio a fin) eficiente, coherente y lexicográficamente sencillo de entender, basado en la idea de que nuestros datos están limpios y ordenados (tidy)"
   },
   {
     "objectID": "index.html#qué-es-tidyverse-1",
     "href": "index.html#qué-es-tidyverse-1",
     "title": "Análisis y visualización de datos con R",
     "section": "¿Qué es tidyverse?",
-    "text": "¿Qué es tidyverse?\n\n\n\n\n\n{tibble}: optimizando data.frame\n{tidyr}: limpieza de datos\n{readr}: carga datos rectangulares (.csv)\n{dplyr}: gramática para depurar\n{stringr}: manejo de textos\n{ggplot2}: visualización de datos\n{tidymodels}: modelización/predicción\n\n\n\nTambién tenemos los paquetes {purrr} para el manejo de listas, {forcast} para cualitativas, {lubridate} para fechas, {readxl} para importar archivos .xls y .xlsx, {rvest} para web scraping y {rmarkdown} para comunicar resultados."
+    "text": "¿Qué es tidyverse?\n\n\n\n\n\n{tibble}: optimizando data.frame\n{tidyr}: limpieza de datos\n{readr}: carga datos rectangulares (.txt, .csv)\n{dplyr}: gramática para depurar\n{stringr}: manejo de textos\n{ggplot2}: visualización de datos\n{tidymodels}: modelización/predicción\n\n\n\nTambién tenemos los paquetes {purrr} para el manejo de listas, {forcast} para variables cualitativas, {lubridate} para fechas, {readxl} para importar archivos .xls y .xlsx, {rvest} para web scraping y {rmarkdown} para comunicar resultados."
   },
   {
     "objectID": "index.html#qué-es-tidyverse-2",
     "href": "index.html#qué-es-tidyverse-2",
     "title": "Análisis y visualización de datos con R",
     "section": "¿Qué es tidyverse?",
-    "text": "¿Qué es tidyverse?\n\n\n\n\n\n{tibble}: optimizando data.frame\n{tidyr}: limpieza de datos\n{readr}: carga datos rectangulares (.csv)\n{dplyr}: gramática para depurar\n{stringr}: manejo de textos\n{ggplot2}: visualización de datos\n{tidymodels}: modelización/predicción\n\n\n\nTambién tenemos los paquetes {purrr} para el manejo de listas, {forcast} para cualitativas, {lubridate} para fechas, {readxl} para importar archivos .xls y .xlsx, {rvest} para web scraping y {rmarkdown} para comunicar resultados."
+    "text": "¿Qué es tidyverse?\n\n\n\n\n\n{tibble}: optimizando data.frame\n{tidyr}: limpieza de datos\n{readr}: carga datos rectangulares (.txt, .csv)\n{dplyr}: gramática para depurar\n{stringr}: manejo de textos\n{ggplot2}: visualización de datos\n{tidymodels}: modelización/predicción\n\n\n\nTambién tenemos los paquetes {purrr} para el manejo de listas, {forcast} para variables cualitativas, {lubridate} para fechas, {readxl} para importar archivos .xls y .xlsx, {rvest} para web scraping y {rmarkdown} para comunicar resultados."
   },
   {
     "objectID": "index.html#filosofía-base-tidy-data",
     "href": "index.html#filosofía-base-tidy-data",
     "title": "Análisis y visualización de datos con R",
     "section": "Filosofía base: tidy data",
-    "text": "Filosofía base: tidy data\n\nTidy datasets are all alike, but every messy dataset is messy in its own way (Hadley Wickham, Chief Scientist en RStudio)\n\n\nTIDYVERSE\n\nEl universo de paquetes {tidyverse} se basa en la idea introducido por Hadley Wickham (el Dios al que rezo) de estandarizar el formato los datos para\n\n\nsistematizar la depuración\nhacer más sencillo su manipulación.\ncódigo legible"
+    "text": "Filosofía base: tidy data\n\nTidy datasets are all alike, but every messy dataset is messy in its own way (Hadley Wickham, Chief Scientist en RStudio)\n\n\nTIDYVERSE\n\nEl universo de paquetes {tidyverse} se basa en la idea introducida por Hadley Wickham (el Dios al que rezo) de estandarizar el formato de los datos para:\n\n\nsistematizar la depuración\nhacer más sencillo su manipulación.\ncódigo legible"
   },
   {
     "objectID": "index.html#reglas-del-tidy-data",
     "href": "index.html#reglas-del-tidy-data",
     "title": "Análisis y visualización de datos con R",
     "section": "Reglas del tidy data",
-    "text": "Reglas del tidy data\nLo primero por tanto será entender qué son los conjuntos tidydata ya que todo {tidyverse} se basa en que los datos están estandarizados.\n\n\n\n\nCada variable en una única columna\n\n\n\n\nCada individuo en una fila diferente\n\n\n\n\nCada celda con un único valor\n\n\n\n\nCada dataset en un tibble\n\n\n\n\nSi queremos cruzar múltiples tablas debemos tener una columna común"
+    "text": "Reglas del tidy data\nLo primero por tanto será entender qué son los conjuntos tidydata ya que todo {tidyverse} se basa en que los datos están estandarizados.\n\n\n\n\nCada variable en una única columna\n\n\n\n\nCada individuo en una fila diferente\n\n\n\n\nCada celda con un único valor\n\n\n\n\nCada dataset en un tibble\n\n\n\n\nSi queremos cruzar múltiples tablas debemos tener una columna en común (llave de cruce)."
   },
   {
     "objectID": "index.html#tubería-pipe",
@@ -515,70 +536,70 @@
     "href": "index.html#datos-sucios-messy-data",
     "title": "Análisis y visualización de datos con R",
     "section": "Datos SUCIOS: messy data",
-    "text": "Datos SUCIOS: messy data\n¿Pero qué aspecto tienen los datos no tidy? Vamos a cargar la tabla table4a del paquete {tidyr} (ya lo tenemos cargado del entorno tidyverse).\n \n\nlibrary(tidyr)\ntable4a\n\n# A tibble: 3 × 3\n  country     `1999` `2000`\n* <chr>        <int>  <int>\n1 Afghanistan    745   2666\n2 Brazil       37737  80488\n3 China       212258 213766\n\n\n \n¿Qué puede estar fallando?"
+    "text": "Datos SUCIOS: messy data\n¿Pero qué aspecto tienen los datos no tidy?\nVamos a cargar la tabla table4a del paquete {tidyr} (ya lo tenemos cargado del entorno tidyverse).\n \n\n\nlibrary(tidyr)\ntable4a\n\n# A tibble: 3 × 3\n  country     `1999` `2000`\n  <chr>        <dbl>  <dbl>\n1 Afghanistan    745   2666\n2 Brazil       37737  80488\n3 China       212258 213766\n\n\n \n\n\n¿Qué puede estar fallando?"
   },
   {
     "objectID": "index.html#pivotar-pivot_longer",
     "href": "index.html#pivotar-pivot_longer",
     "title": "Análisis y visualización de datos con R",
     "section": "Pivotar: pivot_longer()",
-    "text": "Pivotar: pivot_longer()\n\n\n\ntable4a\n\n# A tibble: 3 × 3\n  country     `1999` `2000`\n* <chr>        <int>  <int>\n1 Afghanistan    745   2666\n2 Brazil       37737  80488\n3 China       212258 213766\n\n\n\n❎ Cada fila representa dos observaciones (1999 y 2000) → las columnas 1999 y 2000 en realidad deberían ser en sí valores de una variable y no nombres de columnas.\n\n\n\nIncluiremos una nueva columna que nos guarde el año y otra que guarde el valor de la variable de interés en cada uno de esos años. Y lo haremos con la función pivot_longer(): pivotaremos la tabla a formato long:\n\ntable4a |> \n  pivot_longer(cols = c(\"1999\", \"2000\"), names_to = \"year\", values_to = \"cases\")\n\n# A tibble: 6 × 3\n  country     year   cases\n  <chr>       <chr>  <int>\n1 Afghanistan 1999     745\n2 Afghanistan 2000    2666\n3 Brazil      1999   37737\n4 Brazil      2000   80488\n5 China       1999  212258\n6 China       2000  213766"
+    "text": "Pivotar: pivot_longer()\n\n\n\ntable4a\n\n# A tibble: 3 × 3\n  country     `1999` `2000`\n  <chr>        <dbl>  <dbl>\n1 Afghanistan    745   2666\n2 Brazil       37737  80488\n3 China       212258 213766\n\n\n\n❎ Cada fila representa dos observaciones (1999 y 2000) → las columnas 1999 y 2000 en realidad deberían ser en sí valores de una variable y no nombres de columnas.\n\n\n\nIncluiremos una nueva columna que nos guarde el año y otra que guarde el valor de la variable de interés en cada uno de esos años. Y lo haremos con la función pivot_longer(): pivotaremos la tabla a formato long:\n\ntable4a |> \n  pivot_longer(cols = c(\"1999\", \"2000\"), names_to = \"year\", values_to = \"cases\")\n\n# A tibble: 6 × 3\n  country     year   cases\n  <chr>       <chr>  <dbl>\n1 Afghanistan 1999     745\n2 Afghanistan 2000    2666\n3 Brazil      1999   37737\n4 Brazil      2000   80488\n5 China       1999  212258\n6 China       2000  213766"
   },
   {
     "objectID": "index.html#pivotar-pivot_longer-1",
     "href": "index.html#pivotar-pivot_longer-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Pivotar: pivot_longer()",
-    "text": "Pivotar: pivot_longer()\n\n\n\ntable4a |> \n  pivot_longer(cols = c(\"1999\", \"2000\"),\n               names_to = \"year\",\n               values_to = \"cases\")\n\n# A tibble: 6 × 3\n  country     year   cases\n  <chr>       <chr>  <int>\n1 Afghanistan 1999     745\n2 Afghanistan 2000    2666\n3 Brazil      1999   37737\n4 Brazil      2000   80488\n5 China       1999  212258\n6 China       2000  213766\n\n\n\n\n\n\n \n\ncols: nombre de las variables a pivotar\nnames_to: nombre de la nueva variable a la quemandamos la cabecera de la tabla (los nombres).\nvalues_to: nombre de la nueva variable a la que vamos a mandar los datos."
+    "text": "Pivotar: pivot_longer()\n\n\n\ntable4a |> \n  pivot_longer(cols = c(\"1999\", \"2000\"),\n               names_to = \"year\",\n               values_to = \"cases\")\n\n# A tibble: 6 × 3\n  country     year   cases\n  <chr>       <chr>  <dbl>\n1 Afghanistan 1999     745\n2 Afghanistan 2000    2666\n3 Brazil      1999   37737\n4 Brazil      2000   80488\n5 China       1999  212258\n6 China       2000  213766\n\n\n\n\n\n\n \n\ncols: nombre de las variables a pivotar\nnames_to: nombre de la nueva variable a la que mandamos la cabecera de la tabla (los nombres).\nvalues_to: nombre de la nueva variable a la que vamos a mandar los datos."
   },
   {
     "objectID": "index.html#datos-sucios-messy-data-1",
     "href": "index.html#datos-sucios-messy-data-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Datos SUCIOS: messy data",
-    "text": "Datos SUCIOS: messy data\nVeamos otro ejemplo con la tabla table2\n \n\ntable2\n\n# A tibble: 12 × 4\n   country      year type            count\n   <chr>       <int> <chr>           <int>\n 1 Afghanistan  1999 cases             745\n 2 Afghanistan  1999 population   19987071\n 3 Afghanistan  2000 cases            2666\n 4 Afghanistan  2000 population   20595360\n 5 Brazil       1999 cases           37737\n 6 Brazil       1999 population  172006362\n 7 Brazil       2000 cases           80488\n 8 Brazil       2000 population  174504898\n 9 China        1999 cases          212258\n10 China        1999 population 1272915272\n11 China        2000 cases          213766\n12 China        2000 population 1280428583\n\n\n \n¿Qué puede estar fallando?"
+    "text": "Datos SUCIOS: messy data\nVeamos otro ejemplo con la tabla table2\n \n\ntable2\n\n# A tibble: 12 × 4\n   country      year type            count\n   <chr>       <dbl> <chr>           <dbl>\n 1 Afghanistan  1999 cases             745\n 2 Afghanistan  1999 population   19987071\n 3 Afghanistan  2000 cases            2666\n 4 Afghanistan  2000 population   20595360\n 5 Brazil       1999 cases           37737\n 6 Brazil       1999 population  172006362\n 7 Brazil       2000 cases           80488\n 8 Brazil       2000 population  174504898\n 9 China        1999 cases          212258\n10 China        1999 population 1272915272\n11 China        2000 cases          213766\n12 China        2000 population 1280428583\n\n\n \n¿Qué puede estar fallando?"
   },
   {
     "objectID": "index.html#pivotar-pivot_wider",
     "href": "index.html#pivotar-pivot_wider",
     "title": "Análisis y visualización de datos con R",
     "section": "Pivotar: pivot_wider()",
-    "text": "Pivotar: pivot_wider()\n\n\n\n\n# A tibble: 12 × 4\n   country      year type            count\n   <chr>       <int> <chr>           <int>\n 1 Afghanistan  1999 cases             745\n 2 Afghanistan  1999 population   19987071\n 3 Afghanistan  2000 cases            2666\n 4 Afghanistan  2000 population   20595360\n 5 Brazil       1999 cases           37737\n 6 Brazil       1999 population  172006362\n 7 Brazil       2000 cases           80488\n 8 Brazil       2000 population  174504898\n 9 China        1999 cases          212258\n10 China        1999 population 1272915272\n11 China        2000 cases          213766\n12 China        2000 population 1280428583\n\n\n\n❎ Cada observación está dividido en dos filas → los registros con el mismo año deberían ser el mismo\n\n\n\nLo que haremos será lo opuesto: con pivot_wider() ensancharemos la tabla\n\ntable2 |>  pivot_wider(names_from = type, values_from = count)\n\n# A tibble: 6 × 4\n  country      year  cases population\n  <chr>       <int>  <int>      <int>\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583"
+    "text": "Pivotar: pivot_wider()\n\n\n\n\n# A tibble: 12 × 4\n   country      year type            count\n   <chr>       <dbl> <chr>           <dbl>\n 1 Afghanistan  1999 cases             745\n 2 Afghanistan  1999 population   19987071\n 3 Afghanistan  2000 cases            2666\n 4 Afghanistan  2000 population   20595360\n 5 Brazil       1999 cases           37737\n 6 Brazil       1999 population  172006362\n 7 Brazil       2000 cases           80488\n 8 Brazil       2000 population  174504898\n 9 China        1999 cases          212258\n10 China        1999 population 1272915272\n11 China        2000 cases          213766\n12 China        2000 population 1280428583\n\n\n\n❎ Cada observación está dividido en dos filas → los registros con el mismo año deberían ser el mismo\n\n\n\nLo que haremos será lo opuesto: con pivot_wider() ensancharemos la tabla\n\ntable2 |>  pivot_wider(names_from = type, values_from = count)\n\n# A tibble: 6 × 4\n  country      year  cases population\n  <chr>       <dbl>  <dbl>      <dbl>\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583"
   },
   {
     "objectID": "index.html#datos-sucios-messy-data-2",
     "href": "index.html#datos-sucios-messy-data-2",
     "title": "Análisis y visualización de datos con R",
     "section": "Datos SUCIOS: messy data",
-    "text": "Datos SUCIOS: messy data\nVeamos otro ejemplo con la tabla table3\n \n\ntable3\n\n# A tibble: 6 × 3\n  country      year rate             \n* <chr>       <int> <chr>            \n1 Afghanistan  1999 745/19987071     \n2 Afghanistan  2000 2666/20595360    \n3 Brazil       1999 37737/172006362  \n4 Brazil       2000 80488/174504898  \n5 China        1999 212258/1272915272\n6 China        2000 213766/1280428583\n\n\n \n¿Qué puede estar fallando?"
+    "text": "Datos SUCIOS: messy data\nVeamos otro ejemplo con la tabla table3\n \n\ntable3\n\n# A tibble: 6 × 3\n  country      year rate             \n  <chr>       <dbl> <chr>            \n1 Afghanistan  1999 745/19987071     \n2 Afghanistan  2000 2666/20595360    \n3 Brazil       1999 37737/172006362  \n4 Brazil       2000 80488/174504898  \n5 China        1999 212258/1272915272\n6 China        2000 213766/1280428583\n\n\n \n¿Qué puede estar fallando?"
   },
   {
     "objectID": "index.html#separar-separate",
     "href": "index.html#separar-separate",
     "title": "Análisis y visualización de datos con R",
     "section": "Separar: separate()",
-    "text": "Separar: separate()\n\n\n\ntable3\n\n# A tibble: 6 × 3\n  country      year rate             \n* <chr>       <int> <chr>            \n1 Afghanistan  1999 745/19987071     \n2 Afghanistan  2000 2666/20595360    \n3 Brazil       1999 37737/172006362  \n4 Brazil       2000 80488/174504898  \n5 China        1999 212258/1272915272\n6 China        2000 213766/1280428583\n\n\n\n❎ Cada celda contiene varios valores\n\n\n\nLo que haremos será hacer uso de la función separate() para mandar separar cada valor a una columna diferente.\n\ntable3 |> separate(rate, into = c(\"cases\", \"pop\"))\n\n# A tibble: 6 × 4\n  country      year cases  pop       \n  <chr>       <int> <chr>  <chr>     \n1 Afghanistan  1999 745    19987071  \n2 Afghanistan  2000 2666   20595360  \n3 Brazil       1999 37737  172006362 \n4 Brazil       2000 80488  174504898 \n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583"
+    "text": "Separar: separate()\n\n\n\ntable3\n\n# A tibble: 6 × 3\n  country      year rate             \n  <chr>       <dbl> <chr>            \n1 Afghanistan  1999 745/19987071     \n2 Afghanistan  2000 2666/20595360    \n3 Brazil       1999 37737/172006362  \n4 Brazil       2000 80488/174504898  \n5 China        1999 212258/1272915272\n6 China        2000 213766/1280428583\n\n\n\n❎ Cada celda contiene varios valores\n\n\n\nLo que haremos será hacer uso de la función separate() para mandar a separar cada valor a una columna diferente.\n\ntable3 |> separate(rate, into = c(\"cases\", \"pop\"))\n\n# A tibble: 6 × 4\n  country      year cases  pop       \n  <chr>       <dbl> <chr>  <chr>     \n1 Afghanistan  1999 745    19987071  \n2 Afghanistan  2000 2666   20595360  \n3 Brazil       1999 37737  172006362 \n4 Brazil       2000 80488  174504898 \n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583"
   },
   {
     "objectID": "index.html#separar-separate-1",
     "href": "index.html#separar-separate-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Separar: separate()",
-    "text": "Separar: separate()\n\ntable3 |> separate(rate, into = c(\"cases\", \"pop\"))\n\n# A tibble: 6 × 4\n  country      year cases  pop       \n  <chr>       <int> <chr>  <chr>     \n1 Afghanistan  1999 745    19987071  \n2 Afghanistan  2000 2666   20595360  \n3 Brazil       1999 37737  172006362 \n4 Brazil       2000 80488  174504898 \n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\nFíjate que los datos, aunque los ha separado, los ha mantenido como texto cuando en realidad deberían ser variables numéricas. Para ello podemos añadir el argumento opcional convert = TRUE\n\n\ntable3 |> separate(rate, into = c(\"cases\", \"pop\"), convert = TRUE)\n\n# A tibble: 6 × 4\n  country      year  cases        pop\n  <chr>       <int>  <int>      <int>\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583"
+    "text": "Separar: separate()\n\ntable3 |> separate(rate, into = c(\"cases\", \"pop\"))\n\n# A tibble: 6 × 4\n  country      year cases  pop       \n  <chr>       <dbl> <chr>  <chr>     \n1 Afghanistan  1999 745    19987071  \n2 Afghanistan  2000 2666   20595360  \n3 Brazil       1999 37737  172006362 \n4 Brazil       2000 80488  174504898 \n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583\n\n\nFíjate que los datos, aunque los ha separado, los ha mantenido como texto cuando en realidad deberían ser variables numéricas. Para ello podemos añadir el argumento opcional convert = TRUE\n\n\ntable3 |> separate(rate, into = c(\"cases\", \"pop\"), convert = TRUE)\n\n# A tibble: 6 × 4\n  country      year  cases        pop\n  <chr>       <dbl>  <int>      <int>\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583"
   },
   {
     "objectID": "index.html#datos-sucios-messy-data-3",
     "href": "index.html#datos-sucios-messy-data-3",
     "title": "Análisis y visualización de datos con R",
     "section": "Datos SUCIOS: messy data",
-    "text": "Datos SUCIOS: messy data\nVeamos el último ejemplo con la tabla table5\n \n\ntable5\n\n# A tibble: 6 × 4\n  country     century year  rate             \n* <chr>       <chr>   <chr> <chr>            \n1 Afghanistan 19      99    745/19987071     \n2 Afghanistan 20      00    2666/20595360    \n3 Brazil      19      99    37737/172006362  \n4 Brazil      20      00    80488/174504898  \n5 China       19      99    212258/1272915272\n6 China       20      00    213766/1280428583\n\n\n \n¿Qué puede estar fallando?"
+    "text": "Datos SUCIOS: messy data\nVeamos el último ejemplo con la tabla table5\n \n\ntable5\n\n# A tibble: 6 × 4\n  country     century year  rate             \n  <chr>       <chr>   <chr> <chr>            \n1 Afghanistan 19      99    745/19987071     \n2 Afghanistan 20      00    2666/20595360    \n3 Brazil      19      99    37737/172006362  \n4 Brazil      20      00    80488/174504898  \n5 China       19      99    212258/1272915272\n6 China       20      00    213766/1280428583\n\n\n \n¿Qué puede estar fallando?"
   },
   {
     "objectID": "index.html#unir-unite",
     "href": "index.html#unir-unite",
     "title": "Análisis y visualización de datos con R",
     "section": "Unir unite()",
-    "text": "Unir unite()\n\n\n\ntable5\n\n# A tibble: 6 × 4\n  country     century year  rate             \n* <chr>       <chr>   <chr> <chr>            \n1 Afghanistan 19      99    745/19987071     \n2 Afghanistan 20      00    2666/20595360    \n3 Brazil      19      99    37737/172006362  \n4 Brazil      20      00    80488/174504898  \n5 China       19      99    212258/1272915272\n6 China       20      00    213766/1280428583\n\n\n\n❎ Tenemos mismos valores divididos en dos columnas\n\n\n\nUsaremos unite() para unir los valores de siglo y año en una misma columna\n\ntable5 |> unite(col = year_completo, century, year, sep = \"\")\n\n# A tibble: 6 × 3\n  country     year_completo rate             \n  <chr>       <chr>         <chr>            \n1 Afghanistan 1999          745/19987071     \n2 Afghanistan 2000          2666/20595360    \n3 Brazil      1999          37737/172006362  \n4 Brazil      2000          80488/174504898  \n5 China       1999          212258/1272915272\n6 China       2000          213766/1280428583"
+    "text": "Unir unite()\n\n\n\ntable5\n\n# A tibble: 6 × 4\n  country     century year  rate             \n  <chr>       <chr>   <chr> <chr>            \n1 Afghanistan 19      99    745/19987071     \n2 Afghanistan 20      00    2666/20595360    \n3 Brazil      19      99    37737/172006362  \n4 Brazil      20      00    80488/174504898  \n5 China       19      99    212258/1272915272\n6 China       20      00    213766/1280428583\n\n\n\n❎ Tenemos mismos valores divididos en dos columnas\n\n\n\nUsaremos unite() para unir los valores de siglo y año en una misma columna\n\ntable5 |> unite(col = year_completo, century, year, sep = \"\")\n\n# A tibble: 6 × 3\n  country     year_completo rate             \n  <chr>       <chr>         <chr>            \n1 Afghanistan 1999          745/19987071     \n2 Afghanistan 2000          2666/20595360    \n3 Brazil      1999          37737/172006362  \n4 Brazil      2000          80488/174504898  \n5 China       1999          212258/1272915272\n6 China       2000          213766/1280428583"
   },
   {
     "objectID": "index.html#tu-turno-4",
@@ -606,49 +627,21 @@
     "href": "index.html#filtrar-filas-filter-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Filtrar filas: filter()",
-    "text": "Filtrar filas: filter()\n\n\n\ndatos |>\n  filtro(condicion)\n\n\n\nstarwars |>\n  filter(condicion)\n\n\n\n¿Cómo harías… filtrar los personajes de ojos marrones?"
+    "text": "Filtrar filas: filter()\n\n\n\ndatos |>\n  filtro(condicion)\n\n\n\nstarwars |>\n  filter(condicion)\n\n\n\n¿Cómo harías… filtrar los personajes de ojos marrones?\n\n\nstarwars |>  dplyr::filter(eye_color == \"brown\")\n\n¿Cómo harías… filtrar los personajes que no tienen ojos marrones?\n\n\n\nstarwars |> filter(eye_color != \"brown\")\n\n¿Cómo harías… filtrar los personajes que tengan los ojos marrones o azules?\n\n\n\nstarwars |> filter(eye_color %in% c(\"blue\", \"brown\"))\n\n\n\n\n\n\n\nImportante\n\n\nRecuerda que dentro de filter() debe ir siempre algo que devuelva un vector de valores lógicos."
   },
   {
     "objectID": "index.html#filtrar-filas-filter-2",
     "href": "index.html#filtrar-filas-filter-2",
     "title": "Análisis y visualización de datos con R",
     "section": "Filtrar filas: filter()",
-    "text": "Filtrar filas: filter()\n\n\n\ndatos |>\n  filtro(condicion)\n\n\n\nstarwars |>\n  filter(condicion)\n\n\n\n¿Cómo harías… filtrar los personajes que no tienen ojos marrones?"
-  },
-  {
-    "objectID": "index.html#filtrar-filas-filter-3",
-    "href": "index.html#filtrar-filas-filter-3",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Filtrar filas: filter()",
-    "text": "Filtrar filas: filter()\n\n\n\ndatos |>\n  filtro(condicion)\n\n\n\nstarwars |>\n  filter(condicion)\n\n\n\n¿Cómo harías… filtrar los personajes que tengan los ojos marrones o azules?"
-  },
-  {
-    "objectID": "index.html#filtrar-filas-filter-4",
-    "href": "index.html#filtrar-filas-filter-4",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Filtrar filas: filter()",
-    "text": "Filtrar filas: filter()\n\n\n\ndatos |>\n  filtro(condicion)\n\n\n\nstarwars |>\n  filter(condicion)\n\n\n\n¿Cómo harías… filtrar los personajes que midan entre 120 y 160 cm?"
-  },
-  {
-    "objectID": "index.html#filtrar-filas-filter-5",
-    "href": "index.html#filtrar-filas-filter-5",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Filtrar filas: filter()",
-    "text": "Filtrar filas: filter()\n\n\n\ndatos |>\n  filtro(condicion)\n\n\n\nstarwars |>\n  filter(condicion)\n\n\n\n¿Cómo harías… filtrar los personajes que tengan ojos y no sean humanos?"
-  },
-  {
-    "objectID": "index.html#filtrar-filas-filter-6",
-    "href": "index.html#filtrar-filas-filter-6",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Filtrar filas: filter()",
-    "text": "Filtrar filas: filter()\n\n\n\ndatos |>\n  filtro(condicion)\n\n\n\nstarwars |>\n  filter(condicion)\n\n\n\n¿Cómo harías… filtrar los personajes que tengan ojos y no sean humanos, o que tengan más de 60 años?"
+    "text": "Filtrar filas: filter()\n\n\n\ndatos |>\n  filtro(condicion)\n\n\n\nstarwars |>\n  filter(condicion)\n\n\n\n¿Cómo harías… filtrar los personajes que midan entre 120 y 160 cm?\n\n\nstarwars |> filter(between(height, 120, 160))\n\n¿Cómo harías… filtrar los personajes que tengan ojos y no sean humanos?\n\n\n\nstarwars |>\n   filter(eye_color == \"brown\" & species != \"Human\")\n\n¿Cómo harías… filtrar los personajes que tengan ojos y no sean humanos, o que tengan más de 60 años?\n\n\n\nstarwars |>\n  filter((eye_color == \"brown\" & species != \"Human\") | birth_year > 60)"
   },
   {
     "objectID": "index.html#eliminar-ausentes-drop_na",
     "href": "index.html#eliminar-ausentes-drop_na",
     "title": "Análisis y visualización de datos con R",
     "section": "Eliminar ausentes: drop_na()",
-    "text": "Eliminar ausentes: drop_na()\n\n\n\ndatos |>\n  retirar_ausentes(var1, var2, ...)\n\n\n\nstarwars |>\n  drop_na(var1, var2, ...)\n\n\n\nHay un filtro especial que es el de retirar los ausentes, para lo cual podemos usar filter(is.na(variable)) o directamente drop_na(): si no indicamos variable, elimina registros con ausente en cualquiera de las variables.\n\n \n\n\n\nstarwars |> drop_na(mass, height)\n\n\n\n# A tibble: 7 × 4\n  name                mass height hair_color \n  <chr>              <dbl>  <int> <chr>      \n1 Luke Skywalker        77    172 blond      \n2 C-3PO                 75    167 <NA>       \n3 R2-D2                 32     96 <NA>       \n4 Darth Vader          136    202 none       \n5 Leia Organa           49    150 brown      \n6 Owen Lars            120    178 brown, grey\n7 Beru Whitesun lars    75    165 brown      \n\n\n\n\nstarwars |> drop_na()\n\n\n\n# A tibble: 6 × 4\n  name              mass height hair_color   \n  <chr>            <dbl>  <int> <chr>        \n1 Luke Skywalker      77    172 blond        \n2 Obi-Wan Kenobi      77    182 auburn, white\n3 Anakin Skywalker    84    188 blond        \n4 Chewbacca          112    228 brown        \n5 Wedge Antilles      77    170 brown        \n6 Darth Maul          80    175 none"
+    "text": "Eliminar ausentes: drop_na()\n\n\n\ndatos |>\n  retirar_ausentes(var1, var2, ...)\n\n\n\nstarwars |>\n  drop_na(var1, var2, ...)\n\n\n\nHay un filtro especial que es el de retirar los ausentes, para lo cual podemos usar filter(is.na(variable)) o directamente drop_na(): si no indicamos variable, elimina registros con ausente en cualquiera de las variables.\n\n \n\n\n\nstarwars |> drop_na(mass, height)\n\n\n\n# A tibble: 7 × 4\n  name                mass height hair_color \n  <chr>              <dbl>  <int> <chr>      \n1 Luke Skywalker        77    172 blond      \n2 C-3PO                 75    167 <NA>       \n3 R2-D2                 32     96 <NA>       \n4 Darth Vader          136    202 none       \n5 Leia Organa           49    150 brown      \n6 Owen Lars            120    178 brown, grey\n7 Beru Whitesun lars    75    165 brown      \n\n\n\n\nstarwars |> drop_na()\n\n\n\n# A tibble: 7 × 4\n  name                mass height hair_color   \n  <chr>              <dbl>  <int> <chr>        \n1 Luke Skywalker        77    172 blond        \n2 Darth Vader          136    202 none         \n3 Leia Organa           49    150 brown        \n4 Owen Lars            120    178 brown, grey  \n5 Beru Whitesun lars    75    165 brown        \n6 Biggs Darklighter     84    183 black        \n7 Obi-Wan Kenobi        77    182 auburn, white"
   },
   {
     "objectID": "index.html#tu-turno-5",
@@ -662,7 +655,7 @@
     "href": "index.html#rebanadas-de-datos-slice",
     "title": "Análisis y visualización de datos con R",
     "section": "Rebanadas de datos: slice()",
-    "text": "Rebanadas de datos: slice()\n\n\n\ndatos |> rebanadas(posiciones)\n\n\n\nstarwars |> slice(posiciones)\n\n\n\nNormalmente filtraremos condición pero a veces nos puede interesar filtrar por posición: con slice(posiciones) podremos seleccionar filas concreetas pasando como argumento un vector de índices\n\n\n\n\nstarwars |> slice(1)\n\n\n\n# A tibble: 1 × 4\n  name           height  mass hair_color\n  <chr>           <int> <dbl> <chr>     \n1 Luke Skywalker    172    77 blond     \n\n\n\n\nstarwars |> slice(7:9)\n\n\n\n# A tibble: 3 × 4\n  name               height  mass hair_color\n  <chr>               <int> <dbl> <chr>     \n1 Beru Whitesun lars    165    75 brown     \n2 R5-D4                  97    32 <NA>      \n3 Biggs Darklighter     183    84 black     \n\n\n\n\n\n\n\nstarwars |> slice(c(2, 7, 10, 31))\n\n\n\n# A tibble: 4 × 8\n  name           height  mass hair_color   skin_color eye_color birth_year sex  \n  <chr>           <int> <dbl> <chr>        <chr>      <chr>          <dbl> <chr>\n1 C-3PO             167    75 <NA>         gold       yellow           112 none \n2 Beru Whitesun…    165    75 brown        light      blue              47 fema…\n3 Obi-Wan Kenobi    182    77 auburn, whi… fair       blue-gray         57 male \n4 Qui-Gon Jinn      193    89 brown        fair       blue              92 male"
+    "text": "Rebanadas de datos: slice()\n\n\n\ndatos |> rebanadas(posiciones)\n\n\n\nstarwars |> slice(posiciones)\n\n\n\nNormalmente filtraremos condición pero a veces nos puede interesar filtrar por posición: con slice(posiciones) podremos seleccionar filas concretas pasando como argumento un vector de índices\n\n\n\n\nstarwars |> slice(1)\n\n\n\n# A tibble: 1 × 4\n  name           height  mass hair_color\n  <chr>           <int> <dbl> <chr>     \n1 Luke Skywalker    172    77 blond     \n\n\n\n\nstarwars |> slice(7:9)\n\n\n\n# A tibble: 3 × 4\n  name               height  mass hair_color\n  <chr>               <int> <dbl> <chr>     \n1 Beru Whitesun lars    165    75 brown     \n2 R5-D4                  97    32 <NA>      \n3 Biggs Darklighter     183    84 black     \n\n\n\n\n\n\n\nstarwars |> slice(c(2, 7, 10, 31))\n\n\n\n# A tibble: 4 × 8\n  name             height  mass hair_color skin_color eye_color birth_year sex  \n  <chr>             <int> <dbl> <chr>      <chr>      <chr>          <dbl> <chr>\n1 C-3PO               167    75 <NA>       gold       yellow           112 none \n2 Beru Whitesun l…    165    75 brown      light      blue              47 fema…\n3 Obi-Wan Kenobi      182    77 auburn, w… fair       blue-gray         57 male \n4 Qui-Gon Jinn        193    89 brown      fair       blue              92 male"
   },
   {
     "objectID": "index.html#rebanadas-de-datos-slice-1",
@@ -683,7 +676,7 @@
     "href": "index.html#eliminar-duplicados-distinct",
     "title": "Análisis y visualización de datos con R",
     "section": "Eliminar duplicados: distinct()",
-    "text": "Eliminar duplicados: distinct()\nMuchas veces necesitaremos asegurarnos que no hay duplicados en alguna variable (DNI) y podemos eliminar filas duplicadas con distinct().\n\nstarwars |> distinct(sex)\n\n# A tibble: 5 × 1\n  sex           \n  <chr>         \n1 male          \n2 none          \n3 female        \n4 hermaphroditic\n5 <NA>          \n\n\n\nPara mantener todas las columnas de la tabla usaremos .keep_all = TRUE.\n\nstarwars |> distinct(sex, .keep_all = TRUE)\n\n\n\n# A tibble: 3 × 14\n  name     height  mass hair_color skin_color eye_color birth_year sex    gender\n  <chr>     <int> <dbl> <chr>      <chr>      <chr>          <dbl> <chr>  <chr> \n1 Luke Sk…    172    77 blond      fair       blue              19 male   mascu…\n2 C-3PO       167    75 <NA>       gold       yellow           112 none   mascu…\n3 Leia Or…    150    49 brown      light      brown             19 female femin…\n# … with 5 more variables: homeworld <chr>, species <chr>, films <list>,\n#   vehicles <list>, starships <list>"
+    "text": "Eliminar duplicados: distinct()\nMuchas veces necesitaremos asegurarnos que no hay duplicados en alguna variable (DNI) y podemos eliminar filas duplicadas con distinct().\n\nstarwars |> distinct(sex)\n\n# A tibble: 5 × 1\n  sex           \n  <chr>         \n1 male          \n2 none          \n3 female        \n4 hermaphroditic\n5 <NA>          \n\n\n\nPara mantener todas las columnas de la tabla usaremos .keep_all = TRUE.\n\nstarwars |> distinct(sex, .keep_all = TRUE)\n\n\n\n# A tibble: 3 × 14\n  name      height  mass hair_color skin_color eye_color birth_year sex   gender\n  <chr>      <int> <dbl> <chr>      <chr>      <chr>          <dbl> <chr> <chr> \n1 Luke Sky…    172    77 blond      fair       blue              19 male  mascu…\n2 C-3PO        167    75 <NA>       gold       yellow           112 none  mascu…\n3 Leia Org…    150    49 brown      light      brown             19 fema… femin…\n# ℹ 5 more variables: homeworld <chr>, species <chr>, films <list>,\n#   vehicles <list>, starships <list>"
   },
   {
     "objectID": "index.html#añadir-filas-bind_rows",
@@ -704,7 +697,7 @@
     "href": "index.html#selección-columnas-select",
     "title": "Análisis y visualización de datos con R",
     "section": "Selección columnas: select()",
-    "text": "Selección columnas: select()\n\n\n\ndatos |> selecciono(var1, var2, ...)\n\n\n\nstarwars |> select(var1, var2, ...)\n\n\n\nLa opción más sencilla para seleccionar variables por nombre es select(), dando como argumentos los nombres de columnas sin comillas.\n\nstarwars %>% select(name, hair_color)\n\n# A tibble: 87 × 2\n   name               hair_color   \n   <chr>              <chr>        \n 1 Luke Skywalker     blond        \n 2 C-3PO              <NA>         \n 3 R2-D2              <NA>         \n 4 Darth Vader        none         \n 5 Leia Organa        brown        \n 6 Owen Lars          brown, grey  \n 7 Beru Whitesun lars brown        \n 8 R5-D4              <NA>         \n 9 Biggs Darklighter  black        \n10 Obi-Wan Kenobi     auburn, white\n# … with 77 more rows"
+    "text": "Selección columnas: select()\n\n\n\ndatos |> selecciono(var1, var2, ...)\n\n\n\nstarwars |> select(var1, var2, ...)\n\n\n\nLa opción más sencilla para seleccionar variables por nombre es select(), dando como argumentos los nombres de columnas sin comillas.\n\nstarwars %>% select(name, hair_color)\n\n# A tibble: 87 × 2\n   name               hair_color   \n   <chr>              <chr>        \n 1 Luke Skywalker     blond        \n 2 C-3PO              <NA>         \n 3 R2-D2              <NA>         \n 4 Darth Vader        none         \n 5 Leia Organa        brown        \n 6 Owen Lars          brown, grey  \n 7 Beru Whitesun lars brown        \n 8 R5-D4              <NA>         \n 9 Biggs Darklighter  black        \n10 Obi-Wan Kenobi     auburn, white\n# ℹ 77 more rows"
   },
   {
     "objectID": "index.html#selección-columnas-select-1",
@@ -718,14 +711,14 @@
     "href": "index.html#selección-columnas-select-2",
     "title": "Análisis y visualización de datos con R",
     "section": "Selección columnas: select()",
-    "text": "Selección columnas: select()\n\n\n\ndatos |> selecciono(var1, var2, ...)\n\n\n\nstarwars |> select(var1, var2, ...)\n\n\n\nTenemos además palabras reservadas: everything() todas las variables…\n\nstarwars |> select(mass, homeworld, everything())\n\n\n\n# A tibble: 4 × 14\n   mass homeworld name   height hair_color skin_color eye_color birth_year sex  \n  <dbl> <chr>     <chr>   <int> <chr>      <chr>      <chr>          <dbl> <chr>\n1    77 Tatooine  Luke …    172 blond      fair       blue            19   male \n2    75 Tatooine  C-3PO     167 <NA>       gold       yellow         112   none \n3    32 Naboo     R2-D2      96 <NA>       white, bl… red             33   none \n4   136 Tatooine  Darth…    202 none       white      yellow          41.9 male \n# … with 5 more variables: gender <chr>, species <chr>, films <list>,\n#   vehicles <list>, starships <list>\n\n\n\n…y last_col() para referirnos a la última columna.\n\nstarwars |> select(name:mass, homeworld, last_col())\n\n\n\n# A tibble: 4 × 5\n  name           height  mass homeworld starships\n  <chr>           <int> <dbl> <chr>     <list>   \n1 Luke Skywalker    172    77 Tatooine  <chr [2]>\n2 C-3PO             167    75 Tatooine  <chr [0]>\n3 R2-D2              96    32 Naboo     <chr [0]>\n4 Darth Vader       202   136 Tatooine  <chr [1]>"
+    "text": "Selección columnas: select()\n\n\n\ndatos |> selecciono(var1, var2, ...)\n\n\n\nstarwars |> select(var1, var2, ...)\n\n\n\nTenemos además palabras reservadas: everything() todas las variables…\n\nstarwars |> select(mass, homeworld, everything())\n\n\n\n# A tibble: 4 × 14\n   mass homeworld name   height hair_color skin_color eye_color birth_year sex  \n  <dbl> <chr>     <chr>   <int> <chr>      <chr>      <chr>          <dbl> <chr>\n1    77 Tatooine  Luke …    172 blond      fair       blue            19   male \n2    75 Tatooine  C-3PO     167 <NA>       gold       yellow         112   none \n3    32 Naboo     R2-D2      96 <NA>       white, bl… red             33   none \n4   136 Tatooine  Darth…    202 none       white      yellow          41.9 male \n# ℹ 5 more variables: gender <chr>, species <chr>, films <list>,\n#   vehicles <list>, starships <list>\n\n\n\n…y last_col() para referirnos a la última columna.\n\nstarwars |> select(name:mass, homeworld, last_col())\n\n\n\n# A tibble: 4 × 5\n  name           height  mass homeworld starships\n  <chr>           <int> <dbl> <chr>     <list>   \n1 Luke Skywalker    172    77 Tatooine  <chr [2]>\n2 C-3PO             167    75 Tatooine  <chr [0]>\n3 R2-D2              96    32 Naboo     <chr [0]>\n4 Darth Vader       202   136 Tatooine  <chr [1]>"
   },
   {
     "objectID": "index.html#selección-columnas-select-3",
     "href": "index.html#selección-columnas-select-3",
     "title": "Análisis y visualización de datos con R",
     "section": "Selección columnas: select()",
-    "text": "Selección columnas: select()\n\n\n\ndatos |> selecciono(var1, var2, ...)\n\n\n\nstarwars |> select(var1, var2, ...)\n\n\n\nPodemos jugar con patrones en el nombre, aquellas que comiencen por un prefijo (starts_with()), terminen con un sufijo (ends_with()), contengan un texto (contains()) o cumplan una expresión regular (matches()).\n\n# variables cuyo nombre acaba en \"color\" y contengan sexo o género\nstarwars |> select(ends_with(\"color\"), matches(\"sex|gender\"))\n\n# A tibble: 87 × 5\n   hair_color    skin_color  eye_color sex    gender   \n   <chr>         <chr>       <chr>     <chr>  <chr>    \n 1 blond         fair        blue      male   masculine\n 2 <NA>          gold        yellow    none   masculine\n 3 <NA>          white, blue red       none   masculine\n 4 none          white       yellow    male   masculine\n 5 brown         light       brown     female feminine \n 6 brown, grey   light       blue      male   masculine\n 7 brown         light       blue      female feminine \n 8 <NA>          white, red  red       none   masculine\n 9 black         light       brown     male   masculine\n10 auburn, white fair        blue-gray male   masculine\n# … with 77 more rows"
+    "text": "Selección columnas: select()\n\n\n\ndatos |> selecciono(var1, var2, ...)\n\n\n\nstarwars |> select(var1, var2, ...)\n\n\n\nPodemos jugar con patrones en el nombre, aquellas que comiencen por un prefijo (starts_with()), terminen con un sufijo (ends_with()), contengan un texto (contains()) o cumplan una expresión regular (matches()).\n\n# variables cuyo nombre acaba en \"color\" y contengan sexo o género\nstarwars |> select(ends_with(\"color\"), matches(\"sex|gender\"))\n\n# A tibble: 87 × 5\n   hair_color    skin_color  eye_color sex    gender   \n   <chr>         <chr>       <chr>     <chr>  <chr>    \n 1 blond         fair        blue      male   masculine\n 2 <NA>          gold        yellow    none   masculine\n 3 <NA>          white, blue red       none   masculine\n 4 none          white       yellow    male   masculine\n 5 brown         light       brown     female feminine \n 6 brown, grey   light       blue      male   masculine\n 7 brown         light       blue      female feminine \n 8 <NA>          white, red  red       none   masculine\n 9 black         light       brown     male   masculine\n10 auburn, white fair        blue-gray male   masculine\n# ℹ 77 more rows"
   },
   {
     "objectID": "index.html#selección-columnas-select-4",
@@ -739,56 +732,56 @@
     "href": "index.html#selección-columnas-select-5",
     "title": "Análisis y visualización de datos con R",
     "section": "Selección columnas: select()",
-    "text": "Selección columnas: select()\n\n\n\ndatos |> selecciono(var1, var2, ...)\n\n\n\nstarwars |> select(var1, var2, ...)\n\n\n\nPor último, podemos seleccionar columnas por tipo de dato haciendo uso de where() y dentro una función que devuelva un valor lógico de tipo de dato.\n\n# Solo columnas numéricas o de texto\nstarwars |> select(where(is.numeric) | where(is.character))\n\n# A tibble: 87 × 11\n   height  mass birth_year name    hair_color  skin_color eye_color sex   gender\n    <int> <dbl>      <dbl> <chr>   <chr>       <chr>      <chr>     <chr> <chr> \n 1    172    77       19   Luke S… blond       fair       blue      male  mascu…\n 2    167    75      112   C-3PO   <NA>        gold       yellow    none  mascu…\n 3     96    32       33   R2-D2   <NA>        white, bl… red       none  mascu…\n 4    202   136       41.9 Darth … none        white      yellow    male  mascu…\n 5    150    49       19   Leia O… brown       light      brown     fema… femin…\n 6    178   120       52   Owen L… brown, grey light      blue      male  mascu…\n 7    165    75       47   Beru W… brown       light      blue      fema… femin…\n 8     97    32       NA   R5-D4   <NA>        white, red red       none  mascu…\n 9    183    84       24   Biggs … black       light      brown     male  mascu…\n10    182    77       57   Obi-Wa… auburn, wh… fair       blue-gray male  mascu…\n# … with 77 more rows, and 2 more variables: homeworld <chr>, species <chr>"
+    "text": "Selección columnas: select()\n\n\n\ndatos |> selecciono(var1, var2, ...)\n\n\n\nstarwars |> select(var1, var2, ...)\n\n\n\nPor último, podemos seleccionar columnas por tipo de dato haciendo uso de where() y dentro una función que devuelva un valor lógico de tipo de dato.\n\n# Solo columnas numéricas o de texto\nstarwars |> select(where(is.numeric) | where(is.character))\n\n# A tibble: 87 × 11\n   height  mass birth_year name     hair_color skin_color eye_color sex   gender\n    <int> <dbl>      <dbl> <chr>    <chr>      <chr>      <chr>     <chr> <chr> \n 1    172    77       19   Luke Sk… blond      fair       blue      male  mascu…\n 2    167    75      112   C-3PO    <NA>       gold       yellow    none  mascu…\n 3     96    32       33   R2-D2    <NA>       white, bl… red       none  mascu…\n 4    202   136       41.9 Darth V… none       white      yellow    male  mascu…\n 5    150    49       19   Leia Or… brown      light      brown     fema… femin…\n 6    178   120       52   Owen La… brown, gr… light      blue      male  mascu…\n 7    165    75       47   Beru Wh… brown      light      blue      fema… femin…\n 8     97    32       NA   R5-D4    <NA>       white, red red       none  mascu…\n 9    183    84       24   Biggs D… black      light      brown     male  mascu…\n10    182    77       57   Obi-Wan… auburn, w… fair       blue-gray male  mascu…\n# ℹ 77 more rows\n# ℹ 2 more variables: homeworld <chr>, species <chr>"
   },
   {
     "objectID": "index.html#mover-columnas-relocate",
     "href": "index.html#mover-columnas-relocate",
     "title": "Análisis y visualización de datos con R",
     "section": "Mover columnas: relocate()",
-    "text": "Mover columnas: relocate()\n\n\n\ndatos |>\n  recolocar(var1, despues_de = var2)\n\n\n\nstarwars |>\n  relocate(var1, .after = var2)\n\n\n\nPara facilitar la recolocación de variables tenemos una función para ello, relocate(), indicándole en .after o .before detrás o delante de qué columnas queremos moverlas.\n\nstarwars |> relocate(species, .before = name)\n\n# A tibble: 87 × 14\n   species name    height  mass hair_color skin_color eye_color birth_year sex  \n   <chr>   <chr>    <int> <dbl> <chr>      <chr>      <chr>          <dbl> <chr>\n 1 Human   Luke S…    172    77 blond      fair       blue            19   male \n 2 Droid   C-3PO      167    75 <NA>       gold       yellow         112   none \n 3 Droid   R2-D2       96    32 <NA>       white, bl… red             33   none \n 4 Human   Darth …    202   136 none       white      yellow          41.9 male \n 5 Human   Leia O…    150    49 brown      light      brown           19   fema…\n 6 Human   Owen L…    178   120 brown, gr… light      blue            52   male \n 7 Human   Beru W…    165    75 brown      light      blue            47   fema…\n 8 Droid   R5-D4       97    32 <NA>       white, red red             NA   none \n 9 Human   Biggs …    183    84 black      light      brown           24   male \n10 Human   Obi-Wa…    182    77 auburn, w… fair       blue-gray       57   male \n# … with 77 more rows, and 5 more variables: gender <chr>, homeworld <chr>,\n#   films <list>, vehicles <list>, starships <list>"
+    "text": "Mover columnas: relocate()\n\n\n\ndatos |>\n  recolocar(var1, despues_de = var2)\n\n\n\nstarwars |>\n  relocate(var1, .after = var2)\n\n\n\nPara facilitar la recolocación de variables tenemos una función para ello, relocate(), indicándole en .after o .before detrás o delante de qué columnas queremos moverlas.\n\nstarwars |> relocate(species, .before = name)\n\n# A tibble: 87 × 14\n   species name    height  mass hair_color skin_color eye_color birth_year sex  \n   <chr>   <chr>    <int> <dbl> <chr>      <chr>      <chr>          <dbl> <chr>\n 1 Human   Luke S…    172    77 blond      fair       blue            19   male \n 2 Droid   C-3PO      167    75 <NA>       gold       yellow         112   none \n 3 Droid   R2-D2       96    32 <NA>       white, bl… red             33   none \n 4 Human   Darth …    202   136 none       white      yellow          41.9 male \n 5 Human   Leia O…    150    49 brown      light      brown           19   fema…\n 6 Human   Owen L…    178   120 brown, gr… light      blue            52   male \n 7 Human   Beru W…    165    75 brown      light      blue            47   fema…\n 8 Droid   R5-D4       97    32 <NA>       white, red red             NA   none \n 9 Human   Biggs …    183    84 black      light      brown           24   male \n10 Human   Obi-Wa…    182    77 auburn, w… fair       blue-gray       57   male \n# ℹ 77 more rows\n# ℹ 5 more variables: gender <chr>, homeworld <chr>, films <list>,\n#   vehicles <list>, starships <list>"
   },
   {
     "objectID": "index.html#renombrar-rename",
     "href": "index.html#renombrar-rename",
     "title": "Análisis y visualización de datos con R",
     "section": "Renombrar: rename()",
-    "text": "Renombrar: rename()\n\n\n\ndatos |> renombrar(nuevo = antiguo)\n\n\n\nstarwars |> rename(nuevo = antiguo)\n\n\n\nA veces también podemos querer modificar la «metainformación» de los datos, renombrando columnas. Para ello usaremos de rename() poniendo primero el nombre nuevo y luego el antiguo.\n\nstarwars |> rename(nombre = name, altura = height, peso = mass)\n\n# A tibble: 87 × 14\n   nombre   altura  peso hair_color skin_color eye_color birth_year sex   gender\n   <chr>     <int> <dbl> <chr>      <chr>      <chr>          <dbl> <chr> <chr> \n 1 Luke Sk…    172    77 blond      fair       blue            19   male  mascu…\n 2 C-3PO       167    75 <NA>       gold       yellow         112   none  mascu…\n 3 R2-D2        96    32 <NA>       white, bl… red             33   none  mascu…\n 4 Darth V…    202   136 none       white      yellow          41.9 male  mascu…\n 5 Leia Or…    150    49 brown      light      brown           19   fema… femin…\n 6 Owen La…    178   120 brown, gr… light      blue            52   male  mascu…\n 7 Beru Wh…    165    75 brown      light      blue            47   fema… femin…\n 8 R5-D4        97    32 <NA>       white, red red             NA   none  mascu…\n 9 Biggs D…    183    84 black      light      brown           24   male  mascu…\n10 Obi-Wan…    182    77 auburn, w… fair       blue-gray       57   male  mascu…\n# … with 77 more rows, and 5 more variables: homeworld <chr>, species <chr>,\n#   films <list>, vehicles <list>, starships <list>"
+    "text": "Renombrar: rename()\n\n\n\ndatos |> renombrar(nuevo = antiguo)\n\n\n\nstarwars |> rename(nuevo = antiguo)\n\n\n\nA veces también podemos querer modificar la «metainformación» de los datos, renombrando columnas. Para ello usaremos de rename() poniendo primero el nombre nuevo y luego el antiguo.\n\nstarwars |> rename(nombre = name, altura = height, peso = mass)\n\n# A tibble: 87 × 14\n   nombre   altura  peso hair_color skin_color eye_color birth_year sex   gender\n   <chr>     <int> <dbl> <chr>      <chr>      <chr>          <dbl> <chr> <chr> \n 1 Luke Sk…    172    77 blond      fair       blue            19   male  mascu…\n 2 C-3PO       167    75 <NA>       gold       yellow         112   none  mascu…\n 3 R2-D2        96    32 <NA>       white, bl… red             33   none  mascu…\n 4 Darth V…    202   136 none       white      yellow          41.9 male  mascu…\n 5 Leia Or…    150    49 brown      light      brown           19   fema… femin…\n 6 Owen La…    178   120 brown, gr… light      blue            52   male  mascu…\n 7 Beru Wh…    165    75 brown      light      blue            47   fema… femin…\n 8 R5-D4        97    32 <NA>       white, red red             NA   none  mascu…\n 9 Biggs D…    183    84 black      light      brown           24   male  mascu…\n10 Obi-Wan…    182    77 auburn, w… fair       blue-gray       57   male  mascu…\n# ℹ 77 more rows\n# ℹ 5 more variables: homeworld <chr>, species <chr>, films <list>,\n#   vehicles <list>, starships <list>"
   },
   {
     "objectID": "index.html#modificar-columnas-mutate",
     "href": "index.html#modificar-columnas-mutate",
     "title": "Análisis y visualización de datos con R",
     "section": "Modificar columnas: mutate()",
-    "text": "Modificar columnas: mutate()\n\n\n\ndatos |> modificar(nueva = funcion())\n\n\n\nstarwars |> mutate(nueva = funcion())\n\n\n\nEn muchas ocasiones querremos modificar o crear variables con mutate(). Vamos a crear por ejemplo una nueva variable height_m con la altura en metros.\n\nstarwars |> mutate(height_m = height / 100)\n\n# A tibble: 87 × 15\n   name    height  mass hair_color  skin_color eye_color birth_year sex   gender\n   <chr>    <int> <dbl> <chr>       <chr>      <chr>          <dbl> <chr> <chr> \n 1 Luke S…    172    77 blond       fair       blue            19   male  mascu…\n 2 C-3PO      167    75 <NA>        gold       yellow         112   none  mascu…\n 3 R2-D2       96    32 <NA>        white, bl… red             33   none  mascu…\n 4 Darth …    202   136 none        white      yellow          41.9 male  mascu…\n 5 Leia O…    150    49 brown       light      brown           19   fema… femin…\n 6 Owen L…    178   120 brown, grey light      blue            52   male  mascu…\n 7 Beru W…    165    75 brown       light      blue            47   fema… femin…\n 8 R5-D4       97    32 <NA>        white, red red             NA   none  mascu…\n 9 Biggs …    183    84 black       light      brown           24   male  mascu…\n10 Obi-Wa…    182    77 auburn, wh… fair       blue-gray       57   male  mascu…\n# … with 77 more rows, and 6 more variables: homeworld <chr>, species <chr>,\n#   films <list>, vehicles <list>, starships <list>, height_m <dbl>"
+    "text": "Modificar columnas: mutate()\n\n\n\ndatos |> modificar(nueva = funcion())\n\n\n\nstarwars |> mutate(nueva = funcion())\n\n\n\nEn muchas ocasiones queremos modificar o crear variables con mutate(). Vamos a crear por ejemplo una nueva variable height_m con la altura en metros.\n\nstarwars |> mutate(height_m = height / 100)\n\n# A tibble: 87 × 15\n   name     height  mass hair_color skin_color eye_color birth_year sex   gender\n   <chr>     <int> <dbl> <chr>      <chr>      <chr>          <dbl> <chr> <chr> \n 1 Luke Sk…    172    77 blond      fair       blue            19   male  mascu…\n 2 C-3PO       167    75 <NA>       gold       yellow         112   none  mascu…\n 3 R2-D2        96    32 <NA>       white, bl… red             33   none  mascu…\n 4 Darth V…    202   136 none       white      yellow          41.9 male  mascu…\n 5 Leia Or…    150    49 brown      light      brown           19   fema… femin…\n 6 Owen La…    178   120 brown, gr… light      blue            52   male  mascu…\n 7 Beru Wh…    165    75 brown      light      blue            47   fema… femin…\n 8 R5-D4        97    32 <NA>       white, red red             NA   none  mascu…\n 9 Biggs D…    183    84 black      light      brown           24   male  mascu…\n10 Obi-Wan…    182    77 auburn, w… fair       blue-gray       57   male  mascu…\n# ℹ 77 more rows\n# ℹ 6 more variables: homeworld <chr>, species <chr>, films <list>,\n#   vehicles <list>, starships <list>, height_m <dbl>"
   },
   {
     "objectID": "index.html#modificar-columnas-mutate-1",
     "href": "index.html#modificar-columnas-mutate-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Modificar columnas: mutate()",
-    "text": "Modificar columnas: mutate()\n\n\n\ndatos |> modificar(nueva = funcion())\n\n\n\nstarwars |> mutate(nueva = funcion())\n\n\n\nAdemás con los argumentos opcionales podemos recolocar la columna modificada\n\nstarwars |> \n  mutate(height_m = height / 100,\n         IMC = mass / (height_m^2), .before = name)\n\n# A tibble: 87 × 16\n   height_m   IMC name   height  mass hair_color skin_color eye_color birth_year\n      <dbl> <dbl> <chr>   <int> <dbl> <chr>      <chr>      <chr>          <dbl>\n 1     1.72  26.0 Luke …    172    77 blond      fair       blue            19  \n 2     1.67  26.9 C-3PO     167    75 <NA>       gold       yellow         112  \n 3     0.96  34.7 R2-D2      96    32 <NA>       white, bl… red             33  \n 4     2.02  33.3 Darth…    202   136 none       white      yellow          41.9\n 5     1.5   21.8 Leia …    150    49 brown      light      brown           19  \n 6     1.78  37.9 Owen …    178   120 brown, gr… light      blue            52  \n 7     1.65  27.5 Beru …    165    75 brown      light      blue            47  \n 8     0.97  34.0 R5-D4      97    32 <NA>       white, red red             NA  \n 9     1.83  25.1 Biggs…    183    84 black      light      brown           24  \n10     1.82  23.2 Obi-W…    182    77 auburn, w… fair       blue-gray       57  \n# … with 77 more rows, and 7 more variables: sex <chr>, gender <chr>,\n#   homeworld <chr>, species <chr>, films <list>, vehicles <list>,\n#   starships <list>"
+    "text": "Modificar columnas: mutate()\n\n\n\ndatos |> modificar(nueva = funcion())\n\n\n\nstarwars |> mutate(nueva = funcion())\n\n\n\nAdemás con los argumentos opcionales podemos recolocar la columna modificada\n\nstarwars |> \n  mutate(height_m = height / 100,\n         IMC = mass / (height_m^2), .before = name)\n\n# A tibble: 87 × 16\n   height_m   IMC name   height  mass hair_color skin_color eye_color birth_year\n      <dbl> <dbl> <chr>   <int> <dbl> <chr>      <chr>      <chr>          <dbl>\n 1     1.72  26.0 Luke …    172    77 blond      fair       blue            19  \n 2     1.67  26.9 C-3PO     167    75 <NA>       gold       yellow         112  \n 3     0.96  34.7 R2-D2      96    32 <NA>       white, bl… red             33  \n 4     2.02  33.3 Darth…    202   136 none       white      yellow          41.9\n 5     1.5   21.8 Leia …    150    49 brown      light      brown           19  \n 6     1.78  37.9 Owen …    178   120 brown, gr… light      blue            52  \n 7     1.65  27.5 Beru …    165    75 brown      light      blue            47  \n 8     0.97  34.0 R5-D4      97    32 <NA>       white, red red             NA  \n 9     1.83  25.1 Biggs…    183    84 black      light      brown           24  \n10     1.82  23.2 Obi-W…    182    77 auburn, w… fair       blue-gray       57  \n# ℹ 77 more rows\n# ℹ 7 more variables: sex <chr>, gender <chr>, homeworld <chr>, species <chr>,\n#   films <list>, vehicles <list>, starships <list>"
   },
   {
     "objectID": "index.html#modificar-columnas-mutate-2",
     "href": "index.html#modificar-columnas-mutate-2",
     "title": "Análisis y visualización de datos con R",
     "section": "Modificar columnas: mutate()",
-    "text": "Modificar columnas: mutate()\n\n\n\ndatos |> modificar(nueva = funcion())\n\n\n\nstarwars |> mutate(nueva = funcion())\n\n\n\n\n\n\n\n\n\nImportante…\n\n\nCuando aplicamos mutate(), debemos de acordarnos que las operaciones se realizan de manera vectorial, elemento a elemento, por lo que la función que usemos dentro debe devolver un vector de igual longitud. En caso contrario, devolverá una constante\n\n\n\n\n\nstarwars |> \n  mutate(constante = mean(mass, na.rm = TRUE), .before = name)\n\n# A tibble: 87 × 15\n   constante name  height  mass hair_color skin_color eye_color birth_year sex  \n       <dbl> <chr>  <int> <dbl> <chr>      <chr>      <chr>          <dbl> <chr>\n 1      97.3 Luke…    172    77 blond      fair       blue            19   male \n 2      97.3 C-3PO    167    75 <NA>       gold       yellow         112   none \n 3      97.3 R2-D2     96    32 <NA>       white, bl… red             33   none \n 4      97.3 Dart…    202   136 none       white      yellow          41.9 male \n 5      97.3 Leia…    150    49 brown      light      brown           19   fema…\n 6      97.3 Owen…    178   120 brown, gr… light      blue            52   male \n 7      97.3 Beru…    165    75 brown      light      blue            47   fema…\n 8      97.3 R5-D4     97    32 <NA>       white, red red             NA   none \n 9      97.3 Bigg…    183    84 black      light      brown           24   male \n10      97.3 Obi-…    182    77 auburn, w… fair       blue-gray       57   male \n# … with 77 more rows, and 6 more variables: gender <chr>, homeworld <chr>,\n#   species <chr>, films <list>, vehicles <list>, starships <list>"
+    "text": "Modificar columnas: mutate()\n\n\n\ndatos |> modificar(nueva = funcion())\n\n\n\nstarwars |> mutate(nueva = funcion())\n\n\n\n\n\n\n\n\n\nImportante…\n\n\nCuando aplicamos mutate(), debemos de acordarnos que las operaciones se realizan de manera vectorial, elemento a elemento, por lo que la función que usemos dentro debe devolver un vector de igual longitud. En caso contrario, devolverá una constante\n\n\n\n\n\nstarwars |> \n  mutate(constante = mean(mass, na.rm = TRUE), .before = name)\n\n# A tibble: 87 × 15\n   constante name  height  mass hair_color skin_color eye_color birth_year sex  \n       <dbl> <chr>  <int> <dbl> <chr>      <chr>      <chr>          <dbl> <chr>\n 1      97.3 Luke…    172    77 blond      fair       blue            19   male \n 2      97.3 C-3PO    167    75 <NA>       gold       yellow         112   none \n 3      97.3 R2-D2     96    32 <NA>       white, bl… red             33   none \n 4      97.3 Dart…    202   136 none       white      yellow          41.9 male \n 5      97.3 Leia…    150    49 brown      light      brown           19   fema…\n 6      97.3 Owen…    178   120 brown, gr… light      blue            52   male \n 7      97.3 Beru…    165    75 brown      light      blue            47   fema…\n 8      97.3 R5-D4     97    32 <NA>       white, red red             NA   none \n 9      97.3 Bigg…    183    84 black      light      brown           24   male \n10      97.3 Obi-…    182    77 auburn, w… fair       blue-gray       57   male \n# ℹ 77 more rows\n# ℹ 6 more variables: gender <chr>, homeworld <chr>, species <chr>,\n#   films <list>, vehicles <list>, starships <list>"
   },
   {
     "objectID": "index.html#recategorizar-if_else",
     "href": "index.html#recategorizar-if_else",
     "title": "Análisis y visualización de datos con R",
     "section": "Recategorizar: if_else()",
-    "text": "Recategorizar: if_else()\nTambién podemos combinar mutate() con la expresión de control if_else() para recategorizar la variable: si se cumple una condición, hace una cosa, en caso contrario otra.\n\nstarwars |> \n  mutate(human = if_else(species == \"Human\", \"Human\", \"Not Human\"),\n         .after = name) |> \n  select(name:mass)\n\n# A tibble: 87 × 4\n   name               human     height  mass\n   <chr>              <chr>      <int> <dbl>\n 1 Luke Skywalker     Human        172    77\n 2 C-3PO              Not Human    167    75\n 3 R2-D2              Not Human     96    32\n 4 Darth Vader        Human        202   136\n 5 Leia Organa        Human        150    49\n 6 Owen Lars          Human        178   120\n 7 Beru Whitesun lars Human        165    75\n 8 R5-D4              Not Human     97    32\n 9 Biggs Darklighter  Human        183    84\n10 Obi-Wan Kenobi     Human        182    77\n# … with 77 more rows"
+    "text": "Recategorizar: if_else()\nTambién podemos combinar mutate() con la expresión de control if_else() para recategorizar la variable: si se cumple una condición, hace una cosa, en caso contrario otra.\n\nstarwars |> \n  mutate(human = if_else(species == \"Human\", \"Human\", \"Not Human\"),\n         .after = name) |> \n  select(name:mass)\n\n# A tibble: 87 × 4\n   name               human     height  mass\n   <chr>              <chr>      <int> <dbl>\n 1 Luke Skywalker     Human        172    77\n 2 C-3PO              Not Human    167    75\n 3 R2-D2              Not Human     96    32\n 4 Darth Vader        Human        202   136\n 5 Leia Organa        Human        150    49\n 6 Owen Lars          Human        178   120\n 7 Beru Whitesun lars Human        165    75\n 8 R5-D4              Not Human     97    32\n 9 Biggs Darklighter  Human        183    84\n10 Obi-Wan Kenobi     Human        182    77\n# ℹ 77 more rows"
   },
   {
     "objectID": "index.html#recategorizar-case_when",
     "href": "index.html#recategorizar-case_when",
     "title": "Análisis y visualización de datos con R",
     "section": "Recategorizar: case_when()",
-    "text": "Recategorizar: case_when()\nPara recategorizaciones más complejas tenemos case_when(), por ejemplo, para crear una categoría de los personajes en función de su altura.\n\nstarwars |> \n  drop_na(height) |> \n  mutate(altura = case_when(height < 120 ~ \"enanos\",\n                            height < 160 ~ \"bajito\",\n                            height < 180 ~ \"normal\",\n                            height < 200 ~ \"alto\",\n                            TRUE ~ \"gigante\"), .before = name)\n\n# A tibble: 81 × 15\n   altura  name    height  mass hair_color skin_color eye_color birth_year sex  \n   <chr>   <chr>    <int> <dbl> <chr>      <chr>      <chr>          <dbl> <chr>\n 1 normal  Luke S…    172    77 blond      fair       blue            19   male \n 2 normal  C-3PO      167    75 <NA>       gold       yellow         112   none \n 3 enanos  R2-D2       96    32 <NA>       white, bl… red             33   none \n 4 gigante Darth …    202   136 none       white      yellow          41.9 male \n 5 bajito  Leia O…    150    49 brown      light      brown           19   fema…\n 6 normal  Owen L…    178   120 brown, gr… light      blue            52   male \n 7 normal  Beru W…    165    75 brown      light      blue            47   fema…\n 8 enanos  R5-D4       97    32 <NA>       white, red red             NA   none \n 9 alto    Biggs …    183    84 black      light      brown           24   male \n10 alto    Obi-Wa…    182    77 auburn, w… fair       blue-gray       57   male \n# … with 71 more rows, and 6 more variables: gender <chr>, homeworld <chr>,\n#   species <chr>, films <list>, vehicles <list>, starships <list>"
+    "text": "Recategorizar: case_when()\nPara recategorizaciones más complejas tenemos case_when(), por ejemplo, para crear una categoría de los personajes en función de su altura.\n\nstarwars |> \n  drop_na(height) |> \n  mutate(altura = case_when(height < 120 ~ \"enanos\",\n                            height < 160 ~ \"bajito\",\n                            height < 180 ~ \"normal\",\n                            height < 200 ~ \"alto\",\n                            TRUE ~ \"gigante\"), .before = name)\n\n# A tibble: 81 × 15\n   altura  name    height  mass hair_color skin_color eye_color birth_year sex  \n   <chr>   <chr>    <int> <dbl> <chr>      <chr>      <chr>          <dbl> <chr>\n 1 normal  Luke S…    172    77 blond      fair       blue            19   male \n 2 normal  C-3PO      167    75 <NA>       gold       yellow         112   none \n 3 enanos  R2-D2       96    32 <NA>       white, bl… red             33   none \n 4 gigante Darth …    202   136 none       white      yellow          41.9 male \n 5 bajito  Leia O…    150    49 brown      light      brown           19   fema…\n 6 normal  Owen L…    178   120 brown, gr… light      blue            52   male \n 7 normal  Beru W…    165    75 brown      light      blue            47   fema…\n 8 enanos  R5-D4       97    32 <NA>       white, red red             NA   none \n 9 alto    Biggs …    183    84 black      light      brown           24   male \n10 alto    Obi-Wa…    182    77 auburn, w… fair       blue-gray       57   male \n# ℹ 71 more rows\n# ℹ 6 more variables: gender <chr>, homeworld <chr>, species <chr>,\n#   films <list>, vehicles <list>, starships <list>"
   },
   {
     "objectID": "index.html#tu-turno-7",
@@ -823,14 +816,14 @@
     "href": "index.html#agrupar-group_by-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Agrupar: group_by()",
-    "text": "Agrupar: group_by()\n\n\n\ndatos |>\n  agrupar(var1, var2) |> \n  accion() |> \n  desagrupar()\n\n\n\nstarwars |>\n  group_by(var1, var2) |> \n  accion() |> \n  ungroup()\n\n\n\nCuando apliquemos group_by() es importante entender que NO MODIFICA los datos, sino que nos crea una variable de grupo (subtablas por cada grupo) que modificará las acciones futuras: las operaciones se aplicarán a cada subtabla por separado\n\nPor ejemplo, imaginemos que queremos extraer el personaje más alto con slice_max().\n\nstarwars |> slice_max(height)\n\n# A tibble: 1 × 14\n  name     height  mass hair_color skin_color eye_color birth_year sex   gender \n  <chr>     <int> <dbl> <chr>      <chr>      <chr>          <dbl> <chr> <chr>  \n1 Yarael …    264    NA none       white      yellow            NA male  mascul…\n# … with 5 more variables: homeworld <chr>, species <chr>, films <list>,\n#   vehicles <list>, starships <list>"
+    "text": "Agrupar: group_by()\n\n\n\ndatos |>\n  agrupar(var1, var2) |> \n  accion() |> \n  desagrupar()\n\n\n\nstarwars |>\n  group_by(var1, var2) |> \n  accion() |> \n  ungroup()\n\n\n\nCuando apliquemos group_by() es importante entender que NO MODIFICA los datos, sino que nos crea una variable de grupo (subtablas por cada grupo) que modificará las acciones futuras: las operaciones se aplicarán a cada subtabla por separado\n\nPor ejemplo, imaginemos que queremos extraer el personaje más alto con slice_max().\n\nstarwars |> slice_max(height)\n\n# A tibble: 1 × 14\n  name      height  mass hair_color skin_color eye_color birth_year sex   gender\n  <chr>      <int> <dbl> <chr>      <chr>      <chr>          <dbl> <chr> <chr> \n1 Yarael P…    264    NA none       white      yellow            NA male  mascu…\n# ℹ 5 more variables: homeworld <chr>, species <chr>, films <list>,\n#   vehicles <list>, starships <list>"
   },
   {
     "objectID": "index.html#agrupar-group_by-2",
     "href": "index.html#agrupar-group_by-2",
     "title": "Análisis y visualización de datos con R",
     "section": "Agrupar: group_by()",
-    "text": "Agrupar: group_by()\n\n\n\ndatos |>\n  agrupar(var1, var2) |> \n  accion() |> \n  desagrupar()\n\n\n\nstarwars |>\n  group_by(var1, var2) |> \n  accion() |> \n  ungroup()\n\n\n\n¿Y si queremos extraer el personaje más alto pero…de cada uno de los sexos?\n\n\nstarwars |>\n  group_by(sex) |> \n  slice_max(height) |> \n  ungroup()\n\n# A tibble: 6 × 14\n  name    height  mass hair_color skin_color  eye_color birth_year sex    gender\n  <chr>    <int> <dbl> <chr>      <chr>       <chr>          <dbl> <chr>  <chr> \n1 Taun We    213    NA none       grey        black             NA female femin…\n2 Jabba …    175  1358 <NA>       green-tan,… orange           600 herma… mascu…\n3 Yarael…    264    NA none       white       yellow            NA male   mascu…\n4 IG-88      200   140 none       metal       red               15 none   mascu…\n5 Ric Ol…    183    NA brown      fair        blue              NA <NA>   <NA>  \n6 Quarsh…    183    NA black      dark        brown             62 <NA>   <NA>  \n# … with 5 more variables: homeworld <chr>, species <chr>, films <list>,\n#   vehicles <list>, starships <list>"
+    "text": "Agrupar: group_by()\n\n\n\ndatos |>\n  agrupar(var1, var2) |> \n  accion() |> \n  desagrupar()\n\n\n\nstarwars |>\n  group_by(var1, var2) |> \n  accion() |> \n  ungroup()\n\n\n\n¿Y si queremos extraer el personaje más alto pero…de cada uno de los sexos?\n\n\nstarwars |>\n  group_by(sex) |> \n  slice_max(height) |> \n  ungroup()\n\n# A tibble: 6 × 14\n  name      height  mass hair_color skin_color eye_color birth_year sex   gender\n  <chr>      <int> <dbl> <chr>      <chr>      <chr>          <dbl> <chr> <chr> \n1 Taun We      213    NA none       grey       black             NA fema… femin…\n2 Jabba De…    175  1358 <NA>       green-tan… orange           600 herm… mascu…\n3 Yarael P…    264    NA none       white      yellow            NA male  mascu…\n4 IG-88        200   140 none       metal      red               15 none  mascu…\n5 Ric Olié     183    NA brown      fair       blue              NA <NA>  <NA>  \n6 Quarsh P…    183    NA black      dark       brown             62 <NA>  <NA>  \n# ℹ 5 more variables: homeworld <chr>, species <chr>, films <list>,\n#   vehicles <list>, starships <list>"
   },
   {
     "objectID": "index.html#agrupar-group_by-3",
@@ -844,7 +837,7 @@
     "href": "index.html#agrupar-group_by-4",
     "title": "Análisis y visualización de datos con R",
     "section": "Agrupar: group_by()",
-    "text": "Agrupar: group_by()\n\n\n\ndatos |>\n  agrupar(var1, var2) |> \n  accion() |>\n  desagrupar()\n\n\n\nstarwars |>\n  group_by(var1, var2) |> \n  accion() |>\n  ungroup()\n\n\n\n\n\n\n\n\n\nImportante\n\n\nRecuerda siempre hacer ungroup para eliminar la variable de grupo creada\n\n\n\n\nEn la nueva versión de {dplyr} ahora se permite incluir la variable de grupo en la llamada a muchas funciones con el argumento by = ... o .by = ..."
+    "text": "Agrupar: group_by()\n\n\n\ndatos |>\n  agrupar(var1, var2) |> \n  accion() |>\n  desagrupar()\n\n\n\nstarwars |>\n  group_by(var1, var2) |> \n  accion() |>\n  ungroup()\n\n\n\n\n\n\n\n\n\nImportante\n\n\nRecuerda siempre hacer ungroup para eliminar la variable de grupo creada\n\n\n\n\nEn la nueva versión de {dplyr} ahora se permite incluir la variable de grupo en la llamada a muchas funciones con el argumento by = ... o .by = ...\n\nstarwars |> slice_max(height, by = sex)\n\n.\n\n\n\nstarwars |> slice_max(height, by = sex) |> select(name:eye_color)"
   },
   {
     "objectID": "index.html#fila-a-fila-rowwise",
@@ -865,21 +858,21 @@
     "href": "index.html#resumir-summarise-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Resumir: summarise()",
-    "text": "Resumir: summarise()\n\n\n\ndatos |> resumir()\n\n\n\nstarwars |> summarise()\n\n\n\nSi además esto lo combinamos con la agrupación de group_by() o .by = ..., en pocas líneas de código puedes obtener estadísticas desagreagadas\n\nstarwars |> \n  drop_na(sex, height, mass) |> \n  summarise(media_altura = mean(height),\n            media_peso = mean(mass),\n            .by = sex)\n\n# A tibble: 58 × 3\n   media_altura media_peso .by   \n          <dbl>      <dbl> <chr> \n 1         174.       98.2 male  \n 2         174.       98.2 none  \n 3         174.       98.2 none  \n 4         174.       98.2 male  \n 5         174.       98.2 female\n 6         174.       98.2 male  \n 7         174.       98.2 female\n 8         174.       98.2 none  \n 9         174.       98.2 male  \n10         174.       98.2 male  \n# … with 48 more rows"
+    "text": "Resumir: summarise()\n\n\n\ndatos |> resumir()\n\n\n\nstarwars |> summarise()\n\n\n\nSi además esto lo combinamos con la agrupación de group_by() o .by = ..., en pocas líneas de código puedes obtener estadísticas desagregadas\n\nstarwars |> \n  drop_na(sex, height, mass) |> \n  summarise(media_altura = mean(height),\n            media_peso = mean(mass),\n            .by = sex)\n\n# A tibble: 4 × 3\n  sex            media_altura media_peso\n  <chr>                 <dbl>      <dbl>\n1 male                   178.       81.0\n2 none                   140        69.8\n3 female                 169.       54.7\n4 hermaphroditic         175      1358"
   },
   {
     "objectID": "index.html#resumir-reframe",
     "href": "index.html#resumir-reframe",
     "title": "Análisis y visualización de datos con R",
     "section": "Resumir: reframe()",
-    "text": "Resumir: reframe()\n\n\n\ndatos |> resumir()\n\n\n\nstarwars |> reframe()\n\n\n\nEn el nuevo {dplyr} han incluido reframe() para evitar problemas de summarise() cuando devolvemos más de un valor por variable.\n\n\n\nstarwars |>\n  drop_na(mass) |>\n  summarise(quantile(mass))\n\n# A tibble: 5 × 1\n  `quantile(mass)`\n             <dbl>\n1             15  \n2             55.6\n3             79  \n4             84.5\n5           1358  \n\n\n\n\n{r} # starwars |> #   drop_na(mass) |> #   reframe(quantile(mass)) #"
+    "text": "Resumir: reframe()\n\n\n\ndatos |> resumir()\n\n\n\nstarwars |> reframe()\n\n\n\nEn el nuevo {dplyr} han incluido reframe() para evitar problemas de summarise() cuando devolvemos más de un valor por variable.\n\n\n\nstarwars |>\n  drop_na(mass) |>\n  summarise(quantile(mass))\n\n# A tibble: 5 × 1\n  `quantile(mass)`\n             <dbl>\n1             15  \n2             55.6\n3             79  \n4             84.5\n5           1358  \n\n\n\n\nstarwars |>\n  drop_na(mass) |>\n  reframe(quantile(mass))\n\n# A tibble: 5 × 1\n  `quantile(mass)`\n             <dbl>\n1             15  \n2             55.6\n3             79  \n4             84.5\n5           1358"
   },
   {
     "objectID": "index.html#selectores-across",
     "href": "index.html#selectores-across",
     "title": "Análisis y visualización de datos con R",
     "section": "Selectores: across()",
-    "text": "Selectores: across()\nUn truco es hacer uso de selectores across() y where(). El primero nos permite actuar sobre varias columnas por nombre (con mutate() o summarise())\n\nstarwars |> summarise(medias = across(height:mass, mean, na.rm = TRUE), .by = sex)\n\n# A tibble: 87 × 2\n   medias$height $mass .by   \n           <dbl> <dbl> <chr> \n 1          174.  97.3 male  \n 2          174.  97.3 none  \n 3          174.  97.3 none  \n 4          174.  97.3 male  \n 5          174.  97.3 female\n 6          174.  97.3 male  \n 7          174.  97.3 female\n 8          174.  97.3 none  \n 9          174.  97.3 male  \n10          174.  97.3 male  \n# … with 77 more rows\n\n\n\nEl segundo, where(), nos permite hacer lo mismo pero seleccionando por tipo.\n\nstarwars |> \n  summarise(across(where(is.numeric), mean, na.rm = TRUE), .by = c(sex, gender))\n\n# A tibble: 174 × 4\n   height  mass birth_year .by   \n    <dbl> <dbl>      <dbl> <chr> \n 1   174.  97.3       87.6 male  \n 2   174.  97.3       87.6 none  \n 3   174.  97.3       87.6 none  \n 4   174.  97.3       87.6 male  \n 5   174.  97.3       87.6 female\n 6   174.  97.3       87.6 male  \n 7   174.  97.3       87.6 female\n 8   174.  97.3       87.6 none  \n 9   174.  97.3       87.6 male  \n10   174.  97.3       87.6 male  \n# … with 164 more rows"
+    "text": "Selectores: across()\nUn truco es hacer uso de selectores across y where. El primero nos permite actuar sobre varias columnas por nombre (con mutate o summarise)\n\nstarwars |> summarise(medias = across(height:mass, mean, na.rm = TRUE), .by = sex)\n\n# A tibble: 5 × 2\n  sex            medias$height  $mass\n  <chr>                  <dbl>  <dbl>\n1 male                    179.   81.0\n2 none                    131.   69.8\n3 female                  169.   54.7\n4 hermaphroditic          175  1358  \n5 <NA>                    181.   48  \n\n\n\nEl segundo, where(), nos permite hacer lo mismo pero seleccionando por tipo.\n\nstarwars |> \n  summarise(across(where(is.numeric), mean, na.rm = TRUE), .by = c(sex, gender))\n\n# A tibble: 6 × 5\n  sex            gender    height   mass birth_year\n  <chr>          <chr>      <dbl>  <dbl>      <dbl>\n1 male           masculine   179.   81.0       85.5\n2 none           masculine   140    69.8       53.3\n3 female         feminine    169.   54.7       47.2\n4 hermaphroditic masculine   175  1358        600  \n5 <NA>           <NA>        181.   48         62  \n6 none           feminine     96   NaN        NaN"
   },
   {
     "objectID": "index.html#tu-turno-8",
@@ -893,7 +886,7 @@
     "href": "index.html#caso-real-datos-de-encuestas-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Caso real: datos de encuestas",
-    "text": "Caso real: datos de encuestas\nEl paquete {readr} (ya en {tidyverse}) nos permite realizar una carga más ágil y más inteligente que el read.csv() de base (lo importa a un tibble e interpreta bien el tipo de cada variable, incluso fechas)\n\n\n\n\nencuestas <- read_csv(file = \"./datos/historical_surveys.csv\")\nencuestas\n\n# A tibble: 3,753 × 59\n   type_survey date_elec  id_pollster pollster media    field_date_from\n   <chr>       <date>     <chr>       <chr>    <chr>    <date>         \n 1 national    1982-10-28 pollster-1  PSOE     <NA>     1982-10-28     \n 2 national    1982-10-28 pollster-2  IDEAL    <NA>     1982-10-28     \n 3 national    1982-10-28 pollster-3  SOFEMASA EL PAÍS  1982-10-16     \n 4 national    1982-10-28 pollster-4  GRUPO 16 GRUPO 16 1982-10-09     \n 5 national    1982-10-28 pollster-3  SOFEMASA EL PAÍS  1982-10-01     \n 6 national    1982-10-28 pollster-4  GRUPO 16 GRUPO 16 1982-09-25     \n 7 national    1982-10-28 pollster-3  SOFEMASA EL PAÍS  1982-09-24     \n 8 national    1982-10-28 pollster-5  AP       <NA>     1982-09-27     \n 9 national    1982-10-28 pollster-6  GALLUP   <NA>     1982-09-06     \n10 national    1982-10-28 pollster-4  GRUPO 16 GRUPO 16 1982-09-05     \n# … with 3,743 more rows, and 53 more variables: field_date_to <date>,\n#   exit_poll <lgl>, size <dbl>, turnout <dbl>, UCD <dbl>, PSOE <dbl>,\n#   PCE <dbl>, AP <dbl>, CIU <dbl>, PA <dbl>, EAJ-PNV <dbl>, HB <dbl>,\n#   ERC <dbl>, EE <dbl>, CDS <dbl>, FN <dbl>, PAD <dbl>, PRD <dbl>, MUC <dbl>,\n#   IU <dbl>, CG <dbl>, PAR <dbl>, AIC <dbl>, UV <dbl>, EA <dbl>, PP <dbl>,\n#   LV <dbl>, ARM <dbl>, PDP <dbl>, CC <dbl>, PAP <dbl>, BNG <dbl>, ICV <dbl>,\n#   EH <dbl>, UPYD <dbl>, AMAIUR <dbl>, CS <dbl>, DIL-CDC <dbl>, …"
+    "text": "Caso real: datos de encuestas\nEl paquete {readr} (ya en {tidyverse}) nos permite realizar una carga más ágil y más inteligente que el read.csv() de base (lo importa a un tibble e interpreta bien el tipo de cada variable, incluso fechas)\n\n\n\n\nencuestas <- read_csv(file = \"./datos/historical_surveys.csv\")\nencuestas\n\n# A tibble: 3,753 × 59\n   type_survey date_elec  id_pollster pollster media    field_date_from\n   <chr>       <date>     <chr>       <chr>    <chr>    <date>         \n 1 national    1982-10-28 pollster-1  PSOE     <NA>     1982-10-28     \n 2 national    1982-10-28 pollster-2  IDEAL    <NA>     1982-10-28     \n 3 national    1982-10-28 pollster-3  SOFEMASA EL PAÍS  1982-10-16     \n 4 national    1982-10-28 pollster-4  GRUPO 16 GRUPO 16 1982-10-09     \n 5 national    1982-10-28 pollster-3  SOFEMASA EL PAÍS  1982-10-01     \n 6 national    1982-10-28 pollster-4  GRUPO 16 GRUPO 16 1982-09-25     \n 7 national    1982-10-28 pollster-3  SOFEMASA EL PAÍS  1982-09-24     \n 8 national    1982-10-28 pollster-5  AP       <NA>     1982-09-27     \n 9 national    1982-10-28 pollster-6  GALLUP   <NA>     1982-09-06     \n10 national    1982-10-28 pollster-4  GRUPO 16 GRUPO 16 1982-09-05     \n# ℹ 3,743 more rows\n# ℹ 53 more variables: field_date_to <date>, exit_poll <lgl>, size <dbl>,\n#   turnout <dbl>, UCD <dbl>, PSOE <dbl>, PCE <dbl>, AP <dbl>, CIU <dbl>,\n#   PA <dbl>, `EAJ-PNV` <dbl>, HB <dbl>, ERC <dbl>, EE <dbl>, CDS <dbl>,\n#   FN <dbl>, PAD <dbl>, PRD <dbl>, MUC <dbl>, IU <dbl>, CG <dbl>, PAR <dbl>,\n#   AIC <dbl>, UV <dbl>, EA <dbl>, PP <dbl>, LV <dbl>, ARM <dbl>, PDP <dbl>,\n#   CC <dbl>, PAP <dbl>, BNG <dbl>, ICV <dbl>, EH <dbl>, UPYD <dbl>, …"
   },
   {
     "objectID": "index.html#caso-real-datos-de-encuestas-2",
@@ -921,56 +914,56 @@
     "href": "index.html#caso-real-datos-de-encuestas-5",
     "title": "Análisis y visualización de datos con R",
     "section": "Caso real: datos de encuestas",
-    "text": "Caso real: datos de encuestas\n\nCuarta tarea: quédate solo con las encuestas cuyo tamaño muestral conozcamos y que no sean encuestas a pie de urna. Elimina esta última variable."
+    "text": "Caso real: datos de encuestas\n\nCuarta tarea: quédate solo con las encuestas cuyo tamaño muestral conozcamos y que no sean encuestas a pie de urna. Elimina esta última variable.\n\n\n\nCódigo\nencuestas <- encuestas |> \n  # eliminar ausentes\n  drop_na(size) |> \n  # Filtramos encuestas (registros) a pie de urna (aquellas que exit_poll == FALSE)\n  dplyr::filter(!exit_poll) |> \n  # Quitamos la variable pie de urna\n  select(-exit_poll)"
   },
   {
     "objectID": "index.html#caso-real-datos-de-encuestas-6",
     "href": "index.html#caso-real-datos-de-encuestas-6",
     "title": "Análisis y visualización de datos con R",
     "section": "Caso real: datos de encuestas",
-    "text": "Caso real: datos de encuestas\n\nQuinta tarea: convierte el dataset en tidydata. ¿Qué falla? ¿Cómo arreglarlo? Reminder: no quremos ausentes.\n\n\n\nCódigo\nencuestas <-\n  encuestas |> \n  # Convertimos a tidydata\n  pivot_longer(cols = -(id_survey:turnout),\n               names_to = \"partido\",\n               values_to = \"est_voto\",\n               values_drop_na = TRUE)"
+    "text": "Caso real: datos de encuestas\n\nQuinta tarea: convierte el dataset en tidydata. ¿Qué falla? ¿Cómo arreglarlo? Reminder: no queremos ausentes.\n\n\n\nCódigo\nencuestas <- encuestas |> \n  # Convertimos a tidydata\n  pivot_longer(cols = -(id_survey:turnout),\n               names_to = \"partido\",\n               values_to = \"est_voto\",\n               values_drop_na = TRUE)"
   },
   {
     "objectID": "index.html#caso-real-datos-de-encuestas-7",
     "href": "index.html#caso-real-datos-de-encuestas-7",
     "title": "Análisis y visualización de datos con R",
     "section": "Caso real: datos de encuestas",
-    "text": "Caso real: datos de encuestas\n\nSexta tarea: calcula el número de días que la encuesta ha hecho trabajo de campo, y coloca dicha columna tras el nombre de la encuestadora. Tras ello elimina aquellas encuestas que tengan 0 días de trabajo de campo."
+    "text": "Caso real: datos de encuestas\n\nSexta tarea: calcula el número de días que la encuesta ha hecho trabajo de campo, y coloca dicha columna tras el nombre de la encuestadora. Tras ello elimina aquellas encuestas que tengan 0 días de trabajo de campo.\n\n\n\nCódigo\nencuestas <- encuestas |> \n  # Calculamos los días de campo como la diferencia de fechas \n  # con as.numeric() convertimos la dif. de fechas a un número\n  mutate(n_dias_campo = as.numeric(field_date_to - field_date_from),\n         .after = pollster) |> \n  # Solo aquellas cuyo trabajo de campo haya durado 1 día o más\n  dplyr::filter(n_dias_campo > 0)"
   },
   {
     "objectID": "index.html#caso-real-datos-de-encuestas-8",
     "href": "index.html#caso-real-datos-de-encuestas-8",
     "title": "Análisis y visualización de datos con R",
     "section": "Caso real: datos de encuestas",
-    "text": "Caso real: datos de encuestas\n\nSéptima tarea: calcula el número de días que faltan hasta las elecciones desde que la encuesta cerro el trabajo de campo y coloca dicha variable tras n_dias_campo. Tras ello elimina las fechas de inicio y fin de trabajo de campo de la manera más eficiente posible"
+    "text": "Caso real: datos de encuestas\n\nSéptima tarea: calcula el número de días que faltan hasta las elecciones desde que la encuesta cerro el trabajo de campo y coloca dicha variable tras n_dias_campo. Tras ello elimina las fechas de inicio y fin de trabajo de campo de la manera más eficiente posible\n\n\n\nCódigo\nencuestas <- encuestas |> \n  # Calculamos los días que faltan a las elecciones\n  # con as.numeric() convertimos la dif. de fechas a un número\n  mutate(n_dias_elec = as.numeric(date_elec - field_date_to),\n         .after = n_dias_campo) |> \n  # Eliminamos ya las fechas de campo que no necesitamos\n  select(-contains(\"field\"))"
   },
   {
     "objectID": "index.html#caso-real-datos-de-encuestas-9",
     "href": "index.html#caso-real-datos-de-encuestas-9",
     "title": "Análisis y visualización de datos con R",
     "section": "Caso real: datos de encuestas",
-    "text": "Caso real: datos de encuestas\n\nOctava tarea: elimina encuestas que se hayan cerrado dentro de la ventana temporal en la que está prohibido la publicación de encuestas (no se deberían usar para predecir ya que «no se conocen»)"
+    "text": "Caso real: datos de encuestas\n\nOctava tarea: elimina encuestas que se hayan cerrado dentro de la ventana temporal en la que está prohibido la publicación de encuestas (no se deberían usar para predecir ya que «no se conocen»)\n\n\n\nCódigo\nencuestas <- encuestas |>\n  # Solo con encuestas antes del baneo electoral\n  dplyr::filter(n_dias_elec > 15)"
   },
   {
     "objectID": "index.html#caso-real-datos-de-encuestas-10",
     "href": "index.html#caso-real-datos-de-encuestas-10",
     "title": "Análisis y visualización de datos con R",
     "section": "Caso real: datos de encuestas",
-    "text": "Caso real: datos de encuestas\n\nNovena tarea: obtén, por cada elección, la media de las encuestas de cada partido"
+    "text": "Caso real: datos de encuestas\n\nNovena tarea: obtén, por cada elección, la media de las encuestas de cada partido\n\n\n\nCódigo\nencuestas |>\n  # Resumen: media de voto por fecha y partido\n  summarise(media_voto = mean(est_voto),\n            .by = c(\"date_elec\", \"partido\"))\n\n\n# A tibble: 137 × 3\n   date_elec  partido media_voto\n   <date>     <chr>        <dbl>\n 1 1986-06-22 PSOE         45.7 \n 2 1986-06-22 AP           22.8 \n 3 1986-06-22 CIU           3.9 \n 4 1986-06-22 EAJ-PNV       1.82\n 5 1986-06-22 HB            1.27\n 6 1986-06-22 EE            0.5 \n 7 1986-06-22 CDS           4.33\n 8 1986-06-22 PRD           4   \n 9 1986-06-22 MUC           2.8 \n10 1986-06-22 IU            5.5 \n# ℹ 127 more rows"
   },
   {
     "objectID": "index.html#caso-real-datos-de-encuestas-11",
     "href": "index.html#caso-real-datos-de-encuestas-11",
     "title": "Análisis y visualización de datos con R",
     "section": "Caso real: datos de encuestas",
-    "text": "Caso real: datos de encuestas\n\nDécima tarea: realiza lo mismo que la tarea anterior pero solo para las encuestas de los 60 días previos a las elecciones. Ordena la salida de reciente a antiguo"
+    "text": "Caso real: datos de encuestas\n\nDécima tarea: realiza lo mismo que la tarea anterior pero solo para las encuestas de los 60 días previos a las elecciones. Ordena la salida de reciente a antiguo\n\n\n\nCódigo\nencuestas |>\n  # Filtramos ventana de 60 días\n  dplyr::filter(n_dias_elec <= 60) |>\n  # Media de est_voto por fecha y partido\n  summarise(media_voto = mean(est_voto),\n            .by = c(\"date_elec\", \"partido\")) |>\n  # Ordenar de mayor a menor\n  arrange(desc(date_elec))\n\n\n# A tibble: 122 × 3\n   date_elec  partido     media_voto\n   <date>     <chr>            <dbl>\n 1 2019-11-10 PSOE              30.6\n 2 2019-11-10 EAJ-PNV            1.5\n 3 2019-11-10 ERC                4.4\n 4 2019-11-10 PP                18.6\n 5 2019-11-10 CS                10.3\n 6 2019-11-10 EH-BILDU           1.2\n 7 2019-11-10 UP                13.6\n 8 2019-11-10 VOX               10.0\n 9 2019-11-10 JXCAT-JUNTS        1.8\n10 2019-11-10 NA-SUMA            0.4\n# ℹ 112 more rows"
   },
   {
     "objectID": "index.html#caso-real-datos-de-encuestas-12",
     "href": "index.html#caso-real-datos-de-encuestas-12",
     "title": "Análisis y visualización de datos con R",
     "section": "Caso real: datos de encuestas",
-    "text": "Caso real: datos de encuestas\n\nUndécima tarea: del dataset generado en el anterior ejercicio, obtén el primer y el segundo con mayor estimación de voto (en promedio)"
+    "text": "Caso real: datos de encuestas\n\nUndécima tarea: del dataset generado en el anterior ejercicio, obtén el primer y el segundo con mayor estimación de voto (en promedio)\n\n\n\nCódigo\nencuestas |> \n  # Filtramos ventana de 60 días\n  dplyr::filter(n_dias_elec <= 60) |> \n  # Media de est_voto por fecha y partido\n  summarise(media_voto = mean(est_voto),\n            .by = c(\"date_elec\", \"partido\")) |>\n  # Ordenar de mayor a menor por fecha\n  arrange(desc(date_elec)) |>\n  # extraemos los dos con más est de voto (por cada fecha)\n  slice_max(media_voto, n = 2, by = date_elec)\n\n\n# A tibble: 22 × 3\n   date_elec  partido media_voto\n   <date>     <chr>        <dbl>\n 1 2019-11-10 PSOE          30.6\n 2 2019-11-10 PP            18.6\n 3 2019-04-28 PSOE          30.3\n 4 2019-04-28 PP            19.3\n 5 2016-06-26 PP            29.4\n 6 2016-06-26 UP            25.4\n 7 2015-12-20 PP            28.2\n 8 2015-12-20 PSOE          20.4\n 9 2011-11-20 PP            46.0\n10 2011-11-20 PSOE          32.4\n# ℹ 12 more rows"
   },
   {
     "objectID": "index.html#qué-es-github",
@@ -984,7 +977,7 @@
     "href": "index.html#visión-general",
     "title": "Análisis y visualización de datos con R",
     "section": "Visión general",
-    "text": "Visión general\nTras hacernos una cuenta en Github, arriba a la derecha tendremos un círculo, y haciendo click en Your Profile, veremos algo similar a esto\n\n\n\n\n\nEdit profile: nos permite añadir una descripción y foto de perfil.\nOverview: en ese panel de cuadrados se visualizará nuestra actividad a lo largo del tiempo.\nRepositories: el códugo será subido a repositorios, el equivalente a nuestras carpetas compartidas en Dropbox."
+    "text": "Visión general\nTras hacernos una cuenta en Github, arriba a la derecha tendremos un círculo, y haciendo click en Your Profile, veremos algo similar a esto\n\n\n\n\n\n\n\n\n\nEdit profile: nos permite añadir una descripción y foto de perfil.\nOverview: en ese panel de cuadrados se visualizará nuestra actividad a lo largo del tiempo.\nRepositories: el códugo será subido a repositorios, el equivalente a nuestras carpetas compartidas en Dropbox."
   },
   {
     "objectID": "index.html#primer-uso-consumidor",
@@ -998,168 +991,49 @@
     "href": "index.html#instalar-desde-github",
     "title": "Análisis y visualización de datos con R",
     "section": "Instalar desde Github",
-    "text": "Instalar desde Github\nPor ejemplo, vamos a instalar un paquete llamado {peRReo}, cuya única función es darnos paletas de colores basadas en portadas de álbumes de música urbana\n\n\n\n\n\n\n\n\nPara ello antes tendremos que instalar un conjunto de paquetes para desarrolladores llamado {devtools}, que nos permitirá la instalación desde Github\n\ninstall.packages(\"devtools\")"
+    "text": "Instalar desde Github\nPor ejemplo, vamos a instalar un paquete llamado {peRReo}, cuya única función es darnos paletas de colores basadas en portadas de álbumes de música urbana\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPara ello antes tendremos que instalar un conjunto de paquetes para desarrolladores llamado {devtools}, que nos permitirá la instalación desde Github\n\ninstall.packages(\"devtools\")"
   },
   {
     "objectID": "index.html#instalar-desde-github-1",
     "href": "index.html#instalar-desde-github-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Instalar desde Github",
-    "text": "Instalar desde Github\nLas instrucciones de instalación suelen venir detalladas en la portada del repositorio\n\n\n\n\n\n\n\n\nEn la mayoría de casos bastará con la función install_github() (del paquete que acabamos de instalar), pasándole como argumento la ruta del repositorio (sin “github.com/”).\n\ndevtools::install_github(\"jbgb13/peRReo\")\n\nYa puedes perrear con ggplot ;)"
+    "text": "Instalar desde Github\nLas instrucciones de instalación suelen venir detalladas en la portada del repositorio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEn la mayoría de casos bastará con la función install_github() (del paquete que acabamos de instalar), pasándole como argumento la ruta del repositorio (sin “github.com/”).\n\ndevtools::install_github(\"jbgb13/peRReo\")\n\nYa puedes perrear con ggplot ;)"
   },
   {
     "objectID": "index.html#descargar-desde-github",
     "href": "index.html#descargar-desde-github",
     "title": "Análisis y visualización de datos con R",
     "section": "Descargar desde Github",
-    "text": "Descargar desde Github\nLa mayoría de veces lo que subamos no será un paquete de R como tal sino que subiremos un código más o menos organizado y comentado. En ese caso podremos descargar el repo entero haciendo click Code y luego Download ZIP.\nPor ejemplo, vamos a descargarnos los scripts de dataviz que han subido desde el Centre d’Estudis d’Opinió"
-  },
-  {
-    "objectID": "index.html#ideal",
-    "href": "index.html#ideal",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Ideal",
-    "text": "Ideal\n\n¿Lo ideal en caso de RTVE? Tener dos tipos de repositorios\n\nUna colección de repositorios públicos (producción) donde hacer transparente el código y los datos (ya validados), coordinado por un nº reducido de personas.\nUna colección de repositorios privados (desarrollo) donde esté todo el equipo colaborando y donde se haga el trabajo del día, con trazabilidad interna."
+    "text": "Descargar desde Github\nLa mayoría de veces lo que subamos no será un paquete de R como tal sino que subiremos un código más o menos organizado y comentado. En ese caso podremos descargar el repo entero haciendo click Code y luego Download ZIP.\nPor ejemplo, vamos a descargarnos los scripts de tidytable que ha subido Hadley Wickham TIDY:TABLE"
   },
   {
     "objectID": "index.html#nuestro-primer-repositorio",
     "href": "index.html#nuestro-primer-repositorio",
     "title": "Análisis y visualización de datos con R",
     "section": "Nuestro primer repositorio",
-    "text": "Nuestro primer repositorio\nVamos a crear nuestro primero repositorio que servirá además como carta de presentación de nuestro perfil en Github.\n\nRepositories: hacemos click en las pestaña de Repositories.\nNew: hacemos click en el botón verde New para crear un nuevo repositorio"
+    "text": "Nuestro primer repositorio\nPara crear nuestro primero repositorio que servirá además como carta de presentación de nuestro perfil en Github, deberás tener una cuenta ya creada en Github y tener Git instalado.\n\nTeniendo lo anterior ya realizado, podemos usar la librería usethis para simplificar el proceso.\n\n\ninstall.packages(\"usethis\")\n\n\nLuego configuramos nuestras credenciales (los datos que usamos para la cuenta de GitHub):\n\n\nusethis::use_git_config(\n   user.name = \"Mi nombre\",\n   user.email = \"micorreo@gmail.com\"\n )"
   },
   {
     "objectID": "index.html#nuestro-primer-repositorio-1",
     "href": "index.html#nuestro-primer-repositorio-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Nuestro primer repositorio",
-    "text": "Nuestro primer repositorio\n\nRepository name: el nombre del repositorio. En este caso vamos a crear un repositorio muy concreto: el nombre debe coincidir exactamente con tu nombre de usuario\nDescription: descripción de tu repositorio. En este caso será un repo de presentación."
+    "text": "Nuestro primer repositorio\n\nCreamos nuestro GitHub PAT Token (es como una contraseña, pero más segura).\n\n\nusethis::create_github_token()\n\nCuando ejecutas este comando, se te abrirá una pestaña de tu navegador. Tendrás que verificar algunos permisos a GitHub. Luego, en la configuración del token, cambia el nombre, ajusta el tiempo de expiración y el resto déjalo como está. Crea el token.\n\nPara guardar tu nuevo token, usa:\n\n\ngitcreds::gitcreds_set()\n\nEn la consola se te mostrará un menú. Selecciona la opción 2: Replace these credentials. Luego copia el token de GitHub, actualiza y guarda tus credenciales."
   },
   {
     "objectID": "index.html#nuestro-primer-repositorio-2",
     "href": "index.html#nuestro-primer-repositorio-2",
     "title": "Análisis y visualización de datos con R",
     "section": "Nuestro primer repositorio",
-    "text": "Nuestro primer repositorio\n\nPublic vs private: con cada repositorio tendremos la opción de hacer el repositorio\n\npúblico: todos los usuarios podrán ver el código así cómo la trazabilidad de su desarrollo (qué se añade y cuándo). Es para mí la opción más recomendable cuando quieres darle visibilidad y transparencia a tu trabajo\nprivado: solo tendrán acceso al repositorio aquellos usuarios a los que se lo permitas. No se podrá visualizar ni instalar nada de él fuera de Github.\n\n\n\nEn este caso concreto, dado que será un repositorio de presentación, lo haremos público."
+    "text": "Nuestro primer repositorio\n\nReinicia la sesión de RStudio para que se hagan efectivos los cambios. Usualmente puedes usar CTRL + SHIFT + F10 o del menú de arriba selecciona la pestaña de Session y luego Restart R.\nUsa usethis::git_sitrep() para verificar si tus credenciales como nombre, email y PAT están correctamente configuradas.\n\nFíjate que salga este texto:\nPersonal access token for https://github.com … \nCon eso ya deberíamos estar listos con la configuración de GIT y GitHub."
   },
   {
     "objectID": "index.html#nuestro-primer-repositorio-3",
     "href": "index.html#nuestro-primer-repositorio-3",
     "title": "Análisis y visualización de datos con R",
     "section": "Nuestro primer repositorio",
-    "text": "Nuestro primer repositorio\n\nAdd a README file: un README file será el archivo donde incluiremos las instrucciones y detalles de uso a los demás (en el caso de {peRReo} era el archivo que contenía los detalles de instalación)\n\n\nDe momento ignoraremos los demás campos para este primer repositorio."
-  },
-  {
-    "objectID": "index.html#nuestro-primer-repositorio-4",
-    "href": "index.html#nuestro-primer-repositorio-4",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Nuestro primer repositorio",
-    "text": "Nuestro primer repositorio\n\nPor defecto Github asume que este repositorio, con el mismo nombre que nuestro usuario será el repositorio que querremos que se presente de inicio cuando alguien entra en nuestro perfil, y será el repositorio donde [incluir en el README.md] una presentación de nosotros y un índice de tu trabajo (si quieres)."
-  },
-  {
-    "objectID": "index.html#nuestro-primer-repositorio-5",
-    "href": "index.html#nuestro-primer-repositorio-5",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Nuestro primer repositorio",
-    "text": "Nuestro primer repositorio\n\nFíjate que ahora en nuestra portada tenemos dicho README.md que podemos personalizar a nuestro gusto haciendo uso de html y markdown.\nAquí puedes ver algunos ejemplos de README.MD"
-  },
-  {
-    "objectID": "index.html#repo-de-código",
-    "href": "index.html#repo-de-código",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Repo de código",
-    "text": "Repo de código\nUna vez que tenemos nuestro README de presentación (recuerda que puedes personalizar a tu gusto con html y markdown) vamos a crear un repositorio de código.\n\nSi ya era importante trabajar con proyectos en RStudio, cuando lo combinamos con Github es aún más crucial que creemos un proyecto antes de subir el código, así que vamos a crear uno de prueba que se llame repo-github-1.\n\n\nEn dicho proyecto vamos a crear un script (en mi caso llamado codigo.R) en el que deberás hacer los siguientes pasos:"
-  },
-  {
-    "objectID": "index.html#repo-de-código-1",
-    "href": "index.html#repo-de-código-1",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Repo de código",
-    "text": "Repo de código\n\nCarga directamente desde la página del ISCIII el archivo llamado casos_hosp_uci_def_sexo_edad_provres.csv\n\n\n\nCódigo\n# Carga de datos desde ISCIII\ndatos_covid <- read_csv(file = \"https://cnecovid.isciii.es/covid19/resources/casos_hosp_uci_def_sexo_edad_provres.csv\")\n\n\n\n\nFiltra datos de Madrid (\"M\"), de 2020 y con sexo conocido (hombre/mujer). Tras ello quédate con las columnas fecha, sexo, grupo_edad, num_casos (ese orden). Por último obtén la suma de casos diarios por fecha y sexo.\n\n\n\nCódigo\n# Depuración\ndatos_madrid <-\n  datos_covid |>\n  # Filtrado por Madrid y fecha\n  filter(provincia_iso == \"M\" & fecha <= \"2020-12-31\" & sexo != \"NC\") |> \n  # Selección de columnas\n  select(provincia_iso:fecha, num_casos) |> \n  # Resumen de casos diarios por fecha y sexo\n  summarise(num_casos = sum(num_casos), .by = c(fecha, sexo))"
-  },
-  {
-    "objectID": "index.html#repo-de-código-2",
-    "href": "index.html#repo-de-código-2",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Repo de código",
-    "text": "Repo de código\n\nExporta el dataset a un csv en una carpeta que se llame exportado\n\n\n\nCódigo\n# Exportamos datos\nwrite_csv(datos_madrid, file = \"./exportado/datos_madrid.csv\")\n\n\n\n\n\n\nCrea una gráfica de líneas que tenga en el eje x fecha, en el eje y casos, con una curva por sexo (gráficas separadas).\n\n\n\nCódigo\n# Gráfica\nggplot(datos_madrid) +\n  geom_line(aes(x = fecha, y = num_casos, color = sexo),\n            alpha = 0.6, linewidth = 0.7) +\n  scale_color_manual(values = c(\"#85519D\", \"#278862\")) +\n  facet_wrap(~sexo) +\n  theme_minimal() +\n  theme(legend.position = \"bottom\")\n\n\n\n\n\n\n\n\n\nTras ello exportamos la gráfica\n\n\nggsave(filename = \"./exportado/ggplot.png\", plot = last_plot(),\n       bg = \"white\", width = 12, height = 8)"
-  },
-  {
-    "objectID": "index.html#repo-de-código-3",
-    "href": "index.html#repo-de-código-3",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Repo de código",
-    "text": "Repo de código\n¿Cómo subimos el proyecto? Vamos de nuevo a crear un proyecto de cero. Antes no hemos hablado de dos campos importantes:\n\n\n\n\n\nAdd .gitignore nos permitirá seleccionar el lenguaje en el que estará nuestro proyecto para que Github lo entienda al sincronizar (y no actualice cosas que no deba).\nChoose a license nos permitirá seleccionar la licencia que determinará las condiciones en las que otros podrán reusar tu código."
-  },
-  {
-    "objectID": "index.html#repo-de-código-4",
-    "href": "index.html#repo-de-código-4",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Repo de código",
-    "text": "Repo de código\n\n\n\n\nSi te fijas traer crearlo tenemos solo 3 archivos: el de licencia, el .gitignore y el readme.md (donde deberíamos escribir una guía de uso de lo que hayamos subido)\n\n\nPara subir los archivos vamos a clickar en Add file < Upload File y arrastraremos TODOS los archivos de la carpeta de nuestro proyecto."
-  },
-  {
-    "objectID": "index.html#repo-de-código-5",
-    "href": "index.html#repo-de-código-5",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Repo de código",
-    "text": "Repo de código\nTras la subida de archivos tendremos un cuadro llamado Commit changes\n\nUn commit es una modificación del repositorio con algo que se añade/elimine/modifique, y dicho cuadro es recomendable usarlo para resumir en qué consiste la modificación, de manera que quede trazado el cambio."
-  },
-  {
-    "objectID": "index.html#repo-de-código-6",
-    "href": "index.html#repo-de-código-6",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Repo de código",
-    "text": "Repo de código\nHaciendo click en el reloj donde indica el número de commits accedemos al histórico de commits (cambios) con hora, día, autor, comentarios, etc."
-  },
-  {
-    "objectID": "index.html#repo-de-código-7",
-    "href": "index.html#repo-de-código-7",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Repo de código",
-    "text": "Repo de código\nVamos a realizar un cambio en nuestro código: en tu código local (local –> tu ordenador), en lugar de filtrar por Madrid haz el filtro por Barcelona, guarda el código y sube en el repositorio el nuevo archivo (con el mismo nombre, Github hará la sobrescritura)\n\ndatos_bcn <-\n  datos_covid |>\n  filter(provincia_iso == \"B\" & fecha <= \"2020-12-31\" & sexo != \"NC\") |> \n  select(fecha, sexo, grupo_edad, num_casos) |> \n  summarise(num_casos = sum(num_casos), .by = c(fecha, sexo))"
-  },
-  {
-    "objectID": "index.html#consulta-de-commits",
-    "href": "index.html#consulta-de-commits",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Consulta de commits",
-    "text": "Consulta de commits\n\n\n\nSi ahora consultamos el commit, al lado hay un número que lo identifica, y clickando en él nos resume los cambios: no solo almacena todas las versiones pasadas sino que además nos muestra las diferencias entre los archivos cambiados"
-  },
-  {
-    "objectID": "index.html#trazabilidad-de-cambios",
-    "href": "index.html#trazabilidad-de-cambios",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Trazabilidad de cambios",
-    "text": "Trazabilidad de cambios\n\n\n \n\nTenemos dos modos de visualización de los cambios: el modo split nos muestra el antiguo y el nuevo, con las inclusiones en verde y lo que ya no está en rojo; y el modo unified nos muestra todo en un mismo documento."
-  },
-  {
-    "objectID": "index.html#recuperación-de-commits",
-    "href": "index.html#recuperación-de-commits",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Recuperación de commits",
-    "text": "Recuperación de commits\n\nGithub nos permite incluso recuperar una versión del pasado de nuestro repositorio, haciendo click en el tercer icono del commit."
-  },
-  {
-    "objectID": "index.html#recuperación-de-commits-1",
-    "href": "index.html#recuperación-de-commits-1",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Recuperación de commits",
-    "text": "Recuperación de commits\n\nSi te fijas ahora al lado de 1 branch tenemos un menú desplegable en el que antes ponía main y ahora un número identificador del commit. Ya hablaremos de la idea de rama (branch)"
-  },
-  {
-    "objectID": "index.html#repo-con-rmdqmd",
-    "href": "index.html#repo-con-rmdqmd",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Repo con rmd/qmd",
-    "text": "Repo con rmd/qmd\n\n\nVamos a poner en práctica lo aprendido:\n\nCrea un nuevo repositorio en Github (llamado repo-github-2) donde habrá alojado con proyecto de R.\nCrea un proyecto en RStudio que se llame (por ejemplo) proyecto-qmd\nUna vez dentro del proyecto en RStudio haz click en File < New File < Quarto Document\n\n\n\n\n\nDeberás tener un documento similar a este: un quarto markdown (.qmd), un documento que nos permitirá incluir markdown + código (puede ser R o puede ser Observable, D3, etc)."
-  },
-  {
-    "objectID": "index.html#repo-con-rmdqmd-1",
-    "href": "index.html#repo-con-rmdqmd-1",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Repo con rmd/qmd",
-    "text": "Repo con rmd/qmd\nEste formato es ideal para:\n\nTrabajar en equipo construyendo el borrador de una pieza.\nTomar apuntes o informes para uno mismo.\nPresentar tu trabajo a tus compañeros.\n\n\n\n\n\nSi te fijas ahora nuestro repositorio tiene un archivo con formato .html…es decir…\n¡Es una web!"
+    "text": "Nuestro primer repositorio\n\nUsaremos use_git() para iniciar el control de versiones de GIT en nuestro proyecto.\n\n\n\nAhora, usaremos usethis::use_github() para crear un repositorio en GitHub y subir el proyecto.\n\nSi todo ha salido bien, se debería abrir tu navegador con el nuevo repositorio de GitHub."
   },
   {
     "objectID": "index.html#github-pages",
@@ -1201,7 +1075,7 @@
     "href": "index.html#github-pages-5",
     "title": "Análisis y visualización de datos con R",
     "section": "Github pages",
-    "text": "Github pages\nSi repetimos el proceso para hacer una Page y esperamos al tick verde…\n\n\n\n\nSi a tu .qmd ya le llamas de inicio index.qmd, automáticamente, al detectar Github un index.html, interpreta que ese archivo index.html es el que define la web (y puedes personalizar añadiendo un archivo css de estilos)\nHabemus web simplemente clickando en Pages :)"
+    "text": "Github pages\nSi repetimos el proceso para hacer una Page y esperamos al tick verde…\n\n\n\n\n\n\n\n\nSi a tu .qmd ya le llamas de inicio index.qmd, automáticamente, al detectar Github un index.html, interpreta que ese archivo index.html es el que define la web (y puedes personalizar añadiendo un archivo css de estilos)\nHabemus web simplemente clickando en Pages :)"
   },
   {
     "objectID": "index.html#repo-con-diapositivas",
@@ -1209,159 +1083,5 @@
     "title": "Análisis y visualización de datos con R",
     "section": "Repo con diapositivas",
     "text": "Repo con diapositivas\nVamos a crear el último repositorio que se llamará repo-diapos, y crear un proyecto en RStudio del mismo nombre (por ejemplo). Una vez creado le daremos a File < New File < Quarto Presentation.\n\n\n\n\nLa forma de escribir será igual que un .qmd normal solo que ahora cada diapositiva la separaremos con un --- (usando archivos de estilos podemos personalizar lo que queramos)\nLlama al archivo directamente index.qmd, súbelo a Github y con un click en Pages tienes una web con tus diapositivas"
-  },
-  {
-    "objectID": "index.html#uso-de-gitkraken",
-    "href": "index.html#uso-de-gitkraken",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Uso de Gitkraken",
-    "text": "Uso de Gitkraken\nLa forma más sencilla para trabajar de manera colaborativa en Github, y tenerlo sincronizado con nuestro local, es hacer uso de Gitkraken\n\n\n\n\nUna vez dentro clickamos en el icono de la carpeta (Repo Management) y si ya tenemos el repositorio en Github seleccionamos Clone, indicando donde queremos clonar (en nuestro local) y que repositorio de Github queremos clonar."
-  },
-  {
-    "objectID": "index.html#uso-de-gitkraken-1",
-    "href": "index.html#uso-de-gitkraken-1",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Uso de Gitkraken",
-    "text": "Uso de Gitkraken\n\n\n\n\nUna vez clonado, la idea es que cada cambio que hagamos en local nos aparecerá en Gitkraken como View changes."
-  },
-  {
-    "objectID": "index.html#uso-de-gitkraken-2",
-    "href": "index.html#uso-de-gitkraken-2",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Uso de Gitkraken",
-    "text": "Uso de Gitkraken\nCuando tengas suficientes cambios como para actualizar el repositorio (tampoco tiene sentido actualizar con cada edición), verás algo similar a esto con todos los commits realizados\n\n\n\n\nPodrás decidir cuáles de los commits locales quieres incluir en remoto, bien uno a uno o en Stage all changes (para todos)"
-  },
-  {
-    "objectID": "index.html#uso-de-gitkraken-3",
-    "href": "index.html#uso-de-gitkraken-3",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Uso de Gitkraken",
-    "text": "Uso de Gitkraken\nTras incluir los commits deberás incluir un título y descripción del commit"
-  },
-  {
-    "objectID": "index.html#uso-de-gitkraken-4",
-    "href": "index.html#uso-de-gitkraken-4",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Uso de Gitkraken",
-    "text": "Uso de Gitkraken\nTras hacerlo verás que ahora tenemos dos iconos separados en una especie de árbol (¿te acuerdas de la branch o rama?):\n\nOrdenador: la versión del repositorio que tienes en tu ordenador.\nLogo: la versión del repositorio que tienes subida en remoto"
-  },
-  {
-    "objectID": "index.html#uso-de-gitkraken-5",
-    "href": "index.html#uso-de-gitkraken-5",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Uso de Gitkraken",
-    "text": "Uso de Gitkraken\nMientras eso suceda solo tendrás sincronizado tu ordenador con Gitkraken, pero no con Github. Para ello haremos click en Push (con Pull podrás forzar a tener en local lo mismo que en remoto)."
-  },
-  {
-    "objectID": "index.html#branchs",
-    "href": "index.html#branchs",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Branchs",
-    "text": "Branchs\nComo hemos mencionado ya en varias ocasiones, hay un elefante en la habitación que aún no hemos mentado: las ramas o branchs de un repositorio.\n\nImagina que estáis trabajando varios en un proyecto y teneís una versión que funciona pero que queréis modificar en paralelo a partir del estado actual del repositorio.\n\n\nLas ramas nos permiten partir de una versión común del repositorio y hacer cambios que no afecten a los demás"
-  },
-  {
-    "objectID": "index.html#branchs-1",
-    "href": "index.html#branchs-1",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Branchs",
-    "text": "Branchs\nPara crear una rama a partir del estado actual de repositorio haremos click en Branch y le pondremos un nombre\n\nUna vez creada verás dos iconos y un menú desplegable con las distintas ramas en las que quieres hacer el commit. Imagina que realizas un cambio pero no quieres añadirlo a la rama principal: puedes hacer el commit en tu rama propia en LOCAL (lo harás en la rama activa de tu menú de branchs)."
-  },
-  {
-    "objectID": "index.html#branchs-2",
-    "href": "index.html#branchs-2",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Branchs",
-    "text": "Branchs\nLa primera vez te pedirá que escribas la rama en REMOTO con la quieres sincronizar tu rama en local. Consejo: ponle el mismo nombre en remoto que en local."
-  },
-  {
-    "objectID": "index.html#branchs-3",
-    "href": "index.html#branchs-3",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Branchs",
-    "text": "Branchs\nFíjate que ahora tenemos el ordenador y el logo en el mismo sitio. Esto no significa que tengas ambas ramas en tu local, solo que Gitkraken tiene ambas sincronizadas: clickando en cualquiera de ellas, tus archivos en tu ordenador cambiarán."
-  },
-  {
-    "objectID": "index.html#pull-request",
-    "href": "index.html#pull-request",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Pull request",
-    "text": "Pull request\nLo más recomendable es que solo se incorpore de una rama secundaria a la rama principal aquello que está validado por un/a coordinador/a del repositorio, asegurándose que todo funciona correctamente.\nCuando queramos incluirlo haremos click con botón derecho en el icono de la rama secundaria y seleccionamos Start a pull request to origin from...\n\n\nUna pull request será una petición al responsable de la rama principal para incluir los cambios"
-  },
-  {
-    "objectID": "index.html#pull-request-1",
-    "href": "index.html#pull-request-1",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Pull request",
-    "text": "Pull request\n\n\n\n\nEn el cuadro que no se abre deberemos escribir:\n\nLa rama a la que hacer el merge (normalmente la main)\nTítulo y resumen de los cambios\nPuedes incluso asignar un revisor entre los colaboradores del repo.\nPuedes asignar etiquetas"
-  },
-  {
-    "objectID": "index.html#pull-request-2",
-    "href": "index.html#pull-request-2",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Pull request",
-    "text": "Pull request\nMientras no se acepte aparecerá un icono de rama y un +1 en Pull Requests\n\n\nSi somos al mantenedor del repositorio, haciendo click en el menú nos saldrán las ramas que nos quieren hacer hacer merge"
-  },
-  {
-    "objectID": "index.html#pull-request-3",
-    "href": "index.html#pull-request-3",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Pull request",
-    "text": "Pull request\nAl hacer click se abrirá un cuadro de Pull Request para decidir si\n\nRevisar los cambios\nAprobar el merge\nAñadir comentarios al que ha solicitado el merge por si queremos solicitar algún cambio antes de ser aprobado"
-  },
-  {
-    "objectID": "index.html#pull-request-4",
-    "href": "index.html#pull-request-4",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Pull request",
-    "text": "Pull request\nTras revisar todo y aprobarlo clickaremos en Confirm merge, y tras ello podremos decidir si esa rama que era paralela a la principal la queremos eliminar o dejar visible a todos (consejo: dejar visible para tene trazabilidad del proyecto de trabajo)"
-  },
-  {
-    "objectID": "index.html#cosicas-curiosas",
-    "href": "index.html#cosicas-curiosas",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Cosicas curiosas",
-    "text": "Cosicas curiosas\nPaletas de colores\n\n{ggthemes}: temas y paletas extras para ggplot (por ejemplo para daltónicos) https://jrnold.github.io/ggthemes/ y https://yutannihilation.github.io/allYourFigureAreBelongToUs/ggthemes/\n{peRReo}: paletas inspiradas en portadas de música urbana y latina https://github.com/jbgb13/peRReo\nPaletas inspiradas en el Metropolitan Museum: de Blake Robert Mills https://github.com/BlakeRMills/MetBrewer/tree/main\nPaletas inspiradas Taylor Swift: https://github.com/asteves/tayloRswift\nPaletas inspiradas en Harry Potter: de Alejandro Jiménez https://github.com/aljrico/harrypotter\n{colorblindcheck}: detectar paletas de colores aptas daltónicos/as. De Jakub Nowosad https://github.com/Nowosad/colorblindcheck"
-  },
-  {
-    "objectID": "index.html#cosicas-curiosas-1",
-    "href": "index.html#cosicas-curiosas-1",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Cosicas curiosas",
-    "text": "Cosicas curiosas\nDataviz\n\nR Graph Gallery: colección de dataviz en R https://www.r-graph-gallery.com/\n{patchwork}: agregar y componer gráficas. De Thomas Lin Pedersen. https://patchwork.data-imaginist.com\nggplotly: función de {plotly}, para convertir ggplot a plotly (interactiva) https://www.rdocumentation.org/packages/plotly/versions/4.10.0/topics/ggplotly.\n\nTras convertirlo a plotly se puede guardar automáticamente en html con https://plotly-r.com/saving.html y generar el código del iframe responsive con https://bhaskarvk.github.io/widgetframe/articles/Using_widgetframe.html"
-  },
-  {
-    "objectID": "index.html#cosicas-curiosas-2",
-    "href": "index.html#cosicas-curiosas-2",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Cosicas curiosas",
-    "text": "Cosicas curiosas\nDataviz\n\n{ggiraph}: gráficas interactivas al estilo D3. https://davidgohel.github.io/ggiraph/\nAprender a usar {ggiraph}: para gráficas interactivas al estilo D3 https://albert-rapp.de/posts/ggplot2-tips/17_ggiraph/17_ggiraph.html\nGráficas interactivas: https://www.tanyashapiro.com/interactive-visuals\n{geomtextpath}: paquete para curvar el texto ajustándose a una gráfica. De Allan Cameron y Teun van den Brand. https://allancameron.github.io/geomtextpath/\n{ggstream}: visualización de datos en flujo. De Z. Gu. https://github.com/davidsjoberg/ggstream\n{ggpattern}: rellenos con patrones geométricos en ggplot2. De coolbutuseless y Trevor L. Davis. https://github.com/coolbutuseless/ggpattern"
-  },
-  {
-    "objectID": "index.html#cosicas-curiosas-3",
-    "href": "index.html#cosicas-curiosas-3",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Cosicas curiosas",
-    "text": "Cosicas curiosas\nMapas\n\n{mapSpain}: visualización de datos en mapas de España en R. De Diego Hernangómez https://dieghernan.github.io/rpubs/mapSpain_RMadrid/#1\n{rasterpic}: visualización de mapas con imágenes rasterizados de fondo. De Diego Hernangómez. https://dieghernan.github.io/rasterpic/"
-  },
-  {
-    "objectID": "index.html#cosicas-curiosas-4",
-    "href": "index.html#cosicas-curiosas-4",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Cosicas curiosas",
-    "text": "Cosicas curiosas\nText mining\n\nManual de text mining: de Julia Silge y David Robinson. Recurso: https://tidytextmining.com\nDescarga de textos libres: de David Robinson. Recurso: https://github.com/ropensci/gutenbergr\nAnálisis de sentimientos de tweets: de Harshvardhan. Recurso: https://www.harsh17.in/twitter-sentiments/\n\nGrafos y redes\n\n{tidygraph}: paquete al estilo {tidyverse} para visualizar y manipular grafos https://tidygraph.data-imaginist.com/index.html"
-  },
-  {
-    "objectID": "index.html#cosicas-curiosas-5",
-    "href": "index.html#cosicas-curiosas-5",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Cosicas curiosas",
-    "text": "Cosicas curiosas\nDatos curiosos\n\n{fitbitr}: API para acceder a datos de pulseras fitbit. De Matt Kaye https://mrkaye97.github.io/fitbitr/index.html\n{rtweet}: API para acceder (al menos antes) a Twitter. De Michael W. Kearney https://docs.ropensci.org/rtweet/\n{owiDR}: API para acceder a datos de Our World in Data https://github.com/piersyork/owidR\n{wordle}: API para acceder a datos de WORDLE. De coolbutuseless https://coolbutuseless.github.io/2022/01/04/wordle-v0.1.5-a-package-for-playing-and-helping-solve-wordle-puzzles/\nCanciones de Taylor Swift: de W. Jake Thompson https://taylor.wjakethompson.com/\n{chessR}: API para acceder a datos de partidas de ajedrez. De Jason Zivkovic https://github.com/JaseZiv/chessR"
-  },
-  {
-    "objectID": "index.html#cosicas-curiosas-6",
-    "href": "index.html#cosicas-curiosas-6",
-    "title": "Análisis y visualización de datos con R",
-    "section": "Cosicas curiosas",
-    "text": "Cosicas curiosas\nInformes, libros, diapositivas y webs\n\nManual de Quarto: el nuevo rmarkdown, más completo y sencillo para elaborar manuales, diapositivas, informes e incluso webs https://quarto.org/docs/guide/\nShiny: webs interactivas con R https://shiny.rstudio.com/tutorial/written-tutorial/lesson1/\n\nTablas\n\n{gt}: tablas en R. De RStudio https://gt.rstudio.com/\n{gtExtras}: visualización de datos en tablas. De Thomas Mock. https://jthomasmock.github.io/gtExtras/index.html\nTutorial de tablas: de Benjamin Nowak https://bjnnowak.netlify.app/2021/10/04/r-beautiful-tables-with-gt-and-gtextras/"
   }
 ]
