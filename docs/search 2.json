@@ -263,7 +263,7 @@
     "href": "index.html#variables-de-fecha-1",
     "title": "Análisis y visualización de datos con R",
     "section": "Variables de fecha",
-    "text": "Variables de fecha\nEn dicho paquete tenemos funciones muy útiles para manejar fechas:\n\nCon today() podemos obtener directamente la fecha actual.\n\n\ntoday()\n\n[1] \"2023-05-30\"\n\n\n\n\nCon now() podemos obtener la fecha y hora actual\n\n\nnow()\n\n[1] \"2023-05-30 07:00:31 -05\"\n\n\n\n\n\nCon year(), month() o day() podemos extraer el año, mes y día\n\n\nfecha <- today()\nyear(fecha)\n\n[1] 2023\n\nmonth(fecha)\n\n[1] 5"
+    "text": "Variables de fecha\nEn dicho paquete tenemos funciones muy útiles para manejar fechas:\n\nCon today() podemos obtener directamente la fecha actual.\n\n\ntoday()\n\n[1] \"2023-05-30\"\n\n\n\n\nCon now() podemos obtener la fecha y hora actual\n\n\nnow()\n\n[1] \"2023-05-30 06:59:21 -05\"\n\n\n\n\n\nCon year(), month() o day() podemos extraer el año, mes y día\n\n\nfecha <- today()\nyear(fecha)\n\n[1] 2023\n\nmonth(fecha)\n\n[1] 5"
   },
   {
     "objectID": "index.html#resúmenes-de-paquetes",

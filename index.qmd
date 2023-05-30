@@ -4528,7 +4528,135 @@ Llama al archivo directamente `index.qmd`, súbelo a Github y con un click en Pa
 ::::
 
 
+# El mundo ggplot2
+
+[**Visualización de datos**]{style="color:#444442;"}
+
+
+## ¿Qué es ggplot2?
+
+[**ggplot2**]{.hl-purple} es un paquete para graficar, que facilita crear gráficas complejas a partir de datos en un [**data frame, data table o tibble**]{.hl-yellow}
+
+:::: columns
+::: {.column width="70%"}
+
+- Incluye varias funciones para especificar que variables graficar, como éstas son [**expuestas**]{.hl-yellow}, y varias otras características [**visuales**]{.hl-yellow}. 
+
+- Funciona mejor con datos extensos, es decir, con aquellas estructuras donde se tiene una [**columna por cada dimensión o atributo**]{.hl-yellow}, y una [**fila por cada observación**]{.hl-yellow}.
+
+::: callout-important
+## Importante
+
+ggplot2 está incluido en el paquete tidyverse.
+
+:::
+
+:::
+::: {.column width="30%"}
+![](img/ggplot2.png)
+:::
+::::
+
+
 ---
+
+## Primera capa: el área del gráfico
+
+::: incremental
+- La función principal de ggplot2 es justamente `ggplot()` que permite iniciar el gráfico y además definir las [**características globales**]{.hl-yellow}. El primer argumento de esta función serán los datos que vas a visualizar.
+
+- El segundo argumento se llama `mapping` (mapeo en inglés). Este argumento [**define la relación**]{.hl-yellow} entre cada columna del data frame y los distintos parámetros gráficos.
+
+- Por ejemplo, qué columna va a representar el eje x, cuál va a ser el eje y, etc. Este mapeo se hace siempre con la función `aes()` (que viene de aesthetics, estética en inglés).
+
+:::
+
+```{r}
+#| eval: true
+#| echo: true
+datos <- tibble(Edad = seq(4,24, by = 2), 
+                Estaturas = c(102, 109, 115, 121, 133, 141, 156, 167, 181, 187, 188),
+                Marca = sample(c("A", "B"), size = 11, replace = TRUE))
+```
+
+```{r}
+#| eval: false
+ggplot(data = datos, mapping = aes(x = Edad, y = Estaturas))
+```
+
+---
+
+## Segunda capa: geometrías
+
+El código anterior sólo genera el área del gráfico y los ejes. Lo que falta es indicar con qué geometrías representar los datos.
+
+Para agregar geometrías lo que hay que hacer es sumar el resultado de una función que devuelva una nueva capa. Estas suelen ser funciones que empiezan con `geom_` y luego el nombre de la geometría (en inglés).
+
+::: incremental
+- [**geom_point()**]{.hl-purple}: para gráficos de dispersión.
+
+- [**geom_boxplot()**]{.hl-purple}: para gráficos de caja y bigotes.
+
+- [**geom_line()**]{.hl-purple}: para líneas de tendencias, series de tiempo, etc.
+
+- [**geom_histogram()**]{.hl-purple}: para gráficos de barras.
+
+:::
+
+::: callout-important
+## Importante
+
+Usa + para agregar un geom a una línea de comandos de ggplot.
+
+:::
+
+---
+
+## Gráfico de dispersión
+
+
+```{r}
+#| eval: true
+ggplot(data = datos, mapping = aes(x = Edad, y = Estaturas)) + geom_point(size = 3, shape = 5, colour = "blue")
+```
+
+---
+
+## Gráfico de cajas y bigotes
+
+```{r}
+#| eval: true
+ggplot(data = datos, mapping = aes(y = Estaturas, fill = Marca)) + geom_boxplot()
+```
+
+---
+
+## Gráfico de líneas
+
+```{r}
+#| eval: true
+ggplot(data = datos, mapping = aes(x = Edad, y = Estaturas, colour = Marca)) + geom_line(size = 1.2, linetype = "dashed")
+```
+
+
+---
+
+## Gráfico de áreas
+
+```{r}
+#| eval: true
+ggplot(data = datos, mapping = aes(x = Edad, y = Estaturas)) + geom_area(colour = "red", fill = "blue", alpha = 0.3)
+```
+---
+
+## Nuestra Biblia
+
+![](img/cover.jpg){fig-align="center"}
+
+Se puede acceder libremente al recurso a través del siguiente enlace: [**https://r-graphics.org**](https://r-graphics.org){.uri}
+
+
+
 
 # ENLACES
 

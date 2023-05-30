@@ -1321,7 +1321,7 @@ Escuela Politécnica Nacional
 <div class="cell">
 <div class="sourceCode cell-code" id="cb73"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb73-1"><a href="#cb73-1"></a><span class="fu">today</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] "2023-05-06"</code></pre>
+<pre><code>[1] "2023-05-30"</code></pre>
 </div>
 </div>
 <div class="fragment">
@@ -1331,7 +1331,7 @@ Escuela Politécnica Nacional
 <div class="cell">
 <div class="sourceCode cell-code" id="cb75"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb75-1"><a href="#cb75-1"></a><span class="fu">now</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] "2023-05-06 23:51:16 -05"</code></pre>
+<pre><code>[1] "2023-05-30 07:00:31 -05"</code></pre>
 </div>
 </div>
 </div>
@@ -5092,9 +5092,115 @@ Escuela Politécnica Nacional
 <p>Llama al archivo directamente <code>index.qmd</code>, súbelo a Github y con un click en Pages tienes una <span class="hl-yellow"><strong>web con tus diapositivas</strong></span></p>
 </div>
 </div>
+</section></section>
+<section>
+<section id="el-mundo-ggplot2" class="title-slide slide level1 center">
+<h1>El mundo ggplot2</h1>
+<p><span style="color:#444442;"><strong>Visualización de datos</strong></span></p>
 </section>
-<section class="slide level2">
+<section id="qué-es-ggplot2" class="slide level2">
+<h2>¿Qué es ggplot2?</h2>
+<p><span class="hl-purple"><strong>ggplot2</strong></span> es un paquete para graficar, que facilita crear gráficas complejas a partir de datos en un <span class="hl-yellow"><strong>data frame, data table o tibble</strong></span></p>
+<div class="columns">
+<div class="column" style="width:70%;">
+<ul>
+<li><p>Incluye varias funciones para especificar que variables graficar, como éstas son <span class="hl-yellow"><strong>expuestas</strong></span>, y varias otras características <span class="hl-yellow"><strong>visuales</strong></span>.</p></li>
+<li><p>Funciona mejor con datos extensos, es decir, con aquellas estructuras donde se tiene una <span class="hl-yellow"><strong>columna por cada dimensión o atributo</strong></span>, y una <span class="hl-yellow"><strong>fila por cada observación</strong></span>.</p></li>
+</ul>
+<div class="callout callout-important callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Importante</strong></p>
+</div>
+<div class="callout-content">
+<p>ggplot2 está incluido en el paquete tidyverse.</p>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:30%;">
+<p><img data-src="img/ggplot2.png"></p>
+</div>
+</div>
+</section>
+<section id="primera-capa-el-área-del-gráfico" class="slide level2">
+<h2>Primera capa: el área del gráfico</h2>
+<div>
+<ul>
+<li class="fragment"><p>La función principal de ggplot2 es justamente <code>ggplot()</code> que permite iniciar el gráfico y además definir las <span class="hl-yellow"><strong>características globales</strong></span>. El primer argumento de esta función serán los datos que vas a visualizar.</p></li>
+<li class="fragment"><p>El segundo argumento se llama <code>mapping</code> (mapeo en inglés). Este argumento <span class="hl-yellow"><strong>define la relación</strong></span> entre cada columna del data frame y los distintos parámetros gráficos.</p></li>
+<li class="fragment"><p>Por ejemplo, qué columna va a representar el eje x, cuál va a ser el eje y, etc. Este mapeo se hace siempre con la función <code>aes()</code> (que viene de aesthetics, estética en inglés).</p></li>
+</ul>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb461"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb461-1"><a href="#cb461-1"></a>datos <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">Edad =</span> <span class="fu">seq</span>(<span class="dv">4</span>,<span class="dv">24</span>, <span class="at">by =</span> <span class="dv">2</span>), </span>
+<span id="cb461-2"><a href="#cb461-2"></a>                <span class="at">Estaturas =</span> <span class="fu">c</span>(<span class="dv">102</span>, <span class="dv">109</span>, <span class="dv">115</span>, <span class="dv">121</span>, <span class="dv">133</span>, <span class="dv">141</span>, <span class="dv">156</span>, <span class="dv">167</span>, <span class="dv">181</span>, <span class="dv">187</span>, <span class="dv">188</span>),</span>
+<span id="cb461-3"><a href="#cb461-3"></a>                <span class="at">Marca =</span> <span class="fu">sample</span>(<span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>), <span class="at">size =</span> <span class="dv">11</span>, <span class="at">replace =</span> <span class="cn">TRUE</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb462"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb462-1"><a href="#cb462-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> datos, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> Edad, <span class="at">y =</span> Estaturas))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="segunda-capa-geometrías" class="slide level2">
+<h2>Segunda capa: geometrías</h2>
+<p>El código anterior sólo genera el área del gráfico y los ejes. Lo que falta es indicar con qué geometrías representar los datos.</p>
+<p>Para agregar geometrías lo que hay que hacer es sumar el resultado de una función que devuelva una nueva capa. Estas suelen ser funciones que empiezan con <code>geom_</code> y luego el nombre de la geometría (en inglés).</p>
+<div>
+<ul>
+<li class="fragment"><p><span class="hl-purple"><strong>geom_point()</strong></span>: para gráficos de dispersión.</p></li>
+<li class="fragment"><p><span class="hl-purple"><strong>geom_boxplot()</strong></span>: para gráficos de caja y bigotes.</p></li>
+<li class="fragment"><p><span class="hl-purple"><strong>geom_line()</strong></span>: para líneas de tendencias, series de tiempo, etc.</p></li>
+<li class="fragment"><p><span class="hl-purple"><strong>geom_histogram()</strong></span>: para gráficos de barras.</p></li>
+</ul>
+</div>
+<div class="callout callout-important callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Importante</strong></p>
+</div>
+<div class="callout-content">
+<p>Usa + para agregar un geom a una línea de comandos de ggplot.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="gráfico-de-dispersión" class="slide level2">
+<h2>Gráfico de dispersión</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb463"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb463-1"><a href="#cb463-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> datos, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> Edad, <span class="at">y =</span> Estaturas)) <span class="sc">+</span> <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">3</span>, <span class="at">shape =</span> <span class="dv">5</span>, <span class="at">colour =</span> <span class="st">"blue"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
+</div>
+<img data-src="index_files/figure-revealjs/unnamed-chunk-312-1.png" width="960" class="r-stretch"></section>
+<section id="gráfico-de-cajas-y-bigotes" class="slide level2">
+<h2>Gráfico de cajas y bigotes</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb464"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb464-1"><a href="#cb464-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> datos, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">y =</span> Estaturas, <span class="at">fill =</span> Marca)) <span class="sc">+</span> <span class="fu">geom_boxplot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+</div>
+<img data-src="index_files/figure-revealjs/unnamed-chunk-313-1.png" width="960" class="r-stretch"></section>
+<section id="gráfico-de-líneas" class="slide level2">
+<h2>Gráfico de líneas</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb465"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb465-1"><a href="#cb465-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> datos, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> Edad, <span class="at">y =</span> Estaturas, <span class="at">colour =</span> Marca)) <span class="sc">+</span> <span class="fu">geom_line</span>(<span class="at">size =</span> <span class="fl">1.2</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+</div>
+<img data-src="index_files/figure-revealjs/unnamed-chunk-314-1.png" width="960" class="r-stretch"></section>
+<section id="gráfico-de-áreas" class="slide level2">
+<h2>Gráfico de áreas</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb466"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb466-1"><a href="#cb466-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> datos, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> Edad, <span class="at">y =</span> Estaturas)) <span class="sc">+</span> <span class="fu">geom_area</span>(<span class="at">colour =</span> <span class="st">"red"</span>, <span class="at">fill =</span> <span class="st">"blue"</span>, <span class="at">alpha =</span> <span class="fl">0.3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+</div>
+<img data-src="index_files/figure-revealjs/unnamed-chunk-315-1.png" width="960" class="r-stretch"></section>
+<section id="nuestra-biblia" class="slide level2">
+<h2>Nuestra Biblia</h2>
+
+<img data-src="img/cover.jpg" class="r-stretch quarto-figure-center"><p>Se puede acceder libremente al recurso a través del siguiente enlace: <a href="https://r-graphics.org" class="uri"><strong>https://r-graphics.org</strong></a></p>
 </section></section>
 <section>
 <section id="enlaces" class="title-slide slide level1 center">
